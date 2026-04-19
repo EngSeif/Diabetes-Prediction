@@ -42,7 +42,7 @@ class DataTransformation:
         df["bmi_hba1c_interaction"] = df["bmi"] * df["HbA1c_level"]
         df["age_glucose_interaction"] = df["age"] * df["blood_glucose_level"]
 
-        df["high_hba1c_flag"] = (df["HbA1c_level"] >= 6.5).astype(int)
+        df["high_hba1c_flag"] = (df["HbA1c_level"] >= 6.6).astype(int)
         df["senior_flag"] = (df["age"] >= 60).astype(int)
 
         df["cardio_risk_flag"] = ((df["hypertension"] == 1) | (df["heart_disease"] == 1)).astype(int)
