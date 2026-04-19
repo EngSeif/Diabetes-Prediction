@@ -1,3 +1,4 @@
+from altair import sample
 import pandas as pd
 import joblib
 
@@ -76,6 +77,23 @@ class DataTransformation:
             transformed,
             columns=self.feature_names_,
             index=x.index
+        )
+    
+    def transform_one(self, sample):
+        if isinstance(sample, dict):
+            sample = pd.DataFrame([sample])
+
+        elif isinstance(sample, pd.Series):
+            sample = sample.to_frame().T
+
+        
+        sample = self.prepare_features(sample)
+        transformed = self.preprocessor.transform(sample)
+
+        return pd.DataFrame(
+            transformed,
+            columns=self.feature_names_,
+            index=[0]
         )
 
     def save_preprocessor(self, path="preprocessor.pkl"):
