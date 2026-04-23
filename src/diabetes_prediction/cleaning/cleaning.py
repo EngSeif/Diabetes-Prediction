@@ -11,7 +11,7 @@ class DataCleaning:
         return self
 
     def remove_inaccurate_infants(self):
-        self.df = self.df[~((self.df['age'] < 1) & (self.df['smoking_history'].isin(['not current', 'current'])))]
+        self.df = self.df[~((self.df['age'] < 10) & (self.df['smoking_history'].isin(['not current', 'current', 'ever', 'former'])))]
         return self
     
     def remove_duplicates(self):
