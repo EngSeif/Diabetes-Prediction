@@ -251,7 +251,6 @@ Male,17.0,0,0,No Info,20.38,6.6,160,0,Diabetes,Healthy Weight,Prediabetes,1056.0
 Female,59.0,0,0,never,22.35,4.8,155,0,Normal,Healthy Weight,Prediabetes,744.0,283.2,1318.65,107.28,9145.0,0,0,0
 Male,30.0,0,0,never,29.34,6.6,140,0,Diabetes,Overweight,Prediabetes,924.0,198.0,880.2,193.64399999999998,4200.0,1,0,0
 Male,17.0,0,0,never,24.88,5.7,158,0,Prediabetes,Healthy Weight,Prediabetes,900.6,96.9,422.96,141.816,2686.0,0,0,0
-Male,9.0,0,0,not current,20.56,5.8,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1160.0,52.199999999999996,185.04,119.24799999999999,1800.0,0,0,0
 Female,64.0,0,0,never,27.32,6.2,155,1,Prediabetes,Overweight,Prediabetes,961.0,396.8,1748.48,169.38400000000001,9920.0,0,1,0
 Male,63.0,1,0,ever,35.06,5.8,200,1,Prediabetes,Obesity,Possible Diabetes,1160.0,365.4,2208.78,203.348,12600.0,0,1,1
 Female,46.0,0,0,never,29.06,6.6,145,0,Diabetes,Overweight,Prediabetes,957.0,303.59999999999997,1336.76,191.796,6670.0,1,0,0
@@ -1249,7 +1248,6 @@ Male,4.0,0,0,No Info,15.43,6.2,100,0,Prediabetes,Underweight,Normal,620.0,24.8,6
 Male,80.0,0,0,No Info,27.32,5.7,159,0,Prediabetes,Overweight,Prediabetes,906.3000000000001,456.0,2185.6,155.72400000000002,12720.0,0,1,0
 Male,52.0,1,0,No Info,27.32,8.8,200,1,Diabetes,Overweight,Possible Diabetes,1760.0000000000002,457.6,1420.64,240.41600000000003,10400.0,1,0,1
 Female,51.0,0,0,former,25.76,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,306.0,1313.76,154.56,7905.0,0,0,0
-Male,5.0,0,0,not current,27.32,4.5,158,0,Normal,Overweight,Prediabetes,711.0,22.5,136.6,122.94,790.0,0,0,0
 Male,39.0,0,0,current,27.32,6.5,145,0,Diabetes,Overweight,Prediabetes,942.5,253.5,1065.48,177.58,5655.0,0,0,0
 Female,47.0,0,0,No Info,22.61,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,310.2,1062.67,149.226,4230.0,1,0,0
 Female,33.0,0,0,current,21.78,5.0,90,0,Normal,Healthy Weight,Normal,450.0,165.0,718.74,108.9,2970.0,0,0,0
@@ -4171,7 +4169,6 @@ Female,29.0,0,0,never,27.74,6.1,160,1,Prediabetes,Overweight,Prediabetes,976.0,1
 Female,25.0,0,0,never,34.89,5.0,126,0,Normal,Obesity,Normal,630.0,125.0,872.25,174.45,3150.0,0,0,0
 Female,24.0,0,0,No Info,27.32,6.2,100,0,Prediabetes,Overweight,Normal,620.0,148.8,655.6800000000001,169.38400000000001,2400.0,0,0,0
 Female,37.0,0,0,never,35.05,4.8,200,0,Normal,Obesity,Possible Diabetes,960.0,177.6,1296.85,168.23999999999998,7400.0,0,0,0
-Female,9.0,0,0,current,16.74,3.5,200,0,Normal,Underweight,Possible Diabetes,700.0,31.5,150.66,58.589999999999996,1800.0,0,0,0
 Male,6.0,0,0,No Info,16.53,6.0,159,0,Prediabetes,Underweight,Prediabetes,954.0,36.0,99.18,99.18,954.0,0,0,0
 Female,40.0,0,0,never,27.02,4.8,100,0,Normal,Overweight,Normal,480.0,192.0,1080.8,129.696,4000.0,0,0,0
 Female,39.0,0,0,current,28.72,5.8,90,0,Prediabetes,Overweight,Normal,522.0,226.2,1120.08,166.576,3510.0,0,0,0
@@ -4749,7 +4746,6 @@ Male,5.0,0,0,never,17.57,6.1,160,0,Prediabetes,Underweight,Prediabetes,976.0,30.
 Female,56.0,0,0,never,21.03,6.0,130,0,Prediabetes,Healthy Weight,Normal,780.0,336.0,1177.68,126.18,7280.0,0,0,0
 Male,41.0,0,0,never,28.04,4.8,126,0,Normal,Overweight,Normal,604.8,196.79999999999998,1149.6399999999999,134.59199999999998,5166.0,0,0,0
 Female,2.0,0,0,No Info,17.7,5.7,159,0,Prediabetes,Underweight,Prediabetes,906.3000000000001,11.4,35.4,100.89,318.0,0,0,0
-Female,9.0,0,0,not current,19.2,4.8,158,0,Normal,Healthy Weight,Prediabetes,758.4,43.199999999999996,172.79999999999998,92.16,1422.0,0,0,0
 Female,13.0,0,0,No Info,22.22,5.0,85,0,Normal,Healthy Weight,Normal,425.0,65.0,288.86,111.1,1105.0,0,0,0
 Female,6.0,0,0,No Info,27.32,6.5,158,0,Diabetes,Overweight,Prediabetes,1027.0,39.0,163.92000000000002,177.58,948.0,0,0,0
 Female,46.0,0,0,former,27.32,6.5,130,0,Diabetes,Overweight,Normal,845.0,299.0,1256.72,177.58,5980.0,0,0,0
@@ -4833,7 +4829,6 @@ Female,74.0,0,0,never,27.32,4.8,160,0,Normal,Overweight,Prediabetes,768.0,355.2,
 Male,38.0,0,0,never,34.43,5.8,158,0,Prediabetes,Obesity,Prediabetes,916.4,220.4,1308.34,199.694,6004.0,0,0,0
 Female,45.0,0,0,never,27.32,4.5,100,0,Normal,Overweight,Normal,450.0,202.5,1229.4,122.94,4500.0,0,0,0
 Male,37.0,0,0,current,30.65,4.0,140,0,Normal,Obesity,Prediabetes,560.0,148.0,1134.05,122.6,5180.0,0,0,0
-Male,7.0,0,0,not current,19.44,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,46.199999999999996,136.08,128.304,630.0,1,0,0
 Female,33.0,0,0,current,27.32,4.0,80,0,Normal,Overweight,Normal,320.0,132.0,901.5600000000001,109.28,2640.0,0,0,0
 Male,11.0,0,0,No Info,17.33,4.8,80,0,Normal,Underweight,Normal,384.0,52.8,190.63,83.18399999999998,880.0,0,0,0
 Female,67.0,0,0,never,25.42,6.1,200,0,Prediabetes,Overweight,Possible Diabetes,1220.0,408.7,1703.14,155.062,13400.0,0,1,0
@@ -5444,7 +5439,6 @@ Male,80.0,0,0,No Info,27.32,4.8,126,0,Normal,Overweight,Normal,604.8,384.0,2185.
 Female,21.0,0,0,never,20.95,4.8,126,0,Normal,Healthy Weight,Normal,604.8,100.8,439.95,100.55999999999999,2646.0,0,0,0
 Female,23.0,0,0,current,31.0,4.5,130,0,Normal,Obesity,Normal,585.0,103.5,713.0,139.5,2990.0,0,0,0
 Female,40.0,0,0,ever,20.8,4.5,160,0,Normal,Healthy Weight,Prediabetes,720.0,180.0,832.0,93.60000000000001,6400.0,0,0,0
-Male,2.0,0,0,not current,27.32,5.0,200,0,Normal,Overweight,Possible Diabetes,1000.0,10.0,54.64,136.6,400.0,0,0,0
 Male,74.0,0,0,current,27.32,6.2,126,0,Prediabetes,Overweight,Normal,781.2,458.8,2021.68,169.38400000000001,9324.0,0,1,0
 Male,32.0,0,0,never,29.66,5.8,155,0,Prediabetes,Overweight,Prediabetes,899.0,185.6,949.12,172.028,4960.0,0,0,0
 Male,80.0,0,0,No Info,27.32,5.8,145,0,Prediabetes,Overweight,Prediabetes,841.0,464.0,2185.6,158.456,11600.0,0,1,0
@@ -5456,7 +5450,6 @@ Male,3.0,0,0,never,15.53,4.0,200,0,Normal,Underweight,Possible Diabetes,800.0,12
 Female,22.0,0,0,No Info,21.17,6.1,80,0,Prediabetes,Healthy Weight,Normal,488.0,134.2,465.74,129.137,1760.0,0,0,0
 Female,9.0,0,0,No Info,15.28,3.5,200,0,Normal,Underweight,Possible Diabetes,700.0,31.5,137.51999999999998,53.48,1800.0,0,0,0
 Female,39.0,0,0,former,27.32,6.5,85,0,Diabetes,Overweight,Normal,552.5,253.5,1065.48,177.58,3315.0,0,0,0
-Female,3.0,0,0,not current,27.32,5.0,85,0,Normal,Overweight,Normal,425.0,15.0,81.96000000000001,136.6,255.0,0,0,0
 Female,75.0,0,0,never,25.04,8.8,300,1,Diabetes,Overweight,Possible Diabetes,2640.0,660.0,1878.0,220.352,22500.0,1,1,0
 Female,46.0,0,0,No Info,27.32,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,276.0,1256.72,163.92000000000002,7130.0,0,0,0
 Female,69.0,0,0,No Info,27.32,6.1,200,0,Prediabetes,Overweight,Possible Diabetes,1220.0,420.9,1885.08,166.652,13800.0,0,1,0
@@ -5472,7 +5465,6 @@ Male,50.0,0,0,former,23.28,6.1,80,0,Prediabetes,Healthy Weight,Normal,488.0,305.
 Female,43.0,0,0,No Info,21.96,3.5,130,0,Normal,Healthy Weight,Normal,455.0,150.5,944.2800000000001,76.86,5590.0,0,0,0
 Male,7.0,0,0,No Info,15.5,6.5,85,0,Diabetes,Underweight,Normal,552.5,45.5,108.5,100.75,595.0,0,0,0
 Male,6.0,0,0,No Info,17.15,6.5,158,0,Diabetes,Underweight,Prediabetes,1027.0,39.0,102.89999999999999,111.475,948.0,0,0,0
-Female,3.0,0,0,current,23.9,6.1,160,0,Prediabetes,Healthy Weight,Prediabetes,976.0,18.299999999999997,71.69999999999999,145.79,480.0,0,0,0
 Female,61.0,0,0,never,19.44,5.8,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1160.0,353.8,1185.8400000000001,112.75200000000001,12200.0,0,1,0
 Male,80.0,1,0,No Info,25.94,4.0,130,0,Normal,Overweight,Normal,520.0,320.0,2075.2000000000003,103.76,10400.0,0,1,1
 Female,66.0,0,0,former,27.6,6.6,159,0,Diabetes,Overweight,Prediabetes,1049.3999999999999,435.59999999999997,1821.6000000000001,182.16,10494.0,1,1,0
@@ -5791,7 +5783,6 @@ Female,5.0,0,0,No Info,15.3,5.0,85,0,Normal,Underweight,Normal,425.0,25.0,76.5,7
 Female,48.0,0,0,never,27.72,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,288.0,1330.56,166.32,7440.0,0,0,0
 Male,56.0,0,0,No Info,29.2,5.7,159,0,Prediabetes,Overweight,Prediabetes,906.3000000000001,319.2,1635.2,166.44,8904.0,0,0,0
 Male,35.0,0,0,never,27.32,6.2,158,0,Prediabetes,Overweight,Prediabetes,979.6,217.0,956.2,169.38400000000001,5530.0,0,0,0
-Female,2.0,0,0,not current,17.72,6.5,130,0,Diabetes,Underweight,Normal,845.0,13.0,35.44,115.17999999999999,260.0,0,0,0
 Female,28.0,0,0,never,24.71,4.8,126,0,Normal,Healthy Weight,Normal,604.8,134.4,691.88,118.608,3528.0,0,0,0
 Female,73.0,1,0,never,20.77,6.2,90,0,Prediabetes,Healthy Weight,Normal,558.0,452.6,1516.21,128.774,6570.0,0,1,1
 Male,25.0,0,0,former,22.68,6.0,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1200.0,150.0,567.0,136.07999999999998,5000.0,0,0,0
@@ -6026,7 +6017,6 @@ Female,57.0,0,0,former,37.17,4.5,160,0,Normal,Obesity,Prediabetes,720.0,256.5,21
 Female,80.0,0,0,No Info,27.32,6.0,145,0,Prediabetes,Overweight,Prediabetes,870.0,480.0,2185.6,163.92000000000002,11600.0,0,1,0
 Female,49.0,0,0,never,25.8,6.6,145,0,Diabetes,Overweight,Prediabetes,957.0,323.4,1264.2,170.28,7105.0,1,0,0
 Female,23.0,0,0,never,27.32,4.8,100,0,Normal,Overweight,Normal,480.0,110.39999999999999,628.36,131.136,2300.0,0,0,0
-Male,8.0,0,0,not current,15.71,6.1,140,0,Prediabetes,Underweight,Prediabetes,854.0,48.8,125.68,95.831,1120.0,0,0,0
 Male,31.0,0,0,current,27.32,4.8,155,0,Normal,Overweight,Prediabetes,744.0,148.79999999999998,846.92,131.136,4805.0,0,0,0
 Female,10.0,0,0,No Info,18.04,4.5,100,0,Normal,Underweight,Normal,450.0,45.0,180.39999999999998,81.17999999999999,1000.0,0,0,0
 Female,66.0,0,0,never,26.8,6.1,159,0,Prediabetes,Overweight,Prediabetes,969.9,402.59999999999997,1768.8,163.48,10494.0,0,1,0
@@ -6949,7 +6939,6 @@ Female,43.0,0,0,never,27.92,4.5,100,0,Normal,Overweight,Normal,450.0,193.5,1200.
 Male,1.4,0,0,No Info,27.32,6.1,159,0,Prediabetes,Overweight,Prediabetes,969.9,8.54,38.248,166.652,222.6,0,0,0
 Female,44.0,0,0,No Info,32.12,6.6,80,0,Diabetes,Obesity,Normal,528.0,290.4,1413.28,211.99199999999996,3520.0,1,0,0
 Male,42.0,0,0,former,33.05,4.5,145,0,Normal,Obesity,Prediabetes,652.5,189.0,1388.1,148.725,6090.0,0,0,0
-Male,1.64,0,0,not current,17.23,5.8,100,0,Prediabetes,Underweight,Normal,580.0,9.511999999999999,28.257199999999997,99.934,164.0,0,0,0
 Male,80.0,1,0,never,23.0,3.5,200,0,Normal,Healthy Weight,Possible Diabetes,700.0,280.0,1840.0,80.5,16000.0,0,1,1
 Female,42.0,0,0,never,27.32,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,252.0,1147.44,163.92000000000002,6510.0,0,0,0
 Female,20.0,0,0,No Info,29.6,4.0,126,0,Normal,Overweight,Normal,504.0,80.0,592.0,118.4,2520.0,0,0,0
@@ -7821,7 +7810,6 @@ Female,80.0,0,0,No Info,23.76,6.0,220,1,Prediabetes,Healthy Weight,Possible Diab
 Female,34.0,0,0,former,23.53,4.5,159,0,Normal,Healthy Weight,Prediabetes,715.5,153.0,800.02,105.885,5406.0,0,0,0
 Female,41.0,0,0,current,22.23,4.5,145,0,Normal,Healthy Weight,Prediabetes,652.5,184.5,911.4300000000001,100.035,5945.0,0,0,0
 Male,62.0,0,0,not current,29.2,6.1,80,0,Prediabetes,Overweight,Normal,488.0,378.2,1810.3999999999999,178.11999999999998,4960.0,0,1,0
-Female,2.0,0,0,not current,16.03,5.8,155,0,Prediabetes,Underweight,Prediabetes,899.0,11.6,32.06,92.974,310.0,0,0,0
 Male,54.0,0,0,never,27.32,5.7,140,0,Prediabetes,Overweight,Prediabetes,798.0,307.8,1475.28,155.72400000000002,7560.0,0,0,0
 Female,34.0,0,0,never,31.8,5.7,160,0,Prediabetes,Obesity,Prediabetes,912.0,193.8,1081.2,181.26000000000002,5440.0,0,0,0
 Female,80.0,0,0,never,27.32,5.0,160,0,Normal,Overweight,Prediabetes,800.0,400.0,2185.6,136.6,12800.0,0,1,0
@@ -8002,7 +7990,6 @@ Male,20.0,0,0,No Info,27.32,5.8,130,0,Prediabetes,Overweight,Normal,754.0,116.0,
 Female,29.0,0,0,current,36.71,4.0,90,0,Normal,Obesity,Normal,360.0,116.0,1064.59,146.84,2610.0,0,0,0
 Male,14.0,0,0,No Info,19.63,6.1,155,0,Prediabetes,Healthy Weight,Prediabetes,945.5,85.39999999999999,274.82,119.74299999999998,2170.0,0,0,0
 Female,70.0,0,0,never,27.65,4.8,100,0,Normal,Overweight,Normal,480.0,336.0,1935.5,132.72,7000.0,0,1,0
-Male,2.0,0,0,not current,16.89,4.5,158,0,Normal,Underweight,Prediabetes,711.0,9.0,33.78,76.005,316.0,0,0,0
 Female,70.0,0,0,ever,27.56,6.2,200,0,Prediabetes,Overweight,Possible Diabetes,1240.0,434.0,1929.1999999999998,170.87199999999999,14000.0,0,1,0
 Female,52.0,0,0,No Info,31.77,5.0,158,0,Normal,Obesity,Prediabetes,790.0,260.0,1652.04,158.85,8216.0,0,0,0
 Male,46.0,0,0,No Info,32.95,5.7,85,0,Prediabetes,Obesity,Normal,484.5,262.2,1515.7,187.81500000000003,3910.0,0,0,0
@@ -8600,7 +8587,6 @@ Male,51.0,0,1,never,30.28,6.2,126,0,Prediabetes,Obesity,Normal,781.2,316.2,1544.
 Male,21.0,0,0,never,27.32,5.0,159,0,Normal,Overweight,Prediabetes,795.0,105.0,573.72,136.6,3339.0,0,0,0
 Female,13.0,0,0,never,17.84,5.0,90,0,Normal,Underweight,Normal,450.0,65.0,231.92,89.2,1170.0,0,0,0
 Female,35.0,0,0,never,28.97,6.1,160,0,Prediabetes,Overweight,Prediabetes,976.0,213.5,1013.9499999999999,176.71699999999998,5600.0,0,0,0
-Male,3.0,0,0,not current,27.32,5.7,145,0,Prediabetes,Overweight,Prediabetes,826.5,17.1,81.96000000000001,155.72400000000002,435.0,0,0,0
 Male,66.0,0,0,former,26.21,5.0,85,0,Normal,Overweight,Normal,425.0,330.0,1729.8600000000001,131.05,5610.0,0,1,0
 Female,45.0,0,0,current,25.24,4.8,130,0,Normal,Overweight,Normal,624.0,216.0,1135.8,121.15199999999999,5850.0,0,0,0
 Male,80.0,0,0,never,27.21,6.1,280,1,Prediabetes,Overweight,Possible Diabetes,1708.0,488.0,2176.8,165.981,22400.0,0,1,0
@@ -9131,7 +9117,6 @@ Male,64.0,0,1,current,31.12,6.1,130,0,Prediabetes,Obesity,Normal,793.0,390.4,199
 Female,56.0,0,0,never,27.32,3.5,80,0,Normal,Overweight,Normal,280.0,196.0,1529.92,95.62,4480.0,0,0,0
 Male,59.0,0,0,No Info,28.78,5.7,140,0,Prediabetes,Overweight,Prediabetes,798.0,336.3,1698.02,164.04600000000002,8260.0,0,0,0
 Male,40.0,0,0,never,18.65,3.5,85,0,Normal,Healthy Weight,Normal,297.5,140.0,746.0,65.27499999999999,3400.0,0,0,0
-Female,4.0,0,0,not current,16.34,6.1,158,0,Prediabetes,Underweight,Prediabetes,963.8,24.4,65.36,99.67399999999999,632.0,0,0,0
 Female,28.0,0,0,former,27.32,6.2,126,0,Prediabetes,Overweight,Normal,781.2,173.6,764.96,169.38400000000001,3528.0,0,0,0
 Female,48.0,0,0,never,22.9,6.1,145,0,Prediabetes,Healthy Weight,Prediabetes,884.5,292.79999999999995,1099.1999999999998,139.68999999999997,6960.0,0,0,0
 Female,33.0,0,0,No Info,26.19,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,191.4,864.2700000000001,151.90200000000002,4620.0,0,0,0
@@ -9459,7 +9444,6 @@ Female,27.0,0,0,never,27.32,6.1,126,0,Prediabetes,Overweight,Normal,768.59999999
 Female,73.0,0,0,current,24.81,6.2,140,0,Prediabetes,Healthy Weight,Prediabetes,868.0,452.6,1811.1299999999999,153.822,10220.0,0,1,0
 Female,32.0,0,0,never,34.5,5.8,130,0,Prediabetes,Obesity,Normal,754.0,185.6,1104.0,200.1,4160.0,0,0,0
 Male,70.0,1,0,former,31.28,5.8,200,0,Prediabetes,Obesity,Possible Diabetes,1160.0,406.0,2189.6,181.424,14000.0,0,1,1
-Male,8.0,0,0,not current,15.8,6.1,90,0,Prediabetes,Underweight,Normal,549.0,48.8,126.4,96.38,720.0,0,0,0
 Female,48.0,1,0,never,29.9,6.6,130,1,Diabetes,Overweight,Normal,858.0,316.79999999999995,1435.1999999999998,197.33999999999997,6240.0,1,0,1
 Female,25.0,0,0,never,27.32,3.5,100,0,Normal,Overweight,Normal,350.0,87.5,683.0,95.62,2500.0,0,0,0
 Female,80.0,0,0,No Info,21.11,4.5,130,0,Normal,Healthy Weight,Normal,585.0,360.0,1688.8,94.995,10400.0,0,1,0
@@ -9849,7 +9833,6 @@ Male,30.0,0,0,never,27.32,6.5,155,0,Diabetes,Overweight,Prediabetes,1007.5,195.0
 Female,49.0,0,0,never,28.2,5.7,140,0,Prediabetes,Overweight,Prediabetes,798.0,279.3,1381.8,160.74,6860.0,0,0,0
 Female,80.0,0,0,No Info,27.32,6.6,90,0,Diabetes,Overweight,Normal,594.0,528.0,2185.6,180.31199999999998,7200.0,1,1,0
 Female,20.0,0,0,never,19.17,4.5,158,0,Normal,Healthy Weight,Prediabetes,711.0,90.0,383.40000000000003,86.26500000000001,3160.0,0,0,0
-Male,7.0,0,0,not current,13.8,3.5,159,0,Normal,Underweight,Prediabetes,556.5,24.5,96.60000000000001,48.300000000000004,1113.0,0,0,0
 Male,80.0,0,0,not current,30.28,6.1,145,1,Prediabetes,Obesity,Prediabetes,884.5,488.0,2422.4,184.708,11600.0,0,1,0
 Female,26.0,0,0,ever,27.32,5.0,160,0,Normal,Overweight,Prediabetes,800.0,130.0,710.32,136.6,4160.0,0,0,0
 Female,56.0,0,0,No Info,27.32,3.5,155,0,Normal,Overweight,Prediabetes,542.5,196.0,1529.92,95.62,8680.0,0,0,0
@@ -10792,7 +10775,6 @@ Female,15.0,0,0,not current,27.81,4.8,145,0,Normal,Overweight,Prediabetes,696.0,
 Female,78.0,1,0,never,32.77,4.8,80,0,Normal,Obesity,Normal,384.0,374.4,2556.0600000000004,157.29600000000002,6240.0,0,1,1
 Female,15.0,0,0,never,37.68,6.1,200,0,Prediabetes,Obesity,Possible Diabetes,1220.0,91.5,565.2,229.84799999999998,3000.0,0,0,0
 Male,77.0,0,0,No Info,27.32,5.0,90,0,Normal,Overweight,Normal,450.0,385.0,2103.64,136.6,6930.0,0,1,0
-Male,3.0,0,0,ever,19.73,6.0,159,0,Prediabetes,Healthy Weight,Prediabetes,954.0,18.0,59.19,118.38,477.0,0,0,0
 Male,60.0,0,0,ever,33.47,6.5,155,0,Diabetes,Obesity,Prediabetes,1007.5,390.0,2008.1999999999998,217.555,9300.0,0,1,0
 Female,43.0,0,0,current,27.32,5.0,85,0,Normal,Overweight,Normal,425.0,215.0,1174.76,136.6,3655.0,0,0,0
 Female,25.0,0,0,never,27.32,5.0,200,0,Normal,Overweight,Possible Diabetes,1000.0,125.0,683.0,136.6,5000.0,0,0,0
@@ -11513,7 +11495,6 @@ Female,80.0,0,0,not current,37.4,5.7,280,1,Prediabetes,Obesity,Possible Diabetes
 Male,21.0,0,0,current,32.16,6.1,80,0,Prediabetes,Obesity,Normal,488.0,128.1,675.3599999999999,196.17599999999996,1680.0,0,0,0
 Male,43.0,0,0,former,30.16,4.0,90,0,Normal,Obesity,Normal,360.0,172.0,1296.88,120.64,3870.0,0,0,0
 Female,70.0,0,0,not current,23.16,4.0,155,0,Normal,Healthy Weight,Prediabetes,620.0,280.0,1621.2,92.64,10850.0,0,1,0
-Female,5.0,0,0,not current,15.93,3.5,155,0,Normal,Underweight,Prediabetes,542.5,17.5,79.65,55.754999999999995,775.0,0,0,0
 Female,59.0,1,0,current,32.12,6.2,130,0,Prediabetes,Obesity,Normal,806.0,365.8,1895.08,199.14399999999998,7670.0,0,0,1
 Male,19.0,0,0,never,27.32,6.1,90,0,Prediabetes,Overweight,Normal,549.0,115.89999999999999,519.08,166.652,1710.0,0,0,0
 Female,80.0,0,0,former,19.47,6.6,160,0,Diabetes,Healthy Weight,Prediabetes,1056.0,528.0,1557.6,128.50199999999998,12800.0,1,1,0
@@ -12257,7 +12238,6 @@ Male,14.0,0,0,never,23.45,5.8,145,0,Prediabetes,Healthy Weight,Prediabetes,841.0
 Female,17.0,0,0,No Info,41.18,6.5,100,0,Diabetes,Obesity,Normal,650.0,110.5,700.06,267.67,1700.0,0,0,0
 Female,44.0,0,0,never,30.15,6.0,158,0,Prediabetes,Obesity,Prediabetes,948.0,264.0,1326.6,180.89999999999998,6952.0,0,0,0
 Female,67.0,0,0,never,29.86,6.0,280,1,Prediabetes,Overweight,Possible Diabetes,1680.0,402.0,2000.62,179.16,18760.0,0,1,0
-Female,6.0,0,0,not current,14.2,5.8,160,0,Prediabetes,Underweight,Prediabetes,928.0,34.8,85.19999999999999,82.36,960.0,0,0,0
 Female,50.0,0,0,No Info,27.32,5.8,160,0,Prediabetes,Overweight,Prediabetes,928.0,290.0,1366.0,158.456,8000.0,0,0,0
 Female,23.0,0,0,never,27.32,4.0,200,0,Normal,Overweight,Possible Diabetes,800.0,92.0,628.36,109.28,4600.0,0,0,0
 Female,4.0,0,0,never,25.4,5.8,130,0,Prediabetes,Overweight,Normal,754.0,23.2,101.6,147.32,520.0,0,0,0
@@ -12348,7 +12328,6 @@ Female,38.0,0,0,never,20.01,6.2,160,0,Prediabetes,Healthy Weight,Prediabetes,992
 Female,40.0,0,0,never,25.16,4.5,200,0,Normal,Overweight,Possible Diabetes,900.0,180.0,1006.4,113.22,8000.0,0,0,0
 Male,64.0,0,0,No Info,39.88,6.0,155,0,Prediabetes,Obesity,Prediabetes,930.0,384.0,2552.32,239.28000000000003,9920.0,0,1,0
 Male,12.0,0,0,No Info,26.51,5.7,126,0,Prediabetes,Overweight,Normal,718.2,68.4,318.12,151.10700000000003,1512.0,0,0,0
-Female,9.0,0,0,not current,16.96,4.0,200,0,Normal,Underweight,Possible Diabetes,800.0,36.0,152.64000000000001,67.84,1800.0,0,0,0
 Male,60.0,0,0,former,32.76,6.2,155,0,Prediabetes,Obesity,Prediabetes,961.0,372.0,1965.6,203.112,9300.0,0,1,0
 Male,4.0,0,0,No Info,16.79,4.5,130,0,Normal,Underweight,Normal,585.0,18.0,67.16,75.55499999999999,520.0,0,0,0
 Female,41.0,0,0,former,39.32,5.8,80,0,Prediabetes,Obesity,Normal,464.0,237.79999999999998,1612.1200000000001,228.05599999999998,3280.0,0,0,0
@@ -12820,7 +12799,6 @@ Male,6.0,0,0,No Info,17.8,6.6,155,0,Diabetes,Underweight,Prediabetes,1023.0,39.5
 Male,4.0,0,0,No Info,16.63,5.7,130,0,Prediabetes,Underweight,Normal,741.0,22.8,66.52,94.791,520.0,0,0,0
 Male,75.0,0,0,No Info,27.32,6.5,90,0,Diabetes,Overweight,Normal,585.0,487.5,2049.0,177.58,6750.0,0,1,0
 Male,76.0,1,1,former,27.57,8.8,160,1,Diabetes,Overweight,Prediabetes,1408.0,668.8000000000001,2095.32,242.616,12160.0,1,1,1
-Male,3.0,0,0,current,18.99,3.5,160,0,Normal,Healthy Weight,Prediabetes,560.0,10.5,56.97,66.46499999999999,480.0,0,0,0
 Male,15.0,0,0,never,21.32,3.5,100,0,Normal,Healthy Weight,Normal,350.0,52.5,319.8,74.62,1500.0,0,0,0
 Male,54.0,1,0,never,37.51,4.5,90,0,Normal,Obesity,Normal,405.0,243.0,2025.54,168.795,4860.0,0,0,1
 Female,50.0,0,0,never,24.46,6.2,145,0,Prediabetes,Healthy Weight,Prediabetes,899.0,310.0,1223.0,151.65200000000002,7250.0,0,0,0
@@ -12970,7 +12948,6 @@ Male,21.0,0,0,never,22.38,6.5,85,0,Diabetes,Healthy Weight,Normal,552.5,136.5,46
 Male,44.0,0,0,never,37.62,5.8,155,1,Prediabetes,Obesity,Prediabetes,899.0,255.2,1655.28,218.19599999999997,6820.0,0,0,0
 Female,23.0,0,0,never,18.48,4.0,158,0,Normal,Underweight,Prediabetes,632.0,92.0,425.04,73.92,3634.0,0,0,0
 Male,52.0,0,0,No Info,26.4,4.5,159,0,Normal,Overweight,Prediabetes,715.5,234.0,1372.8,118.8,8268.0,0,0,0
-Male,8.0,0,0,not current,15.38,3.5,130,0,Normal,Underweight,Normal,455.0,28.0,123.04,53.830000000000005,1040.0,0,0,0
 Female,8.0,0,0,never,14.05,6.5,200,0,Diabetes,Underweight,Possible Diabetes,1300.0,52.0,112.4,91.325,1600.0,0,0,0
 Male,2.0,0,0,No Info,18.5,4.8,145,0,Normal,Healthy Weight,Prediabetes,696.0,9.6,37.0,88.8,290.0,0,0,0
 Male,34.0,0,0,No Info,27.32,4.5,80,0,Normal,Overweight,Normal,360.0,153.0,928.88,122.94,2720.0,0,0,0
@@ -13180,7 +13157,6 @@ Male,57.0,0,0,current,32.33,4.5,90,0,Normal,Obesity,Normal,405.0,256.5,1842.81,1
 Female,54.0,0,0,never,45.24,6.0,160,0,Prediabetes,Obesity,Prediabetes,960.0,324.0,2442.96,271.44,8640.0,0,0,0
 Female,37.0,0,0,No Info,35.62,6.2,160,0,Prediabetes,Obesity,Prediabetes,992.0,229.4,1317.9399999999998,220.844,5920.0,0,0,0
 Male,55.0,0,0,current,26.12,6.5,240,1,Diabetes,Overweight,Possible Diabetes,1560.0,357.5,1436.6000000000001,169.78,13200.0,0,0,0
-Female,3.0,0,0,not current,21.33,6.1,85,0,Prediabetes,Healthy Weight,Normal,518.5,18.299999999999997,63.989999999999995,130.11299999999997,255.0,0,0,0
 Female,38.0,0,0,ever,21.35,6.6,200,0,Diabetes,Healthy Weight,Possible Diabetes,1320.0,250.79999999999998,811.3000000000001,140.91,7600.0,1,0,0
 Male,74.0,0,0,current,35.63,5.8,260,1,Prediabetes,Obesity,Possible Diabetes,1508.0,429.2,2636.6200000000003,206.654,19240.0,0,1,0
 Male,39.0,0,0,No Info,27.32,4.5,159,0,Normal,Overweight,Prediabetes,715.5,175.5,1065.48,122.94,6201.0,0,0,0
@@ -13651,7 +13627,6 @@ Female,54.0,0,0,No Info,27.32,3.5,80,0,Normal,Overweight,Normal,280.0,189.0,1475
 Male,55.0,0,0,No Info,31.35,4.5,85,0,Normal,Obesity,Normal,382.5,247.5,1724.25,141.07500000000002,4675.0,0,0,0
 Female,80.0,0,0,never,34.2,6.6,140,1,Diabetes,Obesity,Prediabetes,924.0,528.0,2736.0,225.72,11200.0,1,1,0
 Female,1.16,0,0,No Info,17.15,4.0,159,0,Normal,Underweight,Prediabetes,636.0,4.64,19.894,68.6,184.44,0,0,0
-Female,7.0,0,0,not current,17.5,5.0,126,0,Normal,Underweight,Normal,630.0,35.0,122.5,87.5,882.0,0,0,0
 Female,65.0,0,0,never,26.62,5.8,85,0,Prediabetes,Overweight,Normal,493.0,377.0,1730.3,154.39600000000002,5525.0,0,1,0
 Male,31.0,0,0,never,26.91,6.5,90,0,Diabetes,Overweight,Normal,585.0,201.5,834.21,174.915,2790.0,0,0,0
 Female,59.0,0,0,never,43.26,6.0,80,0,Prediabetes,Obesity,Normal,480.0,354.0,2552.3399999999997,259.56,4720.0,0,0,0
@@ -14509,7 +14484,6 @@ Female,48.0,0,0,current,27.98,6.6,155,0,Diabetes,Overweight,Prediabetes,1023.0,3
 Male,65.0,0,0,current,32.14,6.0,155,0,Prediabetes,Obesity,Prediabetes,930.0,390.0,2089.1,192.84,10075.0,0,1,0
 Female,69.0,0,0,never,27.32,8.2,280,1,Diabetes,Overweight,Possible Diabetes,2296.0,565.8,1885.08,224.02399999999997,19320.0,1,1,0
 Male,21.0,0,0,never,24.82,4.8,200,0,Normal,Healthy Weight,Possible Diabetes,960.0,100.8,521.22,119.136,4200.0,0,0,0
-Male,9.0,0,0,not current,27.32,6.0,158,0,Prediabetes,Overweight,Prediabetes,948.0,54.0,245.88,163.92000000000002,1422.0,0,0,0
 Female,43.0,0,0,never,26.21,6.0,90,0,Prediabetes,Overweight,Normal,540.0,258.0,1127.03,157.26,3870.0,0,0,0
 Female,47.0,0,0,never,35.4,5.8,145,0,Prediabetes,Obesity,Prediabetes,841.0,272.59999999999997,1663.8,205.32,6815.0,0,0,0
 Female,14.0,0,0,No Info,18.79,4.5,100,0,Normal,Healthy Weight,Normal,450.0,63.0,263.06,84.55499999999999,1400.0,0,0,0
@@ -16439,7 +16413,6 @@ Male,7.0,0,0,No Info,17.61,5.8,90,0,Prediabetes,Underweight,Normal,522.0,40.6,12
 Female,54.0,0,0,No Info,27.32,5.0,126,0,Normal,Overweight,Normal,630.0,270.0,1475.28,136.6,6804.0,0,0,0
 Male,55.0,0,0,former,34.9,5.8,130,0,Prediabetes,Obesity,Normal,754.0,319.0,1919.5,202.42,7150.0,0,0,0
 Female,71.0,0,0,never,27.32,6.6,90,0,Diabetes,Overweight,Normal,594.0,468.59999999999997,1939.72,180.31199999999998,6390.0,1,1,0
-Female,2.0,0,0,not current,27.32,6.6,159,0,Diabetes,Overweight,Prediabetes,1049.3999999999999,13.2,54.64,180.31199999999998,318.0,1,0,0
 Male,50.0,0,0,never,22.41,5.7,85,0,Prediabetes,Healthy Weight,Normal,484.5,285.0,1120.5,127.73700000000001,4250.0,0,0,0
 Male,74.0,0,0,never,30.02,6.2,126,1,Prediabetes,Obesity,Normal,781.2,458.8,2221.48,186.124,9324.0,0,1,0
 Female,44.0,0,0,No Info,32.8,6.5,100,0,Diabetes,Obesity,Normal,650.0,286.0,1443.1999999999998,213.2,4400.0,0,0,0
@@ -16920,7 +16893,6 @@ Male,24.0,0,0,former,32.84,6.0,200,0,Prediabetes,Obesity,Possible Diabetes,1200.
 Female,18.0,0,0,never,23.58,6.2,145,0,Prediabetes,Healthy Weight,Prediabetes,899.0,111.60000000000001,424.43999999999994,146.196,2610.0,0,0,0
 Female,34.0,0,0,never,23.58,6.0,85,0,Prediabetes,Healthy Weight,Normal,510.0,204.0,801.7199999999999,141.48,2890.0,0,0,0
 Male,31.0,0,0,never,27.32,6.5,90,0,Diabetes,Overweight,Normal,585.0,201.5,846.92,177.58,2790.0,0,0,0
-Female,6.0,0,0,not current,20.92,4.5,90,0,Normal,Healthy Weight,Normal,405.0,27.0,125.52000000000001,94.14000000000001,540.0,0,0,0
 Male,36.0,0,0,No Info,40.25,4.8,90,0,Normal,Obesity,Normal,432.0,172.79999999999998,1449.0,193.2,3240.0,0,0,0
 Female,7.0,0,0,No Info,13.9,6.2,85,0,Prediabetes,Underweight,Normal,527.0,43.4,97.3,86.18,595.0,0,0,0
 Female,33.0,0,0,never,26.86,6.5,85,0,Diabetes,Overweight,Normal,552.5,214.5,886.38,174.59,2805.0,0,0,0
@@ -16936,7 +16908,6 @@ Male,4.0,0,0,No Info,14.86,5.0,90,0,Normal,Underweight,Normal,450.0,20.0,59.44,7
 Male,29.0,0,0,ever,23.7,6.6,140,0,Diabetes,Healthy Weight,Prediabetes,924.0,191.39999999999998,687.3,156.42,4060.0,1,0,0
 Female,54.0,0,0,No Info,27.32,6.1,160,0,Prediabetes,Overweight,Prediabetes,976.0,329.4,1475.28,166.652,8640.0,0,0,0
 Male,2.0,0,0,No Info,11.82,6.2,145,0,Prediabetes,Underweight,Prediabetes,899.0,12.4,23.64,73.284,290.0,0,0,0
-Female,1.16,0,0,not current,14.52,6.5,159,0,Diabetes,Underweight,Prediabetes,1033.5,7.539999999999999,16.8432,94.38,184.44,0,0,0
 Female,22.0,0,0,No Info,27.32,6.1,200,0,Prediabetes,Overweight,Possible Diabetes,1220.0,134.2,601.04,166.652,4400.0,0,0,0
 Male,27.0,0,0,No Info,27.32,6.1,160,0,Prediabetes,Overweight,Prediabetes,976.0,164.7,737.64,166.652,4320.0,0,0,0
 Male,61.0,0,0,No Info,27.32,6.5,100,0,Diabetes,Overweight,Normal,650.0,396.5,1666.52,177.58,6100.0,0,1,0
@@ -17114,7 +17085,6 @@ Male,62.0,0,0,former,27.32,5.8,159,0,Prediabetes,Overweight,Prediabetes,922.1999
 Male,38.0,0,0,No Info,27.32,5.7,145,0,Prediabetes,Overweight,Prediabetes,826.5,216.6,1038.16,155.72400000000002,5510.0,0,0,0
 Female,71.0,0,0,former,33.04,4.8,130,0,Normal,Obesity,Normal,624.0,340.8,2345.84,158.59199999999998,9230.0,0,1,0
 Female,32.0,0,0,never,20.3,5.0,160,0,Normal,Healthy Weight,Prediabetes,800.0,160.0,649.6,101.5,5120.0,0,0,0
-Male,9.0,0,0,not current,16.95,6.2,200,0,Prediabetes,Underweight,Possible Diabetes,1240.0,55.800000000000004,152.54999999999998,105.09,1800.0,0,0,0
 Male,59.0,0,0,former,26.48,6.6,100,0,Diabetes,Overweight,Normal,660.0,389.4,1562.32,174.768,5900.0,1,0,0
 Female,79.0,0,0,never,26.79,6.5,126,0,Diabetes,Overweight,Normal,819.0,513.5,2116.41,174.135,9954.0,0,1,0
 Female,32.0,0,0,current,27.32,5.0,90,0,Normal,Overweight,Normal,450.0,160.0,874.24,136.6,2880.0,0,0,0
@@ -17960,7 +17930,6 @@ Female,77.0,0,0,never,29.3,4.5,159,0,Normal,Overweight,Prediabetes,715.5,346.5,2
 Male,53.0,0,1,former,29.7,5.8,158,0,Prediabetes,Overweight,Prediabetes,916.4,307.4,1574.1,172.26,8374.0,0,0,1
 Male,4.0,0,0,No Info,27.32,6.6,126,0,Diabetes,Overweight,Normal,831.5999999999999,26.4,109.28,180.31199999999998,504.0,1,0,0
 Female,25.0,0,0,No Info,24.89,5.0,159,0,Normal,Healthy Weight,Prediabetes,795.0,125.0,622.25,124.45,3975.0,0,0,0
-Male,7.0,0,0,not current,19.18,6.6,100,0,Diabetes,Healthy Weight,Normal,660.0,46.199999999999996,134.26,126.588,700.0,1,0,0
 Female,52.0,0,0,No Info,29.85,3.5,80,0,Normal,Overweight,Normal,280.0,182.0,1552.2,104.47500000000001,4160.0,0,0,0
 Female,26.0,0,0,current,27.32,6.1,200,0,Prediabetes,Overweight,Possible Diabetes,1220.0,158.6,710.32,166.652,5200.0,0,0,0
 Female,77.0,0,0,never,31.28,6.1,126,1,Prediabetes,Obesity,Normal,768.5999999999999,469.7,2408.56,190.808,9702.0,0,1,0
@@ -18245,7 +18214,6 @@ Male,32.0,0,0,former,36.61,5.7,145,0,Prediabetes,Obesity,Prediabetes,826.5,182.4
 Female,53.0,0,0,No Info,27.32,6.0,130,0,Prediabetes,Overweight,Normal,780.0,318.0,1447.96,163.92000000000002,6890.0,0,0,0
 Female,5.0,0,0,No Info,17.72,6.2,160,0,Prediabetes,Underweight,Prediabetes,992.0,31.0,88.6,109.86399999999999,800.0,0,0,0
 Male,30.0,0,0,No Info,27.32,4.5,200,0,Normal,Overweight,Possible Diabetes,900.0,135.0,819.6,122.94,6000.0,0,0,0
-Male,5.0,0,0,not current,24.68,6.0,159,0,Prediabetes,Healthy Weight,Prediabetes,954.0,30.0,123.4,148.07999999999998,795.0,0,0,0
 Female,1.8,0,0,No Info,18.53,6.6,158,0,Diabetes,Healthy Weight,Prediabetes,1042.8,11.879999999999999,33.354000000000006,122.298,284.40000000000003,1,0,0
 Female,24.0,0,0,never,21.62,4.5,130,0,Normal,Healthy Weight,Normal,585.0,108.0,518.88,97.29,3120.0,0,0,0
 Male,13.0,0,0,No Info,18.08,4.5,145,0,Normal,Underweight,Prediabetes,652.5,58.5,235.03999999999996,81.35999999999999,1885.0,0,0,0
@@ -20026,7 +19994,6 @@ Female,19.0,0,0,never,19.89,5.7,155,0,Prediabetes,Healthy Weight,Prediabetes,883
 Female,80.0,0,0,No Info,25.54,5.7,140,0,Prediabetes,Overweight,Prediabetes,798.0,456.0,2043.1999999999998,145.578,11200.0,0,1,0
 Male,44.0,0,0,No Info,27.32,4.0,159,0,Normal,Overweight,Prediabetes,636.0,176.0,1202.08,109.28,6996.0,0,0,0
 Female,61.0,0,0,current,30.4,4.8,85,0,Normal,Obesity,Normal,408.0,292.8,1854.3999999999999,145.92,5185.0,0,1,0
-Male,2.0,0,0,not current,18.97,3.5,158,0,Normal,Healthy Weight,Prediabetes,553.0,7.0,37.94,66.395,316.0,0,0,0
 Female,80.0,1,0,never,22.8,6.0,260,1,Prediabetes,Healthy Weight,Possible Diabetes,1560.0,480.0,1824.0,136.8,20800.0,0,1,1
 Female,46.0,0,0,never,39.32,5.0,126,0,Normal,Obesity,Normal,630.0,230.0,1808.72,196.6,5796.0,0,0,0
 Female,45.0,0,0,never,27.32,5.8,145,0,Prediabetes,Overweight,Prediabetes,841.0,261.0,1229.4,158.456,6525.0,0,0,0
@@ -20715,7 +20682,6 @@ Male,25.0,0,0,No Info,27.32,6.5,100,0,Diabetes,Overweight,Normal,650.0,162.5,683
 Male,64.0,0,0,never,28.6,5.8,126,0,Prediabetes,Overweight,Normal,730.8,371.2,1830.4,165.88,8064.0,0,1,0
 Female,20.0,0,0,never,23.47,6.5,126,0,Diabetes,Healthy Weight,Normal,819.0,130.0,469.4,152.555,2520.0,0,0,0
 Male,68.0,0,0,No Info,27.32,8.2,240,1,Diabetes,Overweight,Possible Diabetes,1967.9999999999998,557.5999999999999,1857.76,224.02399999999997,16320.0,1,1,0
-Male,8.0,0,0,not current,22.76,5.7,158,0,Prediabetes,Healthy Weight,Prediabetes,900.6,45.6,182.08,129.732,1264.0,0,0,0
 Female,23.0,0,0,never,23.26,5.0,145,0,Normal,Healthy Weight,Prediabetes,725.0,115.0,534.98,116.30000000000001,3335.0,0,0,0
 Female,70.0,0,0,never,32.45,6.5,155,0,Diabetes,Obesity,Prediabetes,1007.5,455.0,2271.5,210.925,10850.0,0,1,0
 Male,14.0,0,0,No Info,21.06,5.7,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1140.0,79.8,294.84,120.042,2800.0,0,0,0
@@ -21441,7 +21407,6 @@ Female,48.0,0,0,never,19.47,4.5,155,0,Normal,Healthy Weight,Prediabetes,697.5,21
 Female,5.0,0,0,No Info,15.85,4.0,126,0,Normal,Underweight,Normal,504.0,20.0,79.25,63.4,630.0,0,0,0
 Male,64.0,0,1,former,27.32,6.2,90,0,Prediabetes,Overweight,Normal,558.0,396.8,1748.48,169.38400000000001,5760.0,0,1,1
 Male,33.0,0,1,never,21.78,6.0,158,0,Prediabetes,Healthy Weight,Prediabetes,948.0,198.0,718.74,130.68,5214.0,0,0,1
-Female,9.0,0,0,not current,15.99,4.8,158,0,Normal,Underweight,Prediabetes,758.4,43.199999999999996,143.91,76.752,1422.0,0,0,0
 Male,59.0,1,0,never,30.49,4.8,159,0,Normal,Obesity,Prediabetes,763.1999999999999,283.2,1798.9099999999999,146.35199999999998,9381.0,0,0,1
 Female,80.0,0,0,No Info,27.32,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,464.0,2185.6,158.456,11200.0,0,1,0
 Female,32.0,0,0,No Info,27.32,6.6,200,0,Diabetes,Overweight,Possible Diabetes,1320.0,211.2,874.24,180.31199999999998,6400.0,1,0,0
@@ -21462,7 +21427,6 @@ Male,51.0,0,0,No Info,27.32,4.8,159,0,Normal,Overweight,Prediabetes,763.19999999
 Male,61.0,1,0,former,34.43,6.6,145,0,Diabetes,Obesity,Prediabetes,957.0,402.59999999999997,2100.23,227.238,8845.0,1,1,1
 Female,20.0,0,0,never,18.19,6.2,140,0,Prediabetes,Underweight,Prediabetes,868.0,124.0,363.8,112.778,2800.0,0,0,0
 Male,31.0,0,0,current,27.32,4.0,145,0,Normal,Overweight,Prediabetes,580.0,124.0,846.92,109.28,4495.0,0,0,0
-Male,9.0,0,0,not current,27.32,6.1,100,0,Prediabetes,Overweight,Normal,610.0,54.9,245.88,166.652,900.0,0,0,0
 Female,51.0,0,0,never,24.59,6.0,80,0,Prediabetes,Healthy Weight,Normal,480.0,306.0,1254.09,147.54,4080.0,0,0,0
 Female,43.0,0,0,never,25.0,6.6,80,0,Diabetes,Overweight,Normal,528.0,283.8,1075.0,165.0,3440.0,1,0,0
 Male,68.0,0,0,No Info,27.32,6.2,200,0,Prediabetes,Overweight,Possible Diabetes,1240.0,421.6,1857.76,169.38400000000001,13600.0,0,1,0
@@ -21690,7 +21654,6 @@ Female,37.0,0,0,current,21.63,6.6,155,0,Diabetes,Healthy Weight,Prediabetes,1023
 Male,66.0,0,0,former,28.33,6.0,130,1,Prediabetes,Overweight,Normal,780.0,396.0,1869.78,169.98,8580.0,0,1,0
 Female,30.0,0,0,never,19.7,6.6,200,0,Diabetes,Healthy Weight,Possible Diabetes,1320.0,198.0,591.0,130.01999999999998,6000.0,1,0,0
 Female,66.0,0,0,No Info,23.63,5.7,140,0,Prediabetes,Healthy Weight,Prediabetes,798.0,376.2,1559.58,134.691,9240.0,0,1,0
-Male,2.0,0,0,current,15.87,5.7,130,0,Prediabetes,Underweight,Normal,741.0,11.4,31.74,90.459,260.0,0,0,0
 Male,1.32,0,0,No Info,17.56,5.8,158,0,Prediabetes,Underweight,Prediabetes,916.4,7.656,23.179199999999998,101.84799999999998,208.56,0,0,0
 Female,50.0,0,0,former,35.3,5.7,140,0,Prediabetes,Obesity,Prediabetes,798.0,285.0,1764.9999999999998,201.20999999999998,7000.0,0,0,0
 Male,11.0,0,0,No Info,15.1,6.0,90,0,Prediabetes,Underweight,Normal,540.0,66.0,166.1,90.6,990.0,0,0,0
@@ -21837,7 +21800,6 @@ Male,60.0,1,0,former,23.09,5.0,155,0,Normal,Healthy Weight,Prediabetes,775.0,300
 Female,50.0,0,0,No Info,34.7,4.5,126,0,Normal,Obesity,Normal,567.0,225.0,1735.0000000000002,156.15,6300.0,0,0,0
 Female,52.0,0,0,former,29.99,6.5,130,0,Diabetes,Overweight,Normal,845.0,338.0,1559.48,194.935,6760.0,0,0,0
 Female,75.0,0,0,No Info,27.32,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,487.5,2049.0,177.58,11925.0,0,1,0
-Male,7.0,0,0,not current,27.32,6.2,80,0,Prediabetes,Overweight,Normal,496.0,43.4,191.24,169.38400000000001,560.0,0,0,0
 Female,72.0,0,0,never,36.01,6.5,140,0,Diabetes,Obesity,Prediabetes,910.0,468.0,2592.72,234.065,10080.0,0,1,0
 Male,51.0,0,1,never,31.71,4.5,145,0,Normal,Obesity,Prediabetes,652.5,229.5,1617.21,142.695,7395.0,0,0,1
 Male,62.0,0,0,No Info,26.47,4.0,145,0,Normal,Overweight,Prediabetes,580.0,248.0,1641.1399999999999,105.88,8990.0,0,1,0
@@ -22166,7 +22128,6 @@ Female,69.0,1,1,never,39.17,6.6,300,1,Diabetes,Obesity,Possible Diabetes,1980.0,
 Female,47.0,0,0,No Info,27.32,6.1,200,0,Prediabetes,Overweight,Possible Diabetes,1220.0,286.7,1284.04,166.652,9400.0,0,0,0
 Female,14.0,0,0,not current,27.32,6.1,200,0,Prediabetes,Overweight,Possible Diabetes,1220.0,85.39999999999999,382.48,166.652,2800.0,0,0,0
 Female,41.0,0,0,No Info,25.11,4.0,158,0,Normal,Overweight,Prediabetes,632.0,164.0,1029.51,100.44,6478.0,0,0,0
-Male,6.0,0,0,not current,27.32,4.0,158,0,Normal,Overweight,Prediabetes,632.0,24.0,163.92000000000002,109.28,948.0,0,0,0
 Female,59.0,0,0,No Info,27.32,6.0,130,0,Prediabetes,Overweight,Normal,780.0,354.0,1611.88,163.92000000000002,7670.0,0,0,0
 Female,80.0,1,0,never,42.71,5.7,140,1,Prediabetes,Obesity,Prediabetes,798.0,456.0,3416.8,243.447,11200.0,0,1,1
 Male,66.0,0,0,No Info,27.32,5.0,140,0,Normal,Overweight,Prediabetes,700.0,330.0,1803.1200000000001,136.6,9240.0,0,1,0
@@ -23564,7 +23525,6 @@ Female,75.0,0,0,never,23.7,4.0,159,0,Normal,Healthy Weight,Prediabetes,636.0,300
 Female,31.0,0,0,current,27.32,4.8,85,0,Normal,Overweight,Normal,408.0,148.79999999999998,846.92,131.136,2635.0,0,0,0
 Female,52.0,0,0,former,41.85,4.5,158,0,Normal,Obesity,Prediabetes,711.0,234.0,2176.2000000000003,188.32500000000002,8216.0,0,0,0
 Female,8.0,0,0,No Info,15.0,4.8,145,0,Normal,Underweight,Prediabetes,696.0,38.4,120.0,72.0,1160.0,0,0,0
-Female,6.0,0,0,not current,14.23,6.6,100,0,Diabetes,Underweight,Normal,660.0,39.599999999999994,85.38,93.91799999999999,600.0,1,0,0
 Male,78.0,1,1,never,23.72,6.5,160,0,Diabetes,Healthy Weight,Prediabetes,1040.0,507.0,1850.1599999999999,154.18,12480.0,0,1,1
 Male,37.0,0,0,never,37.16,5.0,126,0,Normal,Obesity,Normal,630.0,185.0,1374.9199999999998,185.79999999999998,4662.0,0,0,0
 Male,71.0,0,0,No Info,27.32,5.8,90,0,Prediabetes,Overweight,Normal,522.0,411.8,1939.72,158.456,6390.0,0,1,0
@@ -24794,7 +24754,6 @@ Female,30.0,0,0,No Info,27.32,6.0,85,0,Prediabetes,Overweight,Normal,510.0,180.0
 Female,31.0,0,0,never,30.82,5.7,155,0,Prediabetes,Obesity,Prediabetes,883.5,176.70000000000002,955.42,175.674,4805.0,0,0,0
 Male,4.0,0,0,No Info,15.57,4.8,155,0,Normal,Underweight,Prediabetes,744.0,19.2,62.28,74.736,620.0,0,0,0
 Male,50.0,0,0,never,42.23,6.6,155,1,Diabetes,Obesity,Prediabetes,1023.0,330.0,2111.5,278.71799999999996,7750.0,1,0,0
-Female,3.0,0,0,not current,15.6,4.0,90,0,Normal,Underweight,Normal,360.0,12.0,46.8,62.4,270.0,0,0,0
 Male,7.0,0,0,No Info,18.51,4.5,100,0,Normal,Healthy Weight,Normal,450.0,31.5,129.57000000000002,83.295,700.0,0,0,0
 Male,60.0,0,0,never,27.56,6.5,80,0,Diabetes,Overweight,Normal,520.0,390.0,1653.6,179.14,4800.0,0,1,0
 Female,42.0,0,0,never,28.45,4.0,90,0,Normal,Overweight,Normal,360.0,168.0,1194.8999999999999,113.8,3780.0,0,0,0
@@ -25748,7 +25707,6 @@ Female,5.0,0,0,No Info,15.01,6.1,90,0,Prediabetes,Underweight,Normal,549.0,30.5,
 Female,80.0,0,0,No Info,19.2,6.6,85,0,Diabetes,Healthy Weight,Normal,561.0,528.0,1536.0,126.71999999999998,6800.0,1,1,0
 Male,27.0,0,0,never,34.85,6.5,90,0,Diabetes,Obesity,Normal,585.0,175.5,940.95,226.525,2430.0,0,0,0
 Male,48.0,0,0,not current,27.32,6.5,100,0,Diabetes,Overweight,Normal,650.0,312.0,1311.3600000000001,177.58,4800.0,0,0,0
-Male,6.0,0,0,not current,14.68,4.5,200,0,Normal,Underweight,Possible Diabetes,900.0,27.0,88.08,66.06,1200.0,0,0,0
 Female,75.0,1,0,not current,28.66,4.8,85,0,Normal,Overweight,Normal,408.0,360.0,2149.5,137.56799999999998,6375.0,0,1,1
 Male,7.0,0,0,No Info,14.9,4.5,130,0,Normal,Underweight,Normal,585.0,31.5,104.3,67.05,910.0,0,0,0
 Male,61.0,0,0,not current,25.38,5.0,140,0,Normal,Overweight,Prediabetes,700.0,305.0,1548.1799999999998,126.89999999999999,8540.0,0,1,0
@@ -26823,7 +26781,6 @@ Female,72.0,0,0,never,20.93,6.5,160,0,Diabetes,Healthy Weight,Prediabetes,1040.0
 Female,66.0,0,0,never,30.55,6.0,85,0,Prediabetes,Obesity,Normal,510.0,396.0,2016.3,183.3,5610.0,0,1,0
 Female,38.0,0,0,No Info,42.32,5.7,160,0,Prediabetes,Obesity,Prediabetes,912.0,216.6,1608.16,241.22400000000002,6080.0,0,0,0
 Female,54.0,0,0,never,23.72,6.5,160,0,Diabetes,Healthy Weight,Prediabetes,1040.0,351.0,1280.8799999999999,154.18,8640.0,0,0,0
-Male,7.0,0,0,not current,16.8,5.0,100,0,Normal,Underweight,Normal,500.0,35.0,117.60000000000001,84.0,700.0,0,0,0
 Female,46.0,0,0,current,27.05,4.0,130,0,Normal,Overweight,Normal,520.0,184.0,1244.3,108.2,5980.0,0,0,0
 Female,53.0,0,0,not current,27.45,4.8,100,0,Normal,Overweight,Normal,480.0,254.39999999999998,1454.85,131.76,5300.0,0,0,0
 Female,17.0,0,0,No Info,24.47,6.2,155,0,Prediabetes,Healthy Weight,Prediabetes,961.0,105.4,415.99,151.714,2635.0,0,0,0
@@ -26856,7 +26813,6 @@ Male,25.0,0,0,ever,23.38,6.0,159,0,Prediabetes,Healthy Weight,Prediabetes,954.0,
 Female,62.0,0,0,never,27.32,4.5,90,0,Normal,Overweight,Normal,405.0,279.0,1693.84,122.94,5580.0,0,1,0
 Female,60.0,1,0,No Info,27.32,6.6,155,0,Diabetes,Overweight,Prediabetes,1023.0,396.0,1639.2,180.31199999999998,9300.0,1,1,1
 Female,23.0,0,0,not current,24.36,6.6,100,0,Diabetes,Healthy Weight,Normal,660.0,151.79999999999998,560.28,160.77599999999998,2300.0,1,0,0
-Male,4.0,0,0,not current,14.25,6.5,80,0,Diabetes,Underweight,Normal,520.0,26.0,57.0,92.625,320.0,0,0,0
 Female,77.0,0,0,No Info,27.66,6.5,85,0,Diabetes,Overweight,Normal,552.5,500.5,2129.82,179.79,6545.0,0,1,0
 Female,48.0,0,0,never,33.37,5.0,85,0,Normal,Obesity,Normal,425.0,240.0,1601.7599999999998,166.85,4080.0,0,0,0
 Male,66.0,0,0,current,28.29,6.6,300,1,Diabetes,Overweight,Possible Diabetes,1980.0,435.59999999999997,1867.1399999999999,186.71399999999997,19800.0,1,1,0
@@ -26903,7 +26859,6 @@ Female,50.0,0,0,current,26.23,5.8,130,0,Prediabetes,Overweight,Normal,754.0,290.
 Male,65.0,1,1,not current,34.86,5.8,260,1,Prediabetes,Obesity,Possible Diabetes,1508.0,377.0,2265.9,202.188,16900.0,0,1,1
 Female,42.0,0,0,never,32.78,6.6,100,0,Diabetes,Obesity,Normal,660.0,277.2,1376.76,216.34799999999998,4200.0,1,0,0
 Female,52.0,0,0,former,35.2,6.1,80,0,Prediabetes,Obesity,Normal,488.0,317.2,1830.4,214.72,4160.0,0,0,0
-Female,2.0,0,0,not current,20.82,6.6,158,0,Diabetes,Healthy Weight,Prediabetes,1042.8,13.2,41.64,137.412,316.0,1,0,0
 Female,21.0,0,0,never,19.92,6.0,145,0,Prediabetes,Healthy Weight,Prediabetes,870.0,126.0,418.32000000000005,119.52000000000001,3045.0,0,0,0
 Male,35.0,0,0,current,31.65,4.8,85,0,Normal,Obesity,Normal,408.0,168.0,1107.75,151.92,2975.0,0,0,0
 Female,48.0,0,0,never,19.31,4.0,126,0,Normal,Healthy Weight,Normal,504.0,192.0,926.8799999999999,77.24,6048.0,0,0,0
@@ -27224,7 +27179,6 @@ Female,30.0,0,0,No Info,19.37,3.5,200,0,Normal,Healthy Weight,Possible Diabetes,
 Female,46.0,0,0,never,34.3,6.6,159,0,Diabetes,Obesity,Prediabetes,1049.3999999999999,303.59999999999997,1577.8,226.37999999999997,7314.0,1,0,0
 Female,6.0,0,0,never,20.66,6.6,200,0,Diabetes,Healthy Weight,Possible Diabetes,1320.0,39.599999999999994,123.96000000000001,136.356,1200.0,1,0,0
 Female,73.0,0,0,No Info,27.29,6.0,80,0,Prediabetes,Overweight,Normal,480.0,438.0,1992.1699999999998,163.74,5840.0,0,1,0
-Male,1.8,0,0,not current,18.0,5.8,126,0,Prediabetes,Underweight,Normal,730.8,10.44,32.4,104.39999999999999,226.8,0,0,0
 Female,70.0,0,0,ever,27.1,5.7,130,0,Prediabetes,Overweight,Normal,741.0,399.0,1897.0,154.47,9100.0,0,1,0
 Male,54.0,1,0,current,22.89,4.5,140,0,Normal,Healthy Weight,Prediabetes,630.0,243.0,1236.06,103.005,7560.0,0,0,1
 Female,38.0,0,0,current,40.89,5.7,160,0,Prediabetes,Obesity,Prediabetes,912.0,216.6,1553.82,233.073,6080.0,0,0,0
@@ -27669,7 +27623,6 @@ Female,50.0,0,0,never,27.69,4.0,145,0,Normal,Overweight,Prediabetes,580.0,200.0,
 Male,35.0,0,0,never,33.32,6.5,200,0,Diabetes,Obesity,Possible Diabetes,1300.0,227.5,1166.2,216.58,7000.0,0,0,0
 Male,8.0,0,0,No Info,25.94,5.7,80,0,Prediabetes,Overweight,Normal,456.0,45.6,207.52,147.858,640.0,0,0,0
 Female,26.0,0,0,never,19.28,6.5,90,0,Diabetes,Healthy Weight,Normal,585.0,169.0,501.28000000000003,125.32000000000001,2340.0,0,0,0
-Male,8.0,0,0,not current,14.51,3.5,160,0,Normal,Underweight,Prediabetes,560.0,28.0,116.08,50.785,1280.0,0,0,0
 Female,43.0,0,0,never,24.36,5.8,80,0,Prediabetes,Healthy Weight,Normal,464.0,249.4,1047.48,141.28799999999998,3440.0,0,0,0
 Female,65.0,1,0,former,20.52,5.8,85,0,Prediabetes,Healthy Weight,Normal,493.0,377.0,1333.8,119.01599999999999,5525.0,0,1,1
 Female,61.0,0,0,not current,27.32,4.5,100,0,Normal,Overweight,Normal,450.0,274.5,1666.52,122.94,6100.0,0,1,0
@@ -28444,7 +28397,6 @@ Male,21.0,0,0,No Info,31.19,5.7,140,0,Prediabetes,Obesity,Prediabetes,798.0,119.
 Male,63.0,1,0,never,28.71,6.6,130,1,Diabetes,Overweight,Normal,858.0,415.79999999999995,1808.73,189.486,8190.0,1,1,1
 Male,65.0,0,0,current,27.32,8.2,160,1,Diabetes,Overweight,Prediabetes,1312.0,533.0,1775.8,224.02399999999997,10400.0,1,1,0
 Female,80.0,0,0,former,18.89,5.8,145,0,Prediabetes,Healthy Weight,Prediabetes,841.0,464.0,1511.2,109.562,11600.0,0,1,0
-Male,5.0,0,0,not current,15.51,3.5,140,0,Normal,Underweight,Prediabetes,490.0,17.5,77.55,54.285,700.0,0,0,0
 Male,43.0,0,0,No Info,41.79,8.8,159,1,Diabetes,Obesity,Prediabetes,1399.2,378.40000000000003,1796.97,367.752,6837.0,1,0,0
 Female,47.0,0,0,never,21.0,6.6,80,0,Diabetes,Healthy Weight,Normal,528.0,310.2,987.0,138.6,3760.0,1,0,0
 Male,77.0,1,0,No Info,27.32,6.5,160,0,Diabetes,Overweight,Prediabetes,1040.0,500.5,2103.64,177.58,12320.0,0,1,1
@@ -29743,7 +29695,6 @@ Female,2.0,0,0,No Info,16.03,4.8,140,0,Normal,Underweight,Prediabetes,672.0,9.6,
 Male,19.0,0,0,No Info,22.42,6.1,158,0,Prediabetes,Healthy Weight,Prediabetes,963.8,115.89999999999999,425.98,136.762,3002.0,0,0,0
 Male,6.0,0,0,No Info,16.43,6.5,100,0,Diabetes,Underweight,Normal,650.0,39.0,98.58,106.795,600.0,0,0,0
 Male,13.0,0,0,No Info,22.95,6.0,140,0,Prediabetes,Healthy Weight,Prediabetes,840.0,78.0,298.34999999999997,137.7,1820.0,0,0,0
-Male,5.0,0,0,not current,21.53,4.0,85,0,Normal,Healthy Weight,Normal,340.0,20.0,107.65,86.12,425.0,0,0,0
 Female,35.0,0,0,never,19.3,5.7,90,0,Prediabetes,Healthy Weight,Normal,513.0,199.5,675.5,110.01,3150.0,0,0,0
 Female,36.0,1,0,never,48.57,8.2,140,1,Diabetes,Obesity,Prediabetes,1148.0,295.2,1748.52,398.27399999999994,5040.0,1,0,1
 Male,52.0,0,0,No Info,42.05,6.0,155,1,Prediabetes,Obesity,Prediabetes,930.0,312.0,2186.6,252.29999999999998,8060.0,0,0,0
@@ -30164,7 +30115,6 @@ Male,60.0,0,0,No Info,27.32,5.8,155,0,Prediabetes,Overweight,Prediabetes,899.0,3
 Female,40.0,0,0,ever,23.96,5.8,80,0,Prediabetes,Healthy Weight,Normal,464.0,232.0,958.4000000000001,138.968,3200.0,0,0,0
 Male,38.0,0,0,not current,22.18,5.8,155,0,Prediabetes,Healthy Weight,Prediabetes,899.0,220.4,842.84,128.644,5890.0,0,0,0
 Female,33.0,0,0,No Info,27.32,6.5,130,0,Diabetes,Overweight,Normal,845.0,214.5,901.5600000000001,177.58,4290.0,0,0,0
-Female,6.0,0,0,not current,13.8,6.5,126,0,Diabetes,Underweight,Normal,819.0,39.0,82.80000000000001,89.7,756.0,0,0,0
 Male,27.0,0,0,current,28.92,6.1,155,0,Prediabetes,Overweight,Prediabetes,945.5,164.7,780.84,176.412,4185.0,0,0,0
 Female,68.0,0,0,never,25.79,6.0,130,0,Prediabetes,Overweight,Normal,780.0,408.0,1753.72,154.74,8840.0,0,1,0
 Male,12.0,0,0,No Info,17.36,4.0,145,0,Normal,Underweight,Prediabetes,580.0,48.0,208.32,69.44,1740.0,0,0,0
@@ -30340,7 +30290,6 @@ Male,80.0,0,0,current,25.09,6.2,200,0,Prediabetes,Overweight,Possible Diabetes,1
 Male,1.24,0,0,No Info,15.15,4.0,100,0,Normal,Underweight,Normal,400.0,4.96,18.786,60.6,124.0,0,0,0
 Male,64.0,0,0,former,28.89,6.6,220,1,Diabetes,Overweight,Possible Diabetes,1452.0,422.4,1848.96,190.674,14080.0,1,1,0
 Male,25.0,0,0,No Info,27.32,6.6,200,0,Diabetes,Overweight,Possible Diabetes,1320.0,165.0,683.0,180.31199999999998,5000.0,1,0,0
-Female,9.0,0,0,not current,21.0,6.1,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1220.0,54.9,189.0,128.1,1800.0,0,0,0
 Female,8.0,0,0,No Info,17.3,6.6,100,0,Diabetes,Underweight,Normal,660.0,52.8,138.4,114.17999999999999,800.0,1,0,0
 Female,45.0,0,0,No Info,29.95,4.0,100,0,Normal,Overweight,Normal,400.0,180.0,1347.75,119.8,4500.0,0,0,0
 Female,62.0,0,1,current,34.89,7.5,160,1,Diabetes,Obesity,Prediabetes,1200.0,465.0,2163.18,261.675,9920.0,1,1,1
@@ -30779,7 +30728,6 @@ Female,71.0,0,0,former,19.46,5.8,90,0,Prediabetes,Healthy Weight,Normal,522.0,41
 Female,42.0,1,0,former,34.28,5.7,80,0,Prediabetes,Obesity,Normal,456.0,239.4,1439.76,195.39600000000002,3360.0,0,0,1
 Female,4.0,0,0,No Info,15.11,4.8,100,0,Normal,Underweight,Normal,480.0,19.2,60.44,72.52799999999999,400.0,0,0,0
 Male,24.0,0,0,No Info,25.45,4.8,80,0,Normal,Overweight,Normal,384.0,115.19999999999999,610.8,122.16,1920.0,0,0,0
-Female,8.0,0,0,not current,27.35,5.8,80,0,Prediabetes,Overweight,Normal,464.0,46.4,218.8,158.63,640.0,0,0,0
 Male,19.0,0,0,No Info,27.32,4.8,126,0,Normal,Overweight,Normal,604.8,91.2,519.08,131.136,2394.0,0,0,0
 Female,59.0,0,0,never,38.91,6.5,85,0,Diabetes,Obesity,Normal,552.5,383.5,2295.6899999999996,252.91499999999996,5015.0,0,0,0
 Female,15.0,1,0,never,48.95,5.0,100,0,Normal,Obesity,Normal,500.0,75.0,734.25,244.75,1500.0,0,0,1
@@ -30887,7 +30835,6 @@ Female,51.0,0,0,never,29.12,6.1,85,0,Prediabetes,Overweight,Normal,518.5,311.099
 Female,28.0,1,0,never,45.83,6.6,200,0,Diabetes,Obesity,Possible Diabetes,1320.0,184.79999999999998,1283.24,302.47799999999995,5600.0,1,0,1
 Male,69.0,0,0,No Info,27.32,5.7,280,1,Prediabetes,Overweight,Possible Diabetes,1596.0,393.3,1885.08,155.72400000000002,19320.0,0,1,0
 Female,21.0,0,0,current,21.68,4.8,158,0,Normal,Healthy Weight,Prediabetes,758.4,100.8,455.28,104.064,3318.0,0,0,0
-Male,7.0,0,0,not current,14.2,3.5,200,0,Normal,Underweight,Possible Diabetes,700.0,24.5,99.39999999999999,49.699999999999996,1400.0,0,0,0
 Female,4.0,0,0,No Info,15.32,6.2,126,0,Prediabetes,Underweight,Normal,781.2,24.8,61.28,94.98400000000001,504.0,0,0,0
 Female,51.0,0,0,never,42.2,4.5,85,0,Normal,Obesity,Normal,382.5,229.5,2152.2000000000003,189.9,4335.0,0,0,0
 Male,49.0,0,0,ever,22.24,5.8,160,0,Prediabetes,Healthy Weight,Prediabetes,928.0,284.2,1089.76,128.992,7840.0,0,0,0
@@ -30922,7 +30869,6 @@ Female,15.0,0,0,No Info,24.09,6.0,159,0,Prediabetes,Healthy Weight,Prediabetes,9
 Male,61.0,0,0,No Info,24.64,5.0,160,0,Normal,Healthy Weight,Prediabetes,800.0,305.0,1503.04,123.2,9760.0,0,1,0
 Male,28.0,0,0,No Info,39.2,4.8,160,0,Normal,Obesity,Prediabetes,768.0,134.4,1097.6000000000001,188.16,4480.0,0,0,0
 Female,27.0,0,0,not current,22.05,3.5,85,0,Normal,Healthy Weight,Normal,297.5,94.5,595.35,77.175,2295.0,0,0,0
-Female,9.0,0,0,not current,16.5,4.8,126,0,Normal,Underweight,Normal,604.8,43.199999999999996,148.5,79.2,1134.0,0,0,0
 Female,51.0,0,0,current,21.27,6.5,200,0,Diabetes,Healthy Weight,Possible Diabetes,1300.0,331.5,1084.77,138.255,10200.0,0,0,0
 Male,13.0,0,0,No Info,27.32,4.0,160,0,Normal,Overweight,Prediabetes,640.0,52.0,355.16,109.28,2080.0,0,0,0
 Female,32.0,0,0,not current,27.32,4.5,155,0,Normal,Overweight,Prediabetes,697.5,144.0,874.24,122.94,4960.0,0,0,0
@@ -32344,7 +32290,6 @@ Female,51.0,0,0,No Info,22.32,6.1,130,0,Prediabetes,Healthy Weight,Normal,793.0,
 Female,65.0,0,0,No Info,27.32,5.0,158,0,Normal,Overweight,Prediabetes,790.0,325.0,1775.8,136.6,10270.0,0,1,0
 Female,47.0,0,0,never,24.05,6.1,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1220.0,286.7,1130.3500000000001,146.70499999999998,9400.0,0,0,0
 Male,62.0,1,0,former,29.24,6.6,155,1,Diabetes,Overweight,Prediabetes,1023.0,409.2,1812.8799999999999,192.98399999999998,9610.0,1,1,1
-Male,7.0,0,0,not current,27.32,6.0,158,0,Prediabetes,Overweight,Prediabetes,948.0,42.0,191.24,163.92000000000002,1106.0,0,0,0
 Male,4.0,0,0,No Info,17.6,3.5,126,0,Normal,Underweight,Normal,441.0,14.0,70.4,61.60000000000001,504.0,0,0,0
 Male,30.0,0,0,No Info,27.32,6.6,145,0,Diabetes,Overweight,Prediabetes,957.0,198.0,819.6,180.31199999999998,4350.0,1,0,0
 Female,41.0,0,0,former,29.76,4.0,159,0,Normal,Overweight,Prediabetes,636.0,164.0,1220.16,119.04,6519.0,0,0,0
@@ -32458,7 +32403,6 @@ Female,42.0,0,0,never,22.11,5.8,145,0,Prediabetes,Healthy Weight,Prediabetes,841
 Female,79.0,0,0,ever,27.32,6.5,200,0,Diabetes,Overweight,Possible Diabetes,1300.0,513.5,2158.28,177.58,15800.0,0,1,0
 Male,21.0,0,0,never,28.42,5.7,140,0,Prediabetes,Overweight,Prediabetes,798.0,119.7,596.82,161.99400000000003,2940.0,0,0,0
 Male,69.0,0,0,former,30.53,4.8,85,0,Normal,Obesity,Normal,408.0,331.2,2106.57,146.544,5865.0,0,1,0
-Female,5.0,0,0,not current,13.27,6.0,159,0,Prediabetes,Underweight,Prediabetes,954.0,30.0,66.35,79.62,795.0,0,0,0
 Female,30.0,0,0,ever,27.32,5.7,158,0,Prediabetes,Overweight,Prediabetes,900.6,171.0,819.6,155.72400000000002,4740.0,0,0,0
 Male,30.0,0,0,never,27.32,4.0,100,0,Normal,Overweight,Normal,400.0,120.0,819.6,109.28,3000.0,0,0,0
 Male,54.0,0,0,No Info,45.34,6.5,130,0,Diabetes,Obesity,Normal,845.0,351.0,2448.36,294.71000000000004,7020.0,0,0,0
@@ -32545,7 +32489,6 @@ Female,47.0,0,0,current,24.76,6.5,85,0,Diabetes,Healthy Weight,Normal,552.5,305.
 Female,21.0,0,0,former,42.57,5.8,158,0,Prediabetes,Obesity,Prediabetes,916.4,121.8,893.97,246.906,3318.0,0,0,0
 Female,80.0,1,0,never,34.13,6.2,200,0,Prediabetes,Obesity,Possible Diabetes,1240.0,496.0,2730.4,211.60600000000002,16000.0,0,1,1
 Female,32.0,0,0,never,38.05,6.1,140,0,Prediabetes,Obesity,Prediabetes,854.0,195.2,1217.6,232.10499999999996,4480.0,0,0,0
-Female,6.0,0,0,not current,14.57,6.6,200,0,Diabetes,Underweight,Possible Diabetes,1320.0,39.599999999999994,87.42,96.16199999999999,1200.0,1,0,0
 Male,41.0,0,0,No Info,29.6,8.2,126,1,Diabetes,Overweight,Normal,1033.1999999999998,336.2,1213.6000000000001,242.72,5166.0,1,0,0
 Male,20.0,0,0,never,18.72,5.8,158,0,Prediabetes,Healthy Weight,Prediabetes,916.4,116.0,374.4,108.576,3160.0,0,0,0
 Female,5.0,0,0,No Info,21.26,6.5,160,0,Diabetes,Healthy Weight,Prediabetes,1040.0,32.5,106.30000000000001,138.19,800.0,0,0,0
@@ -32796,9 +32739,7 @@ Female,34.0,0,0,current,22.44,4.5,155,0,Normal,Healthy Weight,Prediabetes,697.5,
 Female,17.0,0,0,never,27.32,5.7,155,0,Prediabetes,Overweight,Prediabetes,883.5,96.9,464.44,155.72400000000002,2635.0,0,0,0
 Male,24.0,0,0,No Info,39.34,3.5,200,0,Normal,Obesity,Possible Diabetes,700.0,84.0,944.1600000000001,137.69,4800.0,0,0,0
 Male,74.0,0,0,No Info,27.32,4.5,145,0,Normal,Overweight,Prediabetes,652.5,333.0,2021.68,122.94,10730.0,0,1,0
-Male,4.0,0,0,not current,20.66,6.0,85,0,Prediabetes,Healthy Weight,Normal,510.0,24.0,82.64,123.96000000000001,340.0,0,0,0
 Male,61.0,0,0,former,21.7,4.5,160,0,Normal,Healthy Weight,Prediabetes,720.0,274.5,1323.7,97.64999999999999,9760.0,0,1,0
-Female,7.0,0,0,not current,15.5,5.8,159,0,Prediabetes,Underweight,Prediabetes,922.1999999999999,40.6,108.5,89.89999999999999,1113.0,0,0,0
 Female,11.0,0,0,No Info,27.32,5.8,200,0,Prediabetes,Overweight,Possible Diabetes,1160.0,63.8,300.52,158.456,2200.0,0,0,0
 Female,32.0,0,0,never,24.37,5.8,90,0,Prediabetes,Healthy Weight,Normal,522.0,185.6,779.84,141.346,2880.0,0,0,0
 Female,49.0,0,0,No Info,27.32,5.0,100,0,Normal,Overweight,Normal,500.0,245.0,1338.68,136.6,4900.0,0,0,0
@@ -33261,7 +33202,6 @@ Female,22.0,0,0,never,22.35,5.7,140,0,Prediabetes,Healthy Weight,Prediabetes,798
 Male,80.0,0,0,No Info,25.1,6.0,200,0,Prediabetes,Overweight,Possible Diabetes,1200.0,480.0,2008.0,150.60000000000002,16000.0,0,1,0
 Male,42.0,0,0,No Info,27.32,7.0,240,1,Diabetes,Overweight,Possible Diabetes,1680.0,294.0,1147.44,191.24,10080.0,1,0,0
 Male,62.0,0,0,No Info,27.32,6.5,145,0,Diabetes,Overweight,Prediabetes,942.5,403.0,1693.84,177.58,8990.0,0,1,0
-Female,7.0,0,0,current,30.93,5.0,100,0,Normal,Obesity,Normal,500.0,35.0,216.51,154.65,700.0,0,0,0
 Male,80.0,0,0,not current,19.34,5.8,158,0,Prediabetes,Healthy Weight,Prediabetes,916.4,464.0,1547.2,112.172,12640.0,0,1,0
 Male,23.0,0,0,never,24.39,4.8,160,0,Normal,Healthy Weight,Prediabetes,768.0,110.39999999999999,560.97,117.072,3680.0,0,0,0
 Male,33.0,0,0,never,35.6,4.8,130,0,Normal,Obesity,Normal,624.0,158.4,1174.8,170.88,4290.0,0,0,0
@@ -33311,7 +33251,6 @@ Male,59.0,0,0,never,27.16,8.2,160,1,Diabetes,Overweight,Prediabetes,1312.0,483.7
 Female,49.0,0,0,current,30.44,6.2,155,0,Prediabetes,Obesity,Prediabetes,961.0,303.8,1491.5600000000002,188.728,7595.0,0,0,0
 Female,80.0,0,0,not current,35.94,4.5,80,0,Normal,Obesity,Normal,360.0,360.0,2875.2,161.73,6400.0,0,1,0
 Male,68.0,1,0,former,31.38,6.0,126,0,Prediabetes,Obesity,Normal,756.0,408.0,2133.84,188.28,8568.0,0,1,1
-Male,7.0,0,0,not current,19.47,3.5,130,0,Normal,Healthy Weight,Normal,455.0,24.5,136.29,68.145,910.0,0,0,0
 Male,80.0,0,1,former,23.4,6.0,130,0,Prediabetes,Healthy Weight,Normal,780.0,480.0,1872.0,140.39999999999998,10400.0,0,1,1
 Male,28.0,0,0,current,28.94,6.6,80,0,Diabetes,Overweight,Normal,528.0,184.79999999999998,810.32,191.004,2240.0,1,0,0
 Female,50.0,0,0,not current,33.86,3.5,90,0,Normal,Obesity,Normal,315.0,175.0,1693.0,118.50999999999999,4500.0,0,0,0
@@ -33384,7 +33323,6 @@ Female,17.0,0,0,No Info,27.32,6.5,90,0,Diabetes,Overweight,Normal,585.0,110.5,46
 Female,20.0,0,0,never,23.72,6.1,100,0,Prediabetes,Healthy Weight,Normal,610.0,122.0,474.4,144.69199999999998,2000.0,0,0,0
 Female,46.0,0,0,former,19.15,5.0,100,0,Normal,Healthy Weight,Normal,500.0,230.0,880.9,95.75,4600.0,0,0,0
 Male,16.0,0,0,No Info,24.48,6.2,80,0,Prediabetes,Healthy Weight,Normal,496.0,99.2,391.68,151.776,1280.0,0,0,0
-Male,8.0,0,0,not current,27.32,6.6,90,0,Diabetes,Overweight,Normal,594.0,52.8,218.56,180.31199999999998,720.0,1,0,0
 Male,15.0,0,0,No Info,23.09,5.8,145,0,Prediabetes,Healthy Weight,Prediabetes,841.0,87.0,346.35,133.922,2175.0,0,0,0
 Male,64.0,1,0,ever,27.32,5.0,90,0,Normal,Overweight,Normal,450.0,320.0,1748.48,136.6,5760.0,0,1,1
 Female,54.0,0,0,never,28.69,5.8,200,0,Prediabetes,Overweight,Possible Diabetes,1160.0,313.2,1549.26,166.40200000000002,10800.0,0,0,0
@@ -33396,7 +33334,6 @@ Female,34.0,0,0,No Info,27.32,6.6,145,0,Diabetes,Overweight,Prediabetes,957.0,22
 Male,67.0,0,0,not current,29.15,6.2,100,0,Prediabetes,Overweight,Normal,620.0,415.40000000000003,1953.05,180.73,6700.0,0,1,0
 Female,76.0,0,0,current,26.49,6.2,160,1,Prediabetes,Overweight,Prediabetes,992.0,471.2,2013.2399999999998,164.238,12160.0,0,1,0
 Female,32.0,0,0,never,25.03,5.0,160,0,Normal,Overweight,Prediabetes,800.0,160.0,800.96,125.15,5120.0,0,0,0
-Male,5.0,0,0,not current,16.0,5.8,155,0,Prediabetes,Underweight,Prediabetes,899.0,29.0,80.0,92.8,775.0,0,0,0
 Female,21.0,0,0,never,22.86,5.7,90,0,Prediabetes,Healthy Weight,Normal,513.0,119.7,480.06,130.302,1890.0,0,0,0
 Female,64.0,1,0,never,27.32,6.1,300,1,Prediabetes,Overweight,Possible Diabetes,1830.0,390.4,1748.48,166.652,19200.0,0,1,1
 Female,39.0,0,0,never,42.61,5.8,200,0,Prediabetes,Obesity,Possible Diabetes,1160.0,226.2,1661.79,247.13799999999998,7800.0,0,0,0
@@ -33413,7 +33350,6 @@ Male,80.0,0,0,ever,26.43,6.5,260,1,Diabetes,Overweight,Possible Diabetes,1690.0,
 Female,51.0,0,0,No Info,34.85,5.7,155,0,Prediabetes,Obesity,Prediabetes,883.5,290.7,1777.3500000000001,198.645,7905.0,0,0,0
 Female,69.0,0,1,former,27.9,4.0,159,0,Normal,Overweight,Prediabetes,636.0,276.0,1925.1,111.6,10971.0,0,1,1
 Female,30.0,0,0,never,26.72,6.2,155,0,Prediabetes,Overweight,Prediabetes,961.0,186.0,801.5999999999999,165.664,4650.0,0,0,0
-Female,7.0,0,0,not current,16.26,6.6,145,0,Diabetes,Underweight,Prediabetes,957.0,46.199999999999996,113.82000000000001,107.316,1015.0,1,0,0
 Male,36.0,0,0,never,19.46,4.5,159,0,Normal,Healthy Weight,Prediabetes,715.5,162.0,700.5600000000001,87.57000000000001,5724.0,0,0,0
 Female,73.0,0,1,never,34.76,6.5,126,0,Diabetes,Obesity,Normal,819.0,474.5,2537.48,225.94,9198.0,0,1,1
 Female,43.0,0,0,never,27.32,6.5,130,0,Diabetes,Overweight,Normal,845.0,279.5,1174.76,177.58,5590.0,0,0,0
@@ -34705,7 +34641,6 @@ Female,66.0,0,0,never,46.07,6.1,130,1,Prediabetes,Obesity,Normal,793.0,402.59999
 Female,58.0,0,0,never,42.6,6.5,158,0,Diabetes,Obesity,Prediabetes,1027.0,377.0,2470.8,276.90000000000003,9164.0,0,0,0
 Male,53.0,0,0,current,27.32,4.8,80,0,Normal,Overweight,Normal,384.0,254.39999999999998,1447.96,131.136,4240.0,0,0,0
 Male,4.0,0,0,No Info,27.32,4.0,155,0,Normal,Overweight,Prediabetes,620.0,16.0,109.28,109.28,620.0,0,0,0
-Female,4.0,0,0,not current,17.95,3.5,158,0,Normal,Underweight,Prediabetes,553.0,14.0,71.8,62.824999999999996,632.0,0,0,0
 Female,47.0,0,0,not current,27.32,6.5,130,0,Diabetes,Overweight,Normal,845.0,305.5,1284.04,177.58,6110.0,0,0,0
 Female,15.0,0,0,never,25.0,6.1,126,1,Prediabetes,Overweight,Normal,768.5999999999999,91.5,375.0,152.5,1890.0,0,0,0
 Female,40.0,0,0,never,28.62,5.0,158,0,Normal,Overweight,Prediabetes,790.0,200.0,1144.8,143.1,6320.0,0,0,0
@@ -35660,7 +35595,6 @@ Male,1.88,0,0,No Info,18.08,6.6,155,0,Diabetes,Underweight,Prediabetes,1023.0,12
 Male,45.0,0,1,not current,26.67,5.7,80,0,Prediabetes,Overweight,Normal,456.0,256.5,1200.15,152.019,3600.0,0,0,1
 Female,41.0,0,0,never,30.8,4.5,126,0,Normal,Obesity,Normal,567.0,184.5,1262.8,138.6,5166.0,0,0,0
 Female,49.0,0,0,never,23.3,6.2,145,0,Prediabetes,Healthy Weight,Prediabetes,899.0,303.8,1141.7,144.46,7105.0,0,0,0
-Male,1.48,0,0,current,17.48,3.5,140,0,Normal,Underweight,Prediabetes,490.0,5.18,25.8704,61.18,207.2,0,0,0
 Female,50.0,0,0,current,40.93,6.2,160,1,Prediabetes,Obesity,Prediabetes,992.0,310.0,2046.5,253.76600000000002,8000.0,0,0,0
 Male,21.0,0,0,No Info,27.32,3.5,130,0,Normal,Overweight,Normal,455.0,73.5,573.72,95.62,2730.0,0,0,0
 Female,28.0,0,0,former,27.32,6.6,80,0,Diabetes,Overweight,Normal,528.0,184.79999999999998,764.96,180.31199999999998,2240.0,1,0,0
@@ -36111,7 +36045,6 @@ Female,2.0,0,0,No Info,14.06,5.0,140,0,Normal,Underweight,Prediabetes,700.0,10.0
 Male,47.0,0,0,No Info,29.66,4.0,145,0,Normal,Overweight,Prediabetes,580.0,188.0,1394.02,118.64,6815.0,0,0,0
 Female,31.0,0,0,never,27.32,6.6,159,0,Diabetes,Overweight,Prediabetes,1049.3999999999999,204.6,846.92,180.31199999999998,4929.0,1,0,0
 Female,22.0,0,0,never,23.62,6.1,160,0,Prediabetes,Healthy Weight,Prediabetes,976.0,134.2,519.64,144.082,3520.0,0,0,0
-Female,6.0,0,0,current,16.8,6.5,130,0,Diabetes,Underweight,Normal,845.0,39.0,100.80000000000001,109.2,780.0,0,0,0
 Male,62.0,0,0,former,25.77,4.0,140,0,Normal,Overweight,Prediabetes,560.0,248.0,1597.74,103.08,8680.0,0,1,0
 Male,56.0,1,0,never,34.2,4.8,130,0,Normal,Obesity,Normal,624.0,268.8,1915.2000000000003,164.16,7280.0,0,0,1
 Male,68.0,0,0,former,27.32,6.2,155,0,Prediabetes,Overweight,Prediabetes,961.0,421.6,1857.76,169.38400000000001,10540.0,0,1,0
@@ -36176,7 +36109,6 @@ Male,69.0,0,0,not current,26.25,4.0,155,0,Normal,Overweight,Prediabetes,620.0,27
 Male,37.0,0,0,ever,28.7,5.0,155,0,Normal,Overweight,Prediabetes,775.0,185.0,1061.8999999999999,143.5,5735.0,0,0,0
 Male,60.0,0,0,former,29.97,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,348.0,1798.1999999999998,173.826,8400.0,0,1,0
 Female,67.0,0,0,former,31.38,6.1,200,0,Prediabetes,Obesity,Possible Diabetes,1220.0,408.7,2102.46,191.41799999999998,13400.0,0,1,0
-Male,3.0,0,0,not current,27.32,6.2,85,0,Prediabetes,Overweight,Normal,527.0,18.6,81.96000000000001,169.38400000000001,255.0,0,0,0
 Female,39.0,0,0,never,27.32,6.5,90,0,Diabetes,Overweight,Normal,585.0,253.5,1065.48,177.58,3510.0,0,0,0
 Male,53.0,0,0,No Info,27.32,3.5,145,0,Normal,Overweight,Prediabetes,507.5,185.5,1447.96,95.62,7685.0,0,0,0
 Male,65.0,0,0,No Info,27.32,6.6,159,0,Diabetes,Overweight,Prediabetes,1049.3999999999999,429.0,1775.8,180.31199999999998,10335.0,1,1,0
@@ -38003,7 +37935,6 @@ Male,44.0,0,0,not current,27.32,6.6,155,0,Diabetes,Overweight,Prediabetes,1023.0
 Female,13.0,0,0,No Info,14.02,5.0,90,0,Normal,Underweight,Normal,450.0,65.0,182.26,70.1,1170.0,0,0,0
 Male,73.0,0,0,never,24.51,5.7,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1140.0,416.1,1789.23,139.70700000000002,14600.0,0,1,0
 Male,80.0,0,0,former,27.32,5.7,200,0,Prediabetes,Overweight,Possible Diabetes,1140.0,456.0,2185.6,155.72400000000002,16000.0,0,1,0
-Female,6.0,0,0,not current,14.83,5.0,160,0,Normal,Underweight,Prediabetes,800.0,30.0,88.98,74.15,960.0,0,0,0
 Female,42.0,0,0,ever,53.27,4.0,85,0,Normal,Obesity,Normal,340.0,168.0,2237.34,213.08,3570.0,0,0,0
 Male,66.0,0,0,never,44.63,7.0,200,1,Diabetes,Obesity,Possible Diabetes,1400.0,462.0,2945.5800000000004,312.41,13200.0,1,1,0
 Female,0.64,0,0,No Info,17.33,5.0,126,0,Normal,Underweight,Normal,630.0,3.2,11.091199999999999,86.64999999999999,80.64,0,0,0
@@ -38071,7 +38002,6 @@ Male,33.0,0,0,never,30.0,3.5,155,0,Normal,Obesity,Prediabetes,542.5,115.5,990.0,
 Female,32.0,0,0,No Info,22.92,6.6,145,0,Diabetes,Healthy Weight,Prediabetes,957.0,211.2,733.44,151.272,4640.0,1,0,0
 Male,63.0,0,0,former,25.39,6.1,158,0,Prediabetes,Overweight,Prediabetes,963.8,384.29999999999995,1599.57,154.879,9954.0,0,1,0
 Female,56.0,0,0,No Info,24.8,4.5,85,0,Normal,Healthy Weight,Normal,382.5,252.0,1388.8,111.60000000000001,4760.0,0,0,0
-Female,3.0,0,0,not current,19.92,6.6,140,0,Diabetes,Healthy Weight,Prediabetes,924.0,19.799999999999997,59.760000000000005,131.472,420.0,1,0,0
 Male,79.0,0,0,former,25.06,6.1,85,0,Prediabetes,Overweight,Normal,518.5,481.9,1979.74,152.86599999999999,6715.0,0,1,0
 Female,64.0,0,0,No Info,27.32,6.8,145,1,Diabetes,Overweight,Prediabetes,986.0,435.2,1748.48,185.776,9280.0,1,1,0
 Female,24.0,0,0,never,35.0,5.0,100,0,Normal,Obesity,Normal,500.0,120.0,840.0,175.0,2400.0,0,0,0
@@ -38515,7 +38445,6 @@ Male,10.0,0,0,No Info,27.32,4.0,160,0,Normal,Overweight,Prediabetes,640.0,40.0,2
 Female,52.0,0,0,No Info,27.32,5.8,126,0,Prediabetes,Overweight,Normal,730.8,301.59999999999997,1420.64,158.456,6552.0,0,0,0
 Female,66.0,0,0,never,39.65,4.5,80,0,Normal,Obesity,Normal,360.0,297.0,2616.9,178.42499999999998,5280.0,0,1,0
 Male,22.0,0,0,No Info,27.32,6.6,80,0,Diabetes,Overweight,Normal,528.0,145.2,601.04,180.31199999999998,1760.0,1,0,0
-Male,4.0,0,0,not current,27.32,6.6,160,0,Diabetes,Overweight,Prediabetes,1056.0,26.4,109.28,180.31199999999998,640.0,1,0,0
 Female,26.0,0,0,never,27.32,6.1,159,0,Prediabetes,Overweight,Prediabetes,969.9,158.6,710.32,166.652,4134.0,0,0,0
 Female,80.0,0,1,former,27.32,4.5,100,0,Normal,Overweight,Normal,450.0,360.0,2185.6,122.94,8000.0,0,1,1
 Male,57.0,0,0,former,28.06,9.0,280,1,Diabetes,Overweight,Possible Diabetes,2520.0,513.0,1599.4199999999998,252.54,15960.0,1,0,0
@@ -38529,7 +38458,6 @@ Female,69.0,0,0,current,24.14,4.0,140,0,Normal,Healthy Weight,Prediabetes,560.0,
 Female,13.0,0,0,never,31.82,4.8,85,0,Normal,Obesity,Normal,408.0,62.4,413.66,152.736,1105.0,0,0,0
 Male,46.0,0,0,not current,44.47,6.2,145,0,Prediabetes,Obesity,Prediabetes,899.0,285.2,2045.62,275.714,6670.0,0,0,0
 Female,43.0,0,0,never,27.8,6.5,90,0,Diabetes,Overweight,Normal,585.0,279.5,1195.4,180.70000000000002,3870.0,0,0,0
-Female,9.0,0,0,not current,14.68,4.5,126,0,Normal,Underweight,Normal,567.0,40.5,132.12,66.06,1134.0,0,0,0
 Female,54.0,0,0,never,35.42,5.8,85,0,Prediabetes,Obesity,Normal,493.0,313.2,1912.68,205.436,4590.0,0,0,0
 Male,63.0,1,0,former,25.22,8.2,155,1,Diabetes,Overweight,Prediabetes,1271.0,516.5999999999999,1588.86,206.80399999999997,9765.0,1,1,1
 Male,50.0,0,0,No Info,27.32,4.8,158,0,Normal,Overweight,Prediabetes,758.4,240.0,1366.0,131.136,7900.0,0,0,0
@@ -38694,7 +38622,6 @@ Female,80.0,0,0,not current,31.33,5.0,100,0,Normal,Obesity,Normal,500.0,400.0,25
 Female,23.0,0,0,No Info,27.32,4.5,80,0,Normal,Overweight,Normal,360.0,103.5,628.36,122.94,1840.0,0,0,0
 Male,16.0,0,0,never,21.14,4.8,85,0,Normal,Healthy Weight,Normal,408.0,76.8,338.24,101.472,1360.0,0,0,0
 Male,68.0,0,0,never,26.82,6.2,80,0,Prediabetes,Overweight,Normal,496.0,421.6,1823.76,166.28400000000002,5440.0,0,1,0
-Female,2.0,0,0,not current,17.89,4.0,80,0,Normal,Underweight,Normal,320.0,8.0,35.78,71.56,160.0,0,0,0
 Female,67.0,1,0,former,41.23,4.8,85,0,Normal,Obesity,Normal,408.0,321.59999999999997,2762.41,197.90399999999997,5695.0,0,1,1
 Male,63.0,0,0,not current,31.66,6.1,159,0,Prediabetes,Obesity,Prediabetes,969.9,384.29999999999995,1994.58,193.12599999999998,10017.0,0,1,0
 Female,65.0,0,0,never,30.84,6.0,100,0,Prediabetes,Obesity,Normal,600.0,390.0,2004.6,185.04,6500.0,0,1,0
@@ -38809,7 +38736,6 @@ Male,48.0,0,0,No Info,28.43,4.5,200,0,Normal,Overweight,Possible Diabetes,900.0,
 Male,39.0,0,0,No Info,27.32,6.2,159,0,Prediabetes,Overweight,Prediabetes,985.8000000000001,241.8,1065.48,169.38400000000001,6201.0,0,0,0
 Male,41.0,0,0,ever,39.0,6.5,100,0,Diabetes,Obesity,Normal,650.0,266.5,1599.0,253.5,4100.0,0,0,0
 Male,63.0,0,0,No Info,43.22,6.1,260,1,Prediabetes,Obesity,Possible Diabetes,1586.0,384.29999999999995,2722.86,263.642,16380.0,0,1,0
-Male,3.0,0,0,current,17.7,5.0,145,0,Normal,Underweight,Prediabetes,725.0,15.0,53.099999999999994,88.5,435.0,0,0,0
 Female,40.0,0,0,ever,30.1,5.8,126,0,Prediabetes,Obesity,Normal,730.8,232.0,1204.0,174.58,5040.0,0,0,0
 Female,72.0,0,0,former,34.95,7.5,200,1,Diabetes,Obesity,Possible Diabetes,1500.0,540.0,2516.4,262.125,14400.0,1,1,0
 Male,21.0,0,0,never,26.14,4.0,155,0,Normal,Overweight,Prediabetes,620.0,84.0,548.94,104.56,3255.0,0,0,0
@@ -38869,7 +38795,6 @@ Male,63.0,0,1,former,24.6,5.0,80,0,Normal,Healthy Weight,Normal,400.0,315.0,1549
 Male,0.72,0,0,No Info,13.69,6.6,200,0,Diabetes,Underweight,Possible Diabetes,1320.0,4.752,9.8568,90.35399999999998,144.0,1,0,0
 Female,13.0,0,0,never,19.6,5.7,155,0,Prediabetes,Healthy Weight,Prediabetes,883.5,74.10000000000001,254.8,111.72000000000001,2015.0,0,0,0
 Female,74.0,0,0,No Info,27.32,4.8,158,0,Normal,Overweight,Prediabetes,758.4,355.2,2021.68,131.136,11692.0,0,1,0
-Male,8.0,0,0,not current,14.3,4.8,126,0,Normal,Underweight,Normal,604.8,38.4,114.4,68.64,1008.0,0,0,0
 Female,80.0,0,0,never,23.91,3.5,100,0,Normal,Healthy Weight,Normal,350.0,280.0,1912.8,83.685,8000.0,0,1,0
 Female,27.0,0,0,never,29.3,6.5,160,0,Diabetes,Overweight,Prediabetes,1040.0,175.5,791.1,190.45000000000002,4320.0,0,0,0
 Female,53.0,1,0,current,38.88,4.5,145,0,Normal,Obesity,Prediabetes,652.5,238.5,2060.6400000000003,174.96,7685.0,0,0,1
@@ -39094,7 +39019,6 @@ Female,47.0,0,0,No Info,27.32,6.1,140,0,Prediabetes,Overweight,Prediabetes,854.0
 Female,9.0,0,0,No Info,27.32,6.6,200,0,Diabetes,Overweight,Possible Diabetes,1320.0,59.4,245.88,180.31199999999998,1800.0,1,0,0
 Female,43.0,0,0,never,20.09,5.8,85,0,Prediabetes,Healthy Weight,Normal,493.0,249.4,863.87,116.52199999999999,3655.0,0,0,0
 Male,40.0,0,0,never,44.37,6.0,126,0,Prediabetes,Obesity,Normal,756.0,240.0,1774.8,266.21999999999997,5040.0,0,0,0
-Male,7.0,0,0,not current,14.7,4.8,155,0,Normal,Underweight,Prediabetes,744.0,33.6,102.89999999999999,70.55999999999999,1085.0,0,0,0
 Male,55.0,0,0,former,36.16,6.6,100,0,Diabetes,Obesity,Normal,660.0,363.0,1988.7999999999997,238.65599999999998,5500.0,1,0,0
 Male,78.0,0,0,former,38.39,8.2,260,1,Diabetes,Obesity,Possible Diabetes,2132.0,639.5999999999999,2994.42,314.798,20280.0,1,1,0
 Female,54.0,0,0,No Info,22.44,6.6,140,0,Diabetes,Healthy Weight,Prediabetes,924.0,356.4,1211.76,148.104,7560.0,1,0,0
@@ -39759,7 +39683,6 @@ Female,4.0,0,0,No Info,14.29,4.8,159,0,Normal,Underweight,Prediabetes,763.199999
 Male,49.0,0,0,never,25.79,4.5,158,0,Normal,Overweight,Prediabetes,711.0,220.5,1263.71,116.05499999999999,7742.0,0,0,0
 Female,39.0,0,0,No Info,21.97,5.8,126,0,Prediabetes,Healthy Weight,Normal,730.8,226.2,856.8299999999999,127.42599999999999,4914.0,0,0,0
 Female,51.0,0,1,current,22.13,4.5,145,0,Normal,Healthy Weight,Prediabetes,652.5,229.5,1128.6299999999999,99.585,7395.0,0,0,1
-Male,6.0,0,0,not current,13.82,6.2,140,0,Prediabetes,Underweight,Prediabetes,868.0,37.2,82.92,85.684,840.0,0,0,0
 Male,47.0,0,0,former,27.94,4.5,140,0,Normal,Overweight,Prediabetes,630.0,211.5,1313.18,125.73,6580.0,0,0,0
 Male,79.0,0,0,never,22.08,5.8,80,0,Prediabetes,Healthy Weight,Normal,464.0,458.2,1744.32,128.064,6320.0,0,1,0
 Male,50.0,1,0,current,31.84,5.7,200,0,Prediabetes,Obesity,Possible Diabetes,1140.0,285.0,1592.0,181.488,10000.0,0,0,1
@@ -39890,7 +39813,6 @@ Female,68.0,0,0,No Info,27.32,6.0,80,0,Prediabetes,Overweight,Normal,480.0,408.0
 Female,46.0,0,0,not current,26.58,6.2,155,0,Prediabetes,Overweight,Prediabetes,961.0,285.2,1222.6799999999998,164.796,7130.0,0,0,0
 Female,53.0,0,0,never,29.85,5.7,80,0,Prediabetes,Overweight,Normal,456.0,302.1,1582.0500000000002,170.145,4240.0,0,0,0
 Female,66.0,1,0,not current,27.3,4.5,155,0,Normal,Overweight,Prediabetes,697.5,297.0,1801.8,122.85000000000001,10230.0,0,1,1
-Male,8.0,0,0,not current,15.5,3.5,159,0,Normal,Underweight,Prediabetes,556.5,28.0,124.0,54.25,1272.0,0,0,0
 Male,34.0,1,0,former,35.71,8.2,140,1,Diabetes,Obesity,Prediabetes,1148.0,278.79999999999995,1214.14,292.822,4760.0,1,0,1
 Female,60.0,0,0,No Info,18.32,4.5,100,0,Normal,Underweight,Normal,450.0,270.0,1099.2,82.44,6000.0,0,1,0
 Male,10.0,0,0,never,18.66,4.0,140,0,Normal,Healthy Weight,Prediabetes,560.0,40.0,186.6,74.64,1400.0,0,0,0
@@ -40050,7 +39972,6 @@ Female,23.0,0,0,current,27.1,5.0,80,0,Normal,Overweight,Normal,400.0,115.0,623.3
 Male,57.0,0,0,never,29.65,5.8,158,0,Prediabetes,Overweight,Prediabetes,916.4,330.59999999999997,1690.05,171.97,9006.0,0,0,0
 Male,46.0,0,0,former,28.04,3.5,85,0,Normal,Overweight,Normal,297.5,161.0,1289.84,98.14,3910.0,0,0,0
 Female,9.0,0,0,No Info,14.98,4.5,158,0,Normal,Underweight,Prediabetes,711.0,40.5,134.82,67.41,1422.0,0,0,0
-Male,5.0,0,0,not current,15.9,4.5,159,0,Normal,Underweight,Prediabetes,715.5,22.5,79.5,71.55,795.0,0,0,0
 Female,43.0,0,0,current,47.64,5.0,140,0,Normal,Obesity,Prediabetes,700.0,215.0,2048.52,238.2,6020.0,0,0,0
 Male,80.0,0,1,No Info,27.32,5.7,160,0,Prediabetes,Overweight,Prediabetes,912.0,456.0,2185.6,155.72400000000002,12800.0,0,1,1
 Male,8.0,0,0,No Info,14.86,3.5,130,0,Normal,Underweight,Normal,455.0,28.0,118.88,52.01,1040.0,0,0,0
@@ -41165,7 +41086,6 @@ Female,59.0,0,0,never,48.38,6.6,280,1,Diabetes,Obesity,Possible Diabetes,1848.0,
 Female,52.0,0,0,current,25.72,4.8,130,0,Normal,Overweight,Normal,624.0,249.6,1337.44,123.45599999999999,6760.0,0,0,0
 Male,50.0,1,0,never,27.32,6.2,200,1,Prediabetes,Overweight,Possible Diabetes,1240.0,310.0,1366.0,169.38400000000001,10000.0,0,0,1
 Male,80.0,0,0,former,27.32,5.8,80,0,Prediabetes,Overweight,Normal,464.0,464.0,2185.6,158.456,6400.0,0,1,0
-Female,6.0,0,0,not current,18.56,6.5,130,0,Diabetes,Healthy Weight,Normal,845.0,39.0,111.35999999999999,120.63999999999999,780.0,0,0,0
 Female,60.0,0,0,ever,31.4,4.5,159,0,Normal,Obesity,Prediabetes,715.5,270.0,1884.0,141.29999999999998,9540.0,0,1,0
 Female,80.0,1,0,never,22.56,6.2,158,0,Prediabetes,Healthy Weight,Prediabetes,979.6,496.0,1804.8,139.87199999999999,12640.0,0,1,1
 Female,63.0,0,0,No Info,27.32,4.8,126,0,Normal,Overweight,Normal,604.8,302.4,1721.16,131.136,7938.0,0,1,0
@@ -41850,7 +41770,6 @@ Male,80.0,0,0,never,27.32,6.2,85,0,Prediabetes,Overweight,Normal,527.0,496.0,218
 Female,34.0,0,0,never,33.1,3.5,126,0,Normal,Obesity,Normal,441.0,119.0,1125.4,115.85000000000001,4284.0,0,0,0
 Female,11.0,0,0,never,17.58,6.0,160,0,Prediabetes,Underweight,Prediabetes,960.0,66.0,193.38,105.47999999999999,1760.0,0,0,0
 Male,26.0,0,0,No Info,30.69,5.0,159,0,Normal,Obesity,Prediabetes,795.0,130.0,797.94,153.45000000000002,4134.0,0,0,0
-Male,7.0,0,0,not current,15.56,3.5,158,0,Normal,Underweight,Prediabetes,553.0,24.5,108.92,54.46,1106.0,0,0,0
 Female,40.0,0,0,never,23.9,4.0,200,0,Normal,Healthy Weight,Possible Diabetes,800.0,160.0,956.0,95.6,8000.0,0,0,0
 Male,35.0,0,0,current,27.32,6.6,100,0,Diabetes,Overweight,Normal,660.0,231.0,956.2,180.31199999999998,3500.0,1,0,0
 Male,23.0,0,0,never,27.32,5.8,90,0,Prediabetes,Overweight,Normal,522.0,133.4,628.36,158.456,2070.0,0,0,0
@@ -42041,7 +41960,6 @@ Female,61.0,0,0,not current,20.38,6.2,155,0,Prediabetes,Healthy Weight,Prediabet
 Female,21.0,0,0,never,23.04,5.0,159,0,Normal,Healthy Weight,Prediabetes,795.0,105.0,483.84,115.19999999999999,3339.0,0,0,0
 Female,55.0,1,1,former,56.81,6.2,159,1,Prediabetes,Obesity,Prediabetes,985.8000000000001,341.0,3124.55,352.22200000000004,8745.0,0,0,1
 Male,50.0,0,0,No Info,27.32,6.2,100,0,Prediabetes,Overweight,Normal,620.0,310.0,1366.0,169.38400000000001,5000.0,0,0,0
-Male,8.0,0,1,not current,24.74,5.0,85,0,Normal,Healthy Weight,Normal,425.0,40.0,197.92,123.69999999999999,680.0,0,0,1
 Female,41.0,0,0,never,30.93,5.7,80,0,Prediabetes,Obesity,Normal,456.0,233.70000000000002,1268.1299999999999,176.30100000000002,3280.0,0,0,0
 Female,43.0,0,0,No Info,27.32,6.2,160,0,Prediabetes,Overweight,Prediabetes,992.0,266.6,1174.76,169.38400000000001,6880.0,0,0,0
 Female,51.0,0,0,ever,29.28,5.7,158,0,Prediabetes,Overweight,Prediabetes,900.6,290.7,1493.28,166.89600000000002,8058.0,0,0,0
@@ -42906,7 +42824,6 @@ Female,16.0,0,0,never,16.8,6.0,126,0,Prediabetes,Underweight,Normal,756.0,96.0,2
 Female,58.0,1,0,never,38.52,6.5,240,1,Diabetes,Obesity,Possible Diabetes,1560.0,377.0,2234.1600000000003,250.38000000000002,13920.0,0,0,1
 Male,62.0,0,0,No Info,27.32,6.1,80,0,Prediabetes,Overweight,Normal,488.0,378.2,1693.84,166.652,4960.0,0,1,0
 Male,19.0,0,0,No Info,27.32,6.0,85,0,Prediabetes,Overweight,Normal,510.0,114.0,519.08,163.92000000000002,1615.0,0,0,0
-Male,5.0,0,0,not current,16.0,6.1,80,0,Prediabetes,Underweight,Normal,488.0,30.5,80.0,97.6,400.0,0,0,0
 Male,67.0,1,0,former,33.6,6.8,280,1,Diabetes,Obesity,Possible Diabetes,1904.0,455.59999999999997,2251.2000000000003,228.48,18760.0,1,1,1
 Female,57.0,0,0,never,21.7,3.5,100,0,Normal,Healthy Weight,Normal,350.0,199.5,1236.8999999999999,75.95,5700.0,0,0,0
 Female,75.0,0,1,never,29.09,4.8,85,0,Normal,Overweight,Normal,408.0,360.0,2181.75,139.632,6375.0,0,1,1
@@ -43749,7 +43666,6 @@ Male,25.0,0,0,not current,46.65,6.6,200,0,Diabetes,Obesity,Possible Diabetes,132
 Female,20.0,0,0,never,21.14,4.0,145,0,Normal,Healthy Weight,Prediabetes,580.0,80.0,422.8,84.56,2900.0,0,0,0
 Female,67.0,0,0,never,23.81,3.5,85,0,Normal,Healthy Weight,Normal,297.5,234.5,1595.27,83.335,5695.0,0,1,0
 Male,33.0,0,0,current,27.32,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,214.5,901.5600000000001,177.58,5247.0,0,0,0
-Female,5.0,0,0,not current,16.3,5.8,145,0,Prediabetes,Underweight,Prediabetes,841.0,29.0,81.5,94.54,725.0,0,0,0
 Female,37.0,0,0,former,23.8,6.5,200,0,Diabetes,Healthy Weight,Possible Diabetes,1300.0,240.5,880.6,154.70000000000002,7400.0,0,0,0
 Male,44.0,0,0,never,32.69,4.8,126,0,Normal,Obesity,Normal,604.8,211.2,1438.36,156.91199999999998,5544.0,0,0,0
 Female,46.0,0,0,never,36.19,5.7,90,0,Prediabetes,Obesity,Normal,513.0,262.2,1664.7399999999998,206.283,4140.0,0,0,0
@@ -43828,7 +43744,6 @@ Female,36.0,0,0,current,27.32,6.6,126,0,Diabetes,Overweight,Normal,831.599999999
 Male,55.0,0,0,never,26.38,5.8,85,0,Prediabetes,Overweight,Normal,493.0,319.0,1450.8999999999999,153.004,4675.0,0,0,0
 Male,62.0,0,0,never,27.92,6.5,90,0,Diabetes,Overweight,Normal,585.0,403.0,1731.0400000000002,181.48000000000002,5580.0,0,1,0
 Female,39.0,0,0,never,25.06,4.5,130,0,Normal,Overweight,Normal,585.0,175.5,977.3399999999999,112.77,5070.0,0,0,0
-Female,5.0,0,0,not current,15.62,5.8,85,0,Prediabetes,Underweight,Normal,493.0,29.0,78.1,90.59599999999999,425.0,0,0,0
 Female,73.0,0,0,ever,29.37,5.7,80,0,Prediabetes,Overweight,Normal,456.0,416.1,2144.01,167.40900000000002,5840.0,0,1,0
 Female,25.0,0,0,never,23.0,4.5,90,0,Normal,Healthy Weight,Normal,405.0,112.5,575.0,103.5,2250.0,0,0,0
 Female,4.0,0,0,No Info,15.89,6.2,159,0,Prediabetes,Underweight,Prediabetes,985.8000000000001,24.8,63.56,98.518,636.0,0,0,0
@@ -45210,7 +45125,6 @@ Male,56.0,0,0,ever,35.24,3.5,80,0,Normal,Obesity,Normal,280.0,196.0,1973.44,123.
 Female,24.0,0,0,No Info,27.32,4.5,100,0,Normal,Overweight,Normal,450.0,108.0,655.6800000000001,122.94,2400.0,0,0,0
 Male,77.0,0,0,No Info,32.67,6.1,160,0,Prediabetes,Obesity,Prediabetes,976.0,469.7,2515.59,199.287,12320.0,0,1,0
 Male,64.0,0,0,No Info,24.34,4.0,140,0,Normal,Healthy Weight,Prediabetes,560.0,256.0,1557.76,97.36,8960.0,0,1,0
-Female,2.0,0,0,not current,27.32,5.0,140,0,Normal,Overweight,Prediabetes,700.0,10.0,54.64,136.6,280.0,0,0,0
 Female,32.0,0,0,never,19.12,4.5,160,0,Normal,Healthy Weight,Prediabetes,720.0,144.0,611.84,86.04,5120.0,0,0,0
 Female,32.0,0,0,No Info,23.33,6.0,158,0,Prediabetes,Healthy Weight,Prediabetes,948.0,192.0,746.56,139.98,5056.0,0,0,0
 Female,12.0,0,0,never,30.23,6.6,90,0,Diabetes,Obesity,Normal,594.0,79.19999999999999,362.76,199.518,1080.0,1,0,0
@@ -45464,7 +45378,6 @@ Male,30.0,0,0,current,27.32,5.0,85,0,Normal,Overweight,Normal,425.0,150.0,819.6,
 Female,17.0,0,0,never,25.51,6.0,140,0,Prediabetes,Overweight,Prediabetes,840.0,102.0,433.67,153.06,2380.0,0,0,0
 Female,42.0,0,0,not current,33.65,4.5,90,0,Normal,Obesity,Normal,405.0,189.0,1413.3,151.42499999999998,3780.0,0,0,0
 Female,10.0,0,0,No Info,27.32,6.2,85,0,Prediabetes,Overweight,Normal,527.0,62.0,273.2,169.38400000000001,850.0,0,0,0
-Female,8.0,0,0,not current,18.11,6.1,80,0,Prediabetes,Underweight,Normal,488.0,48.8,144.88,110.47099999999999,640.0,0,0,0
 Female,47.0,0,0,No Info,30.53,6.1,100,0,Prediabetes,Obesity,Normal,610.0,286.7,1434.91,186.233,4700.0,0,0,0
 Female,23.0,0,0,current,25.99,5.7,126,0,Prediabetes,Overweight,Normal,718.2,131.1,597.77,148.143,2898.0,0,0,0
 Female,35.0,0,0,never,34.38,3.5,155,0,Normal,Obesity,Prediabetes,542.5,122.5,1203.3000000000002,120.33000000000001,5425.0,0,0,0
@@ -46145,7 +46058,6 @@ Female,75.0,0,1,never,32.34,6.0,140,1,Prediabetes,Obesity,Prediabetes,840.0,450.
 Female,71.0,1,0,never,27.64,4.5,145,0,Normal,Overweight,Prediabetes,652.5,319.5,1962.44,124.38,10295.0,0,1,1
 Female,57.0,1,0,never,53.77,6.5,130,1,Diabetes,Obesity,Normal,845.0,370.5,3064.8900000000003,349.505,7410.0,0,0,1
 Male,76.0,0,0,No Info,35.34,5.8,80,0,Prediabetes,Obesity,Normal,464.0,440.8,2685.84,204.972,6080.0,0,1,0
-Male,9.0,0,0,not current,18.7,6.5,85,0,Diabetes,Healthy Weight,Normal,552.5,58.5,168.29999999999998,121.55,765.0,0,0,0
 Female,7.0,0,0,No Info,15.37,6.1,130,0,Prediabetes,Underweight,Normal,793.0,42.699999999999996,107.58999999999999,93.75699999999999,910.0,0,0,0
 Female,3.0,0,0,never,29.7,4.0,159,0,Normal,Overweight,Prediabetes,636.0,12.0,89.1,118.8,477.0,0,0,0
 Male,30.0,0,0,No Info,17.48,4.5,159,0,Normal,Underweight,Prediabetes,715.5,135.0,524.4,78.66,4770.0,0,0,0
@@ -46343,7 +46255,6 @@ Female,1.72,0,0,No Info,14.45,6.0,85,0,Prediabetes,Underweight,Normal,510.0,10.3
 Female,15.0,0,0,never,27.32,6.1,155,0,Prediabetes,Overweight,Prediabetes,945.5,91.5,409.8,166.652,2325.0,0,0,0
 Female,0.4,0,0,never,21.67,6.5,159,0,Diabetes,Healthy Weight,Prediabetes,1033.5,2.6,8.668000000000001,140.85500000000002,63.6,0,0,0
 Female,68.0,0,0,never,24.6,5.8,160,0,Prediabetes,Healthy Weight,Prediabetes,928.0,394.4,1672.8000000000002,142.68,10880.0,0,1,0
-Male,9.0,0,0,not current,16.4,5.0,130,0,Normal,Underweight,Normal,650.0,45.0,147.6,82.0,1170.0,0,0,0
 Female,54.0,0,0,never,30.66,6.6,155,1,Diabetes,Obesity,Prediabetes,1023.0,356.4,1655.64,202.356,8370.0,1,0,0
 Male,0.8,0,0,No Info,13.6,6.2,130,0,Prediabetes,Underweight,Normal,806.0,4.960000000000001,10.88,84.32,104.0,0,0,0
 Female,16.0,0,0,No Info,20.01,4.0,155,0,Normal,Healthy Weight,Prediabetes,620.0,64.0,320.16,80.04,2480.0,0,0,0
@@ -46960,7 +46871,6 @@ Female,54.0,0,0,current,24.98,5.8,200,0,Prediabetes,Healthy Weight,Possible Diab
 Male,37.0,0,0,former,41.5,4.5,159,0,Normal,Obesity,Prediabetes,715.5,166.5,1535.5,186.75,5883.0,0,0,0
 Male,14.0,0,0,never,18.37,6.6,140,0,Diabetes,Underweight,Prediabetes,924.0,92.39999999999999,257.18,121.242,1960.0,1,0,0
 Male,70.0,0,0,No Info,27.32,4.0,126,0,Normal,Overweight,Normal,504.0,280.0,1912.4,109.28,8820.0,0,1,0
-Female,5.0,0,0,not current,16.06,4.8,140,0,Normal,Underweight,Prediabetes,672.0,24.0,80.3,77.088,700.0,0,0,0
 Male,64.0,0,1,never,30.18,6.6,90,0,Diabetes,Obesity,Normal,594.0,422.4,1931.52,199.188,5760.0,1,1,1
 Female,54.0,0,0,current,24.69,5.8,145,0,Prediabetes,Healthy Weight,Prediabetes,841.0,313.2,1333.26,143.202,7830.0,0,0,0
 Male,30.0,0,0,never,21.7,6.1,160,0,Prediabetes,Healthy Weight,Prediabetes,976.0,183.0,651.0,132.36999999999998,4800.0,0,0,0
@@ -47281,7 +47191,6 @@ Male,16.0,0,0,No Info,26.56,7.0,280,1,Diabetes,Overweight,Possible Diabetes,1960
 Male,34.0,0,0,never,32.92,6.2,90,0,Prediabetes,Obesity,Normal,558.0,210.8,1119.28,204.104,3060.0,0,0,0
 Female,25.0,0,0,No Info,32.82,6.2,158,0,Prediabetes,Obesity,Prediabetes,979.6,155.0,820.5,203.484,3950.0,0,0,0
 Female,50.0,0,0,never,20.45,6.0,145,0,Prediabetes,Healthy Weight,Prediabetes,870.0,300.0,1022.5,122.69999999999999,7250.0,0,0,0
-Male,5.0,0,0,not current,27.32,5.8,159,0,Prediabetes,Overweight,Prediabetes,922.1999999999999,29.0,136.6,158.456,795.0,0,0,0
 Female,18.0,0,0,never,27.32,6.1,140,0,Prediabetes,Overweight,Prediabetes,854.0,109.8,491.76,166.652,2520.0,0,0,0
 Female,36.0,1,0,former,57.16,6.0,140,0,Prediabetes,Obesity,Prediabetes,840.0,216.0,2057.7599999999998,342.96,5040.0,0,0,1
 Female,42.0,0,0,current,18.83,3.5,159,0,Normal,Healthy Weight,Prediabetes,556.5,147.0,790.8599999999999,65.905,6678.0,0,0,0
@@ -47659,7 +47568,6 @@ Female,40.0,0,0,never,26.91,4.0,145,0,Normal,Overweight,Prediabetes,580.0,160.0,
 Male,28.0,0,0,No Info,27.32,3.5,140,0,Normal,Overweight,Prediabetes,490.0,98.0,764.96,95.62,3920.0,0,0,0
 Female,14.0,0,0,No Info,27.32,5.0,159,0,Normal,Overweight,Prediabetes,795.0,70.0,382.48,136.6,2226.0,0,0,0
 Female,7.0,0,0,No Info,27.32,6.1,80,0,Prediabetes,Overweight,Normal,488.0,42.699999999999996,191.24,166.652,560.0,0,0,0
-Male,8.0,0,0,not current,18.83,4.5,80,0,Normal,Healthy Weight,Normal,360.0,36.0,150.64,84.73499999999999,640.0,0,0,0
 Male,53.0,0,0,ever,26.15,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,344.5,1385.9499999999998,169.975,8427.0,0,0,0
 Male,1.8,0,0,No Info,19.02,6.5,145,0,Diabetes,Healthy Weight,Prediabetes,942.5,11.700000000000001,34.236,123.63,261.0,0,0,0
 Female,51.0,0,0,ever,27.74,6.6,159,0,Diabetes,Overweight,Prediabetes,1049.3999999999999,336.59999999999997,1414.74,183.08399999999997,8109.0,1,0,0
@@ -47828,7 +47736,6 @@ Male,78.0,0,0,never,27.32,5.7,155,0,Prediabetes,Overweight,Prediabetes,883.5,444
 Female,31.0,0,0,No Info,25.39,6.0,80,0,Prediabetes,Overweight,Normal,480.0,186.0,787.09,152.34,2480.0,0,0,0
 Female,31.0,0,0,No Info,27.32,6.2,126,0,Prediabetes,Overweight,Normal,781.2,192.20000000000002,846.92,169.38400000000001,3906.0,0,0,0
 Female,30.0,0,0,No Info,38.73,6.5,140,0,Diabetes,Obesity,Prediabetes,910.0,195.0,1161.8999999999999,251.74499999999998,4200.0,0,0,0
-Female,2.0,0,0,not current,20.66,4.0,90,0,Normal,Healthy Weight,Normal,360.0,8.0,41.32,82.64,180.0,0,0,0
 Male,38.0,0,0,never,30.95,6.2,145,0,Prediabetes,Obesity,Prediabetes,899.0,235.6,1176.1,191.89000000000001,5510.0,0,0,0
 Female,35.0,0,0,No Info,21.78,6.5,90,0,Diabetes,Healthy Weight,Normal,585.0,227.5,762.3000000000001,141.57,3150.0,0,0,0
 Male,55.0,1,0,never,30.23,5.8,145,0,Prediabetes,Obesity,Prediabetes,841.0,319.0,1662.65,175.334,7975.0,0,0,1
@@ -48238,7 +48145,6 @@ Male,21.0,0,0,current,22.15,4.0,85,0,Normal,Healthy Weight,Normal,340.0,84.0,465
 Female,33.0,0,0,former,25.24,6.2,159,0,Prediabetes,Overweight,Prediabetes,985.8000000000001,204.6,832.92,156.488,5247.0,0,0,0
 Male,35.0,0,0,former,30.23,3.5,158,0,Normal,Obesity,Prediabetes,553.0,122.5,1058.05,105.805,5530.0,0,0,0
 Male,4.0,0,0,No Info,15.6,3.5,140,0,Normal,Underweight,Prediabetes,490.0,14.0,62.4,54.6,560.0,0,0,0
-Female,8.0,0,0,not current,14.65,5.0,200,0,Normal,Underweight,Possible Diabetes,1000.0,40.0,117.2,73.25,1600.0,0,0,0
 Male,10.0,0,0,never,16.64,6.1,200,0,Prediabetes,Underweight,Possible Diabetes,1220.0,61.0,166.4,101.50399999999999,2000.0,0,0,0
 Male,51.0,0,0,not current,27.32,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,331.5,1393.32,177.58,8109.0,0,0,0
 Female,19.0,0,0,not current,26.6,6.8,130,1,Diabetes,Overweight,Normal,884.0,129.2,505.40000000000003,180.88,2470.0,1,0,0
@@ -49448,7 +49354,6 @@ Male,46.0,0,0,current,31.1,4.0,140,0,Normal,Obesity,Prediabetes,560.0,184.0,1430
 Female,80.0,0,0,never,27.32,3.5,200,0,Normal,Overweight,Possible Diabetes,700.0,280.0,2185.6,95.62,16000.0,0,1,0
 Male,13.0,0,0,current,29.73,4.0,140,0,Normal,Overweight,Prediabetes,560.0,52.0,386.49,118.92,1820.0,0,0,0
 Male,49.0,0,0,current,26.61,4.5,130,0,Normal,Overweight,Normal,585.0,220.5,1303.8899999999999,119.745,6370.0,0,0,0
-Female,4.0,0,0,not current,12.5,6.1,80,0,Prediabetes,Underweight,Normal,488.0,24.4,50.0,76.25,320.0,0,0,0
 Male,23.0,0,0,never,30.67,5.8,145,0,Prediabetes,Obesity,Prediabetes,841.0,133.4,705.4100000000001,177.886,3335.0,0,0,0
 Female,16.0,0,0,No Info,27.32,5.7,159,0,Prediabetes,Overweight,Prediabetes,906.3000000000001,91.2,437.12,155.72400000000002,2544.0,0,0,0
 Male,8.0,0,0,No Info,16.34,6.6,126,0,Diabetes,Underweight,Normal,831.5999999999999,52.8,130.72,107.844,1008.0,1,0,0
@@ -49647,7 +49552,6 @@ Female,30.0,0,0,No Info,23.0,4.5,100,0,Normal,Healthy Weight,Normal,450.0,135.0,
 Male,38.0,0,0,never,31.24,6.0,130,0,Prediabetes,Obesity,Normal,780.0,228.0,1187.12,187.44,4940.0,0,0,0
 Male,33.0,0,0,current,34.16,4.5,158,0,Normal,Obesity,Prediabetes,711.0,148.5,1127.28,153.71999999999997,5214.0,0,0,0
 Female,5.0,0,0,never,15.66,3.5,155,0,Normal,Underweight,Prediabetes,542.5,17.5,78.3,54.81,775.0,0,0,0
-Male,8.0,0,0,ever,34.44,6.0,80,0,Prediabetes,Obesity,Normal,480.0,48.0,275.52,206.64,640.0,0,0,0
 Female,5.0,0,0,No Info,19.55,6.0,158,0,Prediabetes,Healthy Weight,Prediabetes,948.0,30.0,97.75,117.30000000000001,790.0,0,0,0
 Male,59.0,0,0,current,33.15,5.8,85,0,Prediabetes,Obesity,Normal,493.0,342.2,1955.85,192.26999999999998,5015.0,0,0,0
 Male,32.0,0,0,never,31.97,3.5,90,0,Normal,Obesity,Normal,315.0,112.0,1023.04,111.895,2880.0,0,0,0
@@ -49993,7 +49897,6 @@ Female,31.0,0,0,No Info,27.32,4.8,159,0,Normal,Overweight,Prediabetes,763.199999
 Female,20.0,0,0,No Info,27.32,4.0,100,0,Normal,Overweight,Normal,400.0,80.0,546.4,109.28,2000.0,0,0,0
 Female,45.0,0,0,No Info,33.65,5.8,126,0,Prediabetes,Obesity,Normal,730.8,261.0,1514.25,195.17,5670.0,0,0,0
 Female,20.0,0,0,No Info,22.08,4.5,80,0,Normal,Healthy Weight,Normal,360.0,90.0,441.59999999999997,99.35999999999999,1600.0,0,0,0
-Female,7.0,0,0,not current,27.32,6.6,126,0,Diabetes,Overweight,Normal,831.5999999999999,46.199999999999996,191.24,180.31199999999998,882.0,1,0,0
 Female,36.0,0,0,No Info,20.94,6.2,126,0,Prediabetes,Healthy Weight,Normal,781.2,223.20000000000002,753.84,129.828,4536.0,0,0,0
 Male,30.0,0,0,ever,36.79,6.5,85,0,Diabetes,Obesity,Normal,552.5,195.0,1103.7,239.135,2550.0,0,0,0
 Female,50.0,0,0,never,27.32,5.0,126,0,Normal,Overweight,Normal,630.0,250.0,1366.0,136.6,6300.0,0,0,0
@@ -50455,7 +50358,6 @@ Male,61.0,0,0,not current,27.32,3.5,200,0,Normal,Overweight,Possible Diabetes,70
 Female,43.0,0,0,never,30.78,5.0,85,0,Normal,Obesity,Normal,425.0,215.0,1323.54,153.9,3655.0,0,0,0
 Male,32.0,0,0,not current,27.32,6.5,130,0,Diabetes,Overweight,Normal,845.0,208.0,874.24,177.58,4160.0,0,0,0
 Male,36.0,0,0,No Info,43.33,4.5,90,0,Normal,Obesity,Normal,405.0,162.0,1559.8799999999999,194.98499999999999,3240.0,0,0,0
-Female,3.0,0,0,not current,18.37,6.0,155,0,Prediabetes,Underweight,Prediabetes,930.0,18.0,55.11,110.22,465.0,0,0,0
 Female,54.0,0,0,former,22.8,5.7,90,0,Prediabetes,Healthy Weight,Normal,513.0,307.8,1231.2,129.96,4860.0,0,0,0
 Male,71.0,0,0,No Info,27.32,7.0,200,1,Diabetes,Overweight,Possible Diabetes,1400.0,497.0,1939.72,191.24,14200.0,1,1,0
 Male,80.0,0,0,former,27.32,4.0,158,0,Normal,Overweight,Prediabetes,632.0,320.0,2185.6,109.28,12640.0,0,1,0
@@ -50605,7 +50507,6 @@ Female,23.0,0,0,No Info,27.32,5.8,145,0,Prediabetes,Overweight,Prediabetes,841.0
 Male,19.0,0,0,current,29.99,4.8,158,0,Normal,Overweight,Prediabetes,758.4,91.2,569.81,143.952,3002.0,0,0,0
 Female,62.0,0,0,not current,32.86,7.0,200,1,Diabetes,Obesity,Possible Diabetes,1400.0,434.0,2037.32,230.01999999999998,12400.0,1,1,0
 Female,42.0,0,0,never,17.74,4.0,158,0,Normal,Underweight,Prediabetes,632.0,168.0,745.0799999999999,70.96,6636.0,0,0,0
-Male,7.0,1,0,current,34.45,6.2,160,0,Prediabetes,Obesity,Prediabetes,992.0,43.4,241.15000000000003,213.59000000000003,1120.0,0,0,1
 Male,80.0,1,1,not current,27.83,4.0,160,0,Normal,Overweight,Prediabetes,640.0,320.0,2226.3999999999996,111.32,12800.0,0,1,1
 Female,68.0,0,0,current,27.32,6.5,160,0,Diabetes,Overweight,Prediabetes,1040.0,442.0,1857.76,177.58,10880.0,0,1,0
 Male,3.0,0,0,No Info,13.12,6.6,155,0,Diabetes,Underweight,Prediabetes,1023.0,19.799999999999997,39.36,86.59199999999998,465.0,1,0,0
@@ -51215,7 +51116,6 @@ Male,7.0,0,0,No Info,17.09,4.0,130,0,Normal,Underweight,Normal,520.0,28.0,119.63
 Male,10.0,0,0,No Info,13.39,5.7,100,0,Prediabetes,Underweight,Normal,570.0,57.0,133.9,76.32300000000001,1000.0,0,0,0
 Female,1.48,0,0,No Info,20.36,6.1,140,0,Prediabetes,Healthy Weight,Prediabetes,854.0,9.027999999999999,30.1328,124.19599999999998,207.2,0,0,0
 Female,33.0,0,0,No Info,22.0,4.5,200,0,Normal,Healthy Weight,Possible Diabetes,900.0,148.5,726.0,99.0,6600.0,0,0,0
-Male,3.0,0,0,not current,19.63,5.0,200,0,Normal,Healthy Weight,Possible Diabetes,1000.0,15.0,58.89,98.14999999999999,600.0,0,0,0
 Female,39.0,0,0,No Info,20.5,3.5,85,0,Normal,Healthy Weight,Normal,297.5,136.5,799.5,71.75,3315.0,0,0,0
 Male,41.0,0,0,current,24.82,6.0,160,0,Prediabetes,Healthy Weight,Prediabetes,960.0,246.0,1017.62,148.92000000000002,6560.0,0,0,0
 Male,15.0,0,0,No Info,27.32,6.5,126,0,Diabetes,Overweight,Normal,819.0,97.5,409.8,177.58,1890.0,0,0,0
@@ -51371,7 +51271,6 @@ Female,0.16,0,0,No Info,11.74,3.5,160,0,Normal,Underweight,Prediabetes,560.0,0.5
 Female,60.0,0,0,never,28.98,4.8,90,0,Normal,Overweight,Normal,432.0,288.0,1738.8,139.10399999999998,5400.0,0,1,0
 Female,63.0,0,0,never,27.32,4.0,145,0,Normal,Overweight,Prediabetes,580.0,252.0,1721.16,109.28,9135.0,0,1,0
 Male,35.0,0,0,former,30.42,5.0,159,0,Normal,Obesity,Prediabetes,795.0,175.0,1064.7,152.10000000000002,5565.0,0,0,0
-Female,1.16,0,0,not current,14.52,6.2,200,0,Prediabetes,Underweight,Possible Diabetes,1240.0,7.191999999999999,16.8432,90.024,231.99999999999997,0,0,0
 Male,29.0,0,0,current,37.87,5.7,140,0,Prediabetes,Obesity,Prediabetes,798.0,165.3,1098.23,215.85899999999998,4060.0,0,0,0
 Male,35.0,0,0,former,27.32,6.6,90,0,Diabetes,Overweight,Normal,594.0,231.0,956.2,180.31199999999998,3150.0,1,0,0
 Female,14.0,0,0,never,18.51,3.5,85,0,Normal,Healthy Weight,Normal,297.5,49.0,259.14000000000004,64.78500000000001,1190.0,0,0,0
@@ -51436,7 +51335,6 @@ Male,14.0,0,0,never,26.22,3.5,90,0,Normal,Overweight,Normal,315.0,49.0,367.08,91
 Male,52.0,1,0,No Info,35.01,6.0,130,0,Prediabetes,Obesity,Normal,780.0,312.0,1820.52,210.06,6760.0,0,0,1
 Male,47.0,0,0,never,27.07,6.5,130,0,Diabetes,Overweight,Normal,845.0,305.5,1272.29,175.955,6110.0,0,0,0
 Female,38.0,0,0,No Info,33.54,6.2,140,0,Prediabetes,Obesity,Prediabetes,868.0,235.6,1274.52,207.948,5320.0,0,0,0
-Male,8.0,0,0,not current,23.43,4.5,158,0,Normal,Healthy Weight,Prediabetes,711.0,36.0,187.44,105.435,1264.0,0,0,0
 Male,29.0,0,0,No Info,27.32,6.1,140,0,Prediabetes,Overweight,Prediabetes,854.0,176.89999999999998,792.28,166.652,4060.0,0,0,0
 Female,33.0,0,0,No Info,21.36,5.0,85,0,Normal,Healthy Weight,Normal,425.0,165.0,704.88,106.8,2805.0,0,0,0
 Female,65.0,0,0,No Info,29.45,3.5,90,0,Normal,Overweight,Normal,315.0,227.5,1914.25,103.075,5850.0,0,1,0
@@ -51488,7 +51386,6 @@ Female,46.0,0,0,ever,22.76,4.5,158,0,Normal,Healthy Weight,Prediabetes,711.0,207
 Female,24.0,0,0,never,38.55,6.6,85,0,Diabetes,Obesity,Normal,561.0,158.39999999999998,925.1999999999999,254.42999999999998,2040.0,1,0,0
 Female,43.0,0,0,No Info,33.64,5.8,126,0,Prediabetes,Obesity,Normal,730.8,249.4,1446.52,195.112,5418.0,0,0,0
 Male,46.0,0,0,never,34.56,3.5,140,0,Normal,Obesity,Prediabetes,490.0,161.0,1589.7600000000002,120.96000000000001,6440.0,0,0,0
-Male,4.0,0,0,not current,17.34,5.0,130,0,Normal,Underweight,Normal,650.0,20.0,69.36,86.7,520.0,0,0,0
 Male,52.0,0,0,never,34.57,6.2,80,0,Prediabetes,Obesity,Normal,496.0,322.40000000000003,1797.64,214.334,4160.0,0,0,0
 Female,45.0,0,0,ever,26.55,4.8,158,0,Normal,Overweight,Prediabetes,758.4,216.0,1194.75,127.44,7110.0,0,0,0
 Female,41.0,0,0,No Info,17.71,4.8,160,0,Normal,Underweight,Prediabetes,768.0,196.79999999999998,726.11,85.008,6560.0,0,0,0
@@ -52564,7 +52461,6 @@ Female,51.0,0,0,ever,18.28,3.5,85,0,Normal,Underweight,Normal,297.5,178.5,932.28
 Male,50.0,0,0,former,41.43,6.6,240,1,Diabetes,Obesity,Possible Diabetes,1584.0,330.0,2071.5,273.438,12000.0,1,0,0
 Male,3.0,0,0,No Info,15.93,6.6,100,0,Diabetes,Underweight,Normal,660.0,19.799999999999997,47.79,105.13799999999999,300.0,1,0,0
 Male,55.0,0,0,never,27.32,5.8,145,0,Prediabetes,Overweight,Prediabetes,841.0,319.0,1502.6,158.456,7975.0,0,0,0
-Male,1.32,0,0,not current,18.76,6.5,100,0,Diabetes,Healthy Weight,Normal,650.0,8.58,24.763200000000005,121.94000000000001,132.0,0,0,0
 Female,15.0,0,0,never,28.62,6.6,155,0,Diabetes,Overweight,Prediabetes,1023.0,99.0,429.3,188.892,2325.0,1,0,0
 Female,37.0,1,0,current,29.19,5.0,200,0,Normal,Overweight,Possible Diabetes,1000.0,185.0,1080.03,145.95000000000002,7400.0,0,0,1
 Female,47.0,0,0,never,27.48,6.5,155,0,Diabetes,Overweight,Prediabetes,1007.5,305.5,1291.56,178.62,7285.0,0,0,0
@@ -52791,7 +52687,6 @@ Male,26.0,0,0,ever,27.32,5.0,200,0,Normal,Overweight,Possible Diabetes,1000.0,13
 Female,80.0,1,0,No Info,27.32,4.8,200,0,Normal,Overweight,Possible Diabetes,960.0,384.0,2185.6,131.136,16000.0,0,1,1
 Female,29.0,0,0,No Info,27.32,6.2,90,0,Prediabetes,Overweight,Normal,558.0,179.8,792.28,169.38400000000001,2610.0,0,0,0
 Female,35.0,0,0,No Info,22.14,6.5,80,0,Diabetes,Healthy Weight,Normal,520.0,227.5,774.9,143.91,2800.0,0,0,0
-Male,8.0,0,0,not current,20.41,6.1,100,0,Prediabetes,Healthy Weight,Normal,610.0,48.8,163.28,124.50099999999999,800.0,0,0,0
 Female,77.0,0,0,No Info,20.45,6.0,85,0,Prediabetes,Healthy Weight,Normal,510.0,462.0,1574.6499999999999,122.69999999999999,6545.0,0,1,0
 Female,52.0,0,0,No Info,19.81,6.2,85,0,Prediabetes,Healthy Weight,Normal,527.0,322.40000000000003,1030.12,122.82199999999999,4420.0,0,0,0
 Female,8.0,0,0,No Info,16.74,5.0,145,0,Normal,Underweight,Prediabetes,725.0,40.0,133.92,83.69999999999999,1160.0,0,0,0
@@ -52995,7 +52890,6 @@ Male,78.0,0,0,No Info,27.32,4.5,130,0,Normal,Overweight,Normal,585.0,351.0,2130.
 Female,28.0,0,0,ever,20.6,5.7,130,0,Prediabetes,Healthy Weight,Normal,741.0,159.6,576.8000000000001,117.42000000000002,3640.0,0,0,0
 Female,5.0,0,0,No Info,14.53,6.1,85,0,Prediabetes,Underweight,Normal,518.5,30.5,72.64999999999999,88.633,425.0,0,0,0
 Male,78.0,0,1,former,27.89,6.2,300,1,Prediabetes,Overweight,Possible Diabetes,1860.0,483.6,2175.42,172.918,23400.0,0,1,1
-Female,5.0,0,0,not current,27.32,4.5,130,0,Normal,Overweight,Normal,585.0,22.5,136.6,122.94,650.0,0,0,0
 Female,29.0,0,0,never,20.16,5.8,155,0,Prediabetes,Healthy Weight,Prediabetes,899.0,168.2,584.64,116.928,4495.0,0,0,0
 Male,58.0,0,0,never,31.01,5.7,126,0,Prediabetes,Obesity,Normal,718.2,330.6,1798.5800000000002,176.757,7308.0,0,0,0
 Female,62.0,0,0,never,27.32,6.6,100,0,Diabetes,Overweight,Normal,660.0,409.2,1693.84,180.31199999999998,6200.0,1,1,0
@@ -53413,7 +53307,6 @@ Male,45.0,0,0,No Info,23.01,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,297.0,
 Male,74.0,1,0,never,32.28,7.5,160,1,Diabetes,Obesity,Prediabetes,1200.0,555.0,2388.7200000000003,242.10000000000002,11840.0,1,1,1
 Female,57.0,0,0,never,27.32,6.6,140,0,Diabetes,Overweight,Prediabetes,924.0,376.2,1557.24,180.31199999999998,7980.0,1,0,0
 Male,47.0,0,0,No Info,31.05,3.5,158,0,Normal,Obesity,Prediabetes,553.0,164.5,1459.3500000000001,108.675,7426.0,0,0,0
-Male,8.0,0,0,not current,20.0,4.0,126,0,Normal,Healthy Weight,Normal,504.0,32.0,160.0,80.0,1008.0,0,0,0
 Female,0.32,0,0,No Info,14.4,6.5,158,0,Diabetes,Underweight,Prediabetes,1027.0,2.08,4.6080000000000005,93.60000000000001,50.56,0,0,0
 Male,65.0,0,1,never,31.91,6.6,140,0,Diabetes,Obesity,Prediabetes,924.0,429.0,2074.15,210.606,9100.0,1,1,1
 Female,67.0,0,0,No Info,21.21,6.1,126,0,Prediabetes,Healthy Weight,Normal,768.5999999999999,408.7,1421.0700000000002,129.381,8442.0,0,1,0
@@ -53556,7 +53449,6 @@ Male,40.0,0,0,never,24.21,6.2,145,0,Prediabetes,Healthy Weight,Prediabetes,899.0
 Male,49.0,0,0,No Info,27.32,5.8,90,0,Prediabetes,Overweight,Normal,522.0,284.2,1338.68,158.456,4410.0,0,0,0
 Male,33.0,0,0,No Info,27.32,6.1,158,0,Prediabetes,Overweight,Prediabetes,963.8,201.29999999999998,901.5600000000001,166.652,5214.0,0,0,0
 Male,47.0,0,0,current,30.54,5.7,80,0,Prediabetes,Obesity,Normal,456.0,267.90000000000003,1435.3799999999999,174.078,3760.0,0,0,0
-Female,5.0,0,0,not current,15.44,6.2,159,0,Prediabetes,Underweight,Prediabetes,985.8000000000001,31.0,77.2,95.728,795.0,0,0,0
 Male,54.0,0,0,never,29.44,3.5,90,0,Normal,Overweight,Normal,315.0,189.0,1589.76,103.04,4860.0,0,0,0
 Male,79.0,0,1,never,20.3,5.0,140,0,Normal,Healthy Weight,Prediabetes,700.0,395.0,1603.7,101.5,11060.0,0,1,1
 Male,46.0,0,0,No Info,27.32,5.8,220,1,Prediabetes,Overweight,Possible Diabetes,1276.0,266.8,1256.72,158.456,10120.0,0,0,0
@@ -54912,7 +54804,6 @@ Female,31.0,0,0,No Info,33.47,4.8,145,0,Normal,Obesity,Prediabetes,696.0,148.799
 Male,8.0,0,0,never,16.55,6.2,85,0,Prediabetes,Underweight,Normal,527.0,49.6,132.4,102.61000000000001,680.0,0,0,0
 Male,60.0,0,0,No Info,27.72,8.2,130,1,Diabetes,Overweight,Normal,1066.0,491.99999999999994,1663.1999999999998,227.30399999999997,7800.0,1,1,0
 Male,13.0,0,0,No Info,23.86,4.5,130,0,Normal,Healthy Weight,Normal,585.0,58.5,310.18,107.37,1690.0,0,0,0
-Female,5.0,0,0,not current,16.49,4.8,155,0,Normal,Underweight,Prediabetes,744.0,24.0,82.44999999999999,79.15199999999999,775.0,0,0,0
 Female,48.0,0,0,never,53.45,4.0,80,0,Normal,Obesity,Normal,320.0,192.0,2565.6000000000004,213.8,3840.0,0,0,0
 Female,54.0,0,0,current,29.89,6.0,158,0,Prediabetes,Overweight,Prediabetes,948.0,324.0,1614.06,179.34,8532.0,0,0,0
 Male,6.0,0,0,No Info,11.98,3.5,158,0,Normal,Underweight,Prediabetes,553.0,21.0,71.88,41.93,948.0,0,0,0
@@ -55554,7 +55445,6 @@ Female,25.0,0,0,never,25.89,4.0,100,0,Normal,Overweight,Normal,400.0,100.0,647.2
 Male,30.0,0,0,current,27.32,6.2,100,0,Prediabetes,Overweight,Normal,620.0,186.0,819.6,169.38400000000001,3000.0,0,0,0
 Female,51.0,0,0,current,35.18,6.1,80,0,Prediabetes,Obesity,Normal,488.0,311.09999999999997,1794.18,214.59799999999998,4080.0,0,0,0
 Female,46.0,0,0,never,23.24,4.0,158,0,Normal,Healthy Weight,Prediabetes,632.0,184.0,1069.04,92.96,7268.0,0,0,0
-Male,3.0,0,0,current,21.84,4.8,100,0,Normal,Healthy Weight,Normal,480.0,14.399999999999999,65.52,104.832,300.0,0,0,0
 Female,5.0,0,0,No Info,27.32,4.0,80,0,Normal,Overweight,Normal,320.0,20.0,136.6,109.28,400.0,0,0,0
 Female,14.0,0,0,never,19.0,3.5,159,0,Normal,Healthy Weight,Prediabetes,556.5,49.0,266.0,66.5,2226.0,0,0,0
 Female,38.0,0,0,No Info,22.31,5.8,126,0,Prediabetes,Healthy Weight,Normal,730.8,220.4,847.78,129.398,4788.0,0,0,0
@@ -56091,7 +55981,6 @@ Male,52.0,0,0,not current,48.01,3.5,160,0,Normal,Obesity,Prediabetes,560.0,182.0
 Male,26.0,0,0,No Info,27.32,6.0,80,0,Prediabetes,Overweight,Normal,480.0,156.0,710.32,163.92000000000002,2080.0,0,0,0
 Male,11.0,0,0,No Info,17.55,6.2,126,0,Prediabetes,Underweight,Normal,781.2,68.2,193.05,108.81,1386.0,0,0,0
 Female,57.0,0,0,never,33.21,6.1,160,0,Prediabetes,Obesity,Prediabetes,976.0,347.7,1892.97,202.581,9120.0,0,0,0
-Female,4.0,0,0,not current,17.81,6.0,100,0,Prediabetes,Underweight,Normal,600.0,24.0,71.24,106.85999999999999,400.0,0,0,0
 Female,62.0,1,0,not current,32.96,4.8,158,0,Normal,Obesity,Prediabetes,758.4,297.59999999999997,2043.52,158.208,9796.0,0,1,1
 Male,71.0,0,1,former,30.82,4.8,145,0,Normal,Obesity,Prediabetes,696.0,340.8,2188.22,147.936,10295.0,0,1,1
 Female,17.0,0,0,never,56.7,6.2,85,0,Prediabetes,Obesity,Normal,527.0,105.4,963.9000000000001,351.54,1445.0,0,0,0
@@ -56785,7 +56674,6 @@ Male,2.0,0,0,No Info,20.85,3.5,126,0,Normal,Healthy Weight,Normal,441.0,7.0,41.7
 Male,15.0,0,0,No Info,27.32,6.5,200,0,Diabetes,Overweight,Possible Diabetes,1300.0,97.5,409.8,177.58,3000.0,0,0,0
 Female,45.0,0,0,ever,34.5,6.2,155,0,Prediabetes,Obesity,Prediabetes,961.0,279.0,1552.5,213.9,6975.0,0,0,0
 Male,17.0,0,0,No Info,23.04,6.1,126,0,Prediabetes,Healthy Weight,Normal,768.5999999999999,103.69999999999999,391.68,140.54399999999998,2142.0,0,0,0
-Male,2.0,0,0,not current,27.32,6.6,90,0,Diabetes,Overweight,Normal,594.0,13.2,54.64,180.31199999999998,180.0,1,0,0
 Male,65.0,0,1,former,20.48,5.0,145,0,Normal,Healthy Weight,Prediabetes,725.0,325.0,1331.2,102.4,9425.0,0,1,1
 Female,16.0,0,0,No Info,23.59,6.6,145,0,Diabetes,Healthy Weight,Prediabetes,957.0,105.6,377.44,155.694,2320.0,1,0,0
 Female,24.0,0,0,never,34.92,6.0,155,0,Prediabetes,Obesity,Prediabetes,930.0,144.0,838.08,209.52,3720.0,0,0,0
@@ -56957,7 +56845,6 @@ Male,67.0,0,1,No Info,26.17,5.8,85,0,Prediabetes,Overweight,Normal,493.0,388.599
 Female,72.0,0,0,never,32.71,4.0,90,0,Normal,Obesity,Normal,360.0,288.0,2355.12,130.84,6480.0,0,1,0
 Female,74.0,0,0,No Info,27.32,4.8,155,0,Normal,Overweight,Prediabetes,744.0,355.2,2021.68,131.136,11470.0,0,1,0
 Female,27.0,0,0,never,30.55,4.5,159,0,Normal,Obesity,Prediabetes,715.5,121.5,824.85,137.475,4293.0,0,0,0
-Female,6.0,0,0,not current,15.1,6.6,126,0,Diabetes,Underweight,Normal,831.5999999999999,39.599999999999994,90.6,99.66,756.0,1,0,0
 Female,65.0,0,0,former,41.55,4.0,155,0,Normal,Obesity,Prediabetes,620.0,260.0,2700.75,166.2,10075.0,0,1,0
 Female,27.0,0,0,No Info,20.67,4.8,200,0,Normal,Healthy Weight,Possible Diabetes,960.0,129.6,558.09,99.21600000000001,5400.0,0,0,0
 Male,4.0,0,0,No Info,13.55,6.6,160,0,Diabetes,Underweight,Prediabetes,1056.0,26.4,54.2,89.43,640.0,1,0,0
@@ -57095,7 +56982,6 @@ Female,1.72,0,0,No Info,21.63,6.6,80,0,Diabetes,Healthy Weight,Normal,528.0,11.3
 Male,61.0,0,1,No Info,27.32,5.8,145,0,Prediabetes,Overweight,Prediabetes,841.0,353.8,1666.52,158.456,8845.0,0,1,1
 Female,54.0,0,0,never,30.9,6.0,126,0,Prediabetes,Obesity,Normal,756.0,324.0,1668.6,185.39999999999998,6804.0,0,0,0
 Male,14.0,0,0,never,17.7,5.7,155,0,Prediabetes,Underweight,Prediabetes,883.5,79.8,247.79999999999998,100.89,2170.0,0,0,0
-Male,5.0,0,0,not current,15.43,6.0,158,0,Prediabetes,Underweight,Prediabetes,948.0,30.0,77.15,92.58,790.0,0,0,0
 Male,44.0,0,0,No Info,27.32,4.8,158,0,Normal,Overweight,Prediabetes,758.4,211.2,1202.08,131.136,6952.0,0,0,0
 Female,33.0,1,0,never,45.89,5.8,90,0,Prediabetes,Obesity,Normal,522.0,191.4,1514.3700000000001,266.162,2970.0,0,0,1
 Male,78.0,0,0,former,30.76,6.2,300,1,Prediabetes,Obesity,Possible Diabetes,1860.0,483.6,2399.28,190.71200000000002,23400.0,0,1,0
@@ -58448,7 +58334,6 @@ Female,66.0,1,0,never,43.43,6.5,140,1,Diabetes,Obesity,Prediabetes,910.0,429.0,2
 Female,22.0,0,0,No Info,22.03,6.2,160,0,Prediabetes,Healthy Weight,Prediabetes,992.0,136.4,484.66,136.586,3520.0,0,0,0
 Female,70.0,0,0,ever,25.9,6.6,90,0,Diabetes,Overweight,Normal,594.0,462.0,1813.0,170.93999999999997,6300.0,1,1,0
 Male,22.0,0,0,current,23.71,5.8,80,0,Prediabetes,Healthy Weight,Normal,464.0,127.6,521.62,137.518,1760.0,0,0,0
-Female,7.0,0,0,not current,18.3,6.1,158,0,Prediabetes,Underweight,Prediabetes,963.8,42.699999999999996,128.1,111.63,1106.0,0,0,0
 Male,64.0,1,0,current,30.35,5.8,159,1,Prediabetes,Obesity,Prediabetes,922.1999999999999,371.2,1942.4,176.03,10176.0,0,1,1
 Male,40.0,0,0,current,24.54,4.5,85,0,Normal,Healthy Weight,Normal,382.5,180.0,981.5999999999999,110.42999999999999,3400.0,0,0,0
 Female,53.0,1,1,current,33.99,6.0,85,0,Prediabetes,Obesity,Normal,510.0,318.0,1801.47,203.94,4505.0,0,0,1
@@ -58635,7 +58520,6 @@ Female,57.0,0,1,No Info,27.32,4.8,126,0,Normal,Overweight,Normal,604.8,273.59999
 Male,23.0,0,0,No Info,27.32,5.0,158,0,Normal,Overweight,Prediabetes,790.0,115.0,628.36,136.6,3634.0,0,0,0
 Female,55.0,1,0,never,49.06,6.0,130,1,Prediabetes,Obesity,Normal,780.0,330.0,2698.3,294.36,7150.0,0,0,1
 Female,48.0,0,0,not current,37.76,3.5,159,0,Normal,Obesity,Prediabetes,556.5,168.0,1812.48,132.16,7632.0,0,0,0
-Female,1.8,0,0,not current,16.91,6.5,200,0,Diabetes,Underweight,Possible Diabetes,1300.0,11.700000000000001,30.438000000000002,109.915,360.0,0,0,0
 Male,54.0,0,0,never,27.32,4.5,126,0,Normal,Overweight,Normal,567.0,243.0,1475.28,122.94,6804.0,0,0,0
 Female,62.0,0,0,former,38.18,7.0,155,1,Diabetes,Obesity,Prediabetes,1085.0,434.0,2367.16,267.26,9610.0,1,1,0
 Female,21.0,0,0,No Info,21.48,5.8,145,0,Prediabetes,Healthy Weight,Prediabetes,841.0,121.8,451.08,124.584,3045.0,0,0,0
@@ -59029,7 +58913,6 @@ Female,63.0,0,0,former,46.45,9.0,200,1,Diabetes,Obesity,Possible Diabetes,1800.0
 Female,19.0,0,0,never,22.52,6.5,158,0,Diabetes,Healthy Weight,Prediabetes,1027.0,123.5,427.88,146.38,3002.0,0,0,0
 Female,35.0,0,0,never,49.27,4.8,85,0,Normal,Obesity,Normal,408.0,168.0,1724.45,236.496,2975.0,0,0,0
 Female,23.0,0,0,ever,26.89,6.1,130,0,Prediabetes,Overweight,Normal,793.0,140.29999999999998,618.47,164.029,2990.0,0,0,0
-Male,6.0,0,1,ever,17.17,6.5,240,1,Diabetes,Underweight,Possible Diabetes,1560.0,39.0,103.02000000000001,111.60500000000002,1440.0,0,0,1
 Male,2.0,0,0,No Info,17.97,6.2,90,0,Prediabetes,Underweight,Normal,558.0,12.4,35.94,111.414,180.0,0,0,0
 Male,37.0,0,0,ever,27.5,6.0,90,0,Prediabetes,Overweight,Normal,540.0,222.0,1017.5,165.0,3330.0,0,0,0
 Male,66.0,0,0,never,40.06,6.8,280,1,Diabetes,Obesity,Possible Diabetes,1904.0,448.8,2643.96,272.408,18480.0,1,1,0
@@ -59565,7 +59448,6 @@ Male,57.0,0,0,not current,26.83,6.6,100,0,Diabetes,Overweight,Normal,660.0,376.2
 Female,52.0,0,0,current,23.72,6.6,140,0,Diabetes,Healthy Weight,Prediabetes,924.0,343.2,1233.44,156.552,7280.0,1,0,0
 Female,31.0,0,0,No Info,27.32,4.0,159,0,Normal,Overweight,Prediabetes,636.0,124.0,846.92,109.28,4929.0,0,0,0
 Female,26.0,0,0,not current,24.5,6.1,85,0,Prediabetes,Healthy Weight,Normal,518.5,158.6,637.0,149.45,2210.0,0,0,0
-Male,2.0,0,0,not current,27.32,5.0,80,0,Normal,Overweight,Normal,400.0,10.0,54.64,136.6,160.0,0,0,0
 Male,44.0,0,1,never,22.71,6.1,140,1,Prediabetes,Healthy Weight,Prediabetes,854.0,268.4,999.24,138.531,6160.0,0,0,1
 Male,1.24,0,0,No Info,16.81,6.0,85,0,Prediabetes,Underweight,Normal,510.0,7.4399999999999995,20.844399999999997,100.85999999999999,105.4,0,0,0
 Male,26.0,0,0,No Info,27.32,6.2,159,0,Prediabetes,Overweight,Prediabetes,985.8000000000001,161.20000000000002,710.32,169.38400000000001,4134.0,0,0,0
@@ -59625,7 +59507,6 @@ Male,23.0,0,0,No Info,18.06,4.0,90,0,Normal,Underweight,Normal,360.0,92.0,415.38
 Female,5.0,0,0,No Info,17.24,6.5,159,0,Diabetes,Underweight,Prediabetes,1033.5,32.5,86.19999999999999,112.05999999999999,795.0,0,0,0
 Male,42.0,0,0,former,29.03,5.0,85,0,Normal,Overweight,Normal,425.0,210.0,1219.26,145.15,3570.0,0,0,0
 Male,7.0,0,0,No Info,12.94,4.0,145,0,Normal,Underweight,Prediabetes,580.0,28.0,90.58,51.76,1015.0,0,0,0
-Female,2.0,0,0,current,16.89,6.6,155,0,Diabetes,Underweight,Prediabetes,1023.0,13.2,33.78,111.474,310.0,1,0,0
 Male,6.0,0,0,No Info,16.64,6.6,90,0,Diabetes,Underweight,Normal,594.0,39.599999999999994,99.84,109.824,540.0,1,0,0
 Male,54.0,0,0,current,21.43,6.1,140,1,Prediabetes,Healthy Weight,Prediabetes,854.0,329.4,1157.22,130.72299999999998,7560.0,0,0,0
 Male,50.0,0,0,never,33.79,6.5,130,0,Diabetes,Obesity,Normal,845.0,325.0,1689.5,219.635,6500.0,0,0,0
@@ -60153,7 +60034,6 @@ Male,76.0,0,1,not current,22.46,5.7,126,0,Prediabetes,Healthy Weight,Normal,718.
 Female,35.0,0,0,ever,29.76,4.8,90,0,Normal,Overweight,Normal,432.0,168.0,1041.6000000000001,142.848,3150.0,0,0,0
 Female,56.0,1,0,never,29.76,5.8,200,0,Prediabetes,Overweight,Possible Diabetes,1160.0,324.8,1666.5600000000002,172.608,11200.0,0,0,1
 Female,22.0,0,0,never,22.0,6.6,155,0,Diabetes,Healthy Weight,Prediabetes,1023.0,145.2,484.0,145.2,3410.0,1,0,0
-Female,7.0,0,0,not current,22.5,4.8,85,0,Normal,Healthy Weight,Normal,408.0,33.6,157.5,108.0,595.0,0,0,0
 Female,22.0,0,0,No Info,22.19,6.0,145,0,Prediabetes,Healthy Weight,Prediabetes,870.0,132.0,488.18,133.14000000000001,3190.0,0,0,0
 Male,80.0,0,0,former,27.32,6.8,220,1,Diabetes,Overweight,Possible Diabetes,1496.0,544.0,2185.6,185.776,17600.0,1,1,0
 Male,55.0,0,0,No Info,29.13,4.0,155,0,Normal,Overweight,Prediabetes,620.0,220.0,1602.1499999999999,116.52,8525.0,0,0,0
@@ -60633,7 +60513,6 @@ Male,21.0,0,0,never,24.83,5.7,159,0,Prediabetes,Healthy Weight,Prediabetes,906.3
 Female,50.0,0,0,never,35.95,5.7,145,0,Prediabetes,Obesity,Prediabetes,826.5,285.0,1797.5000000000002,204.91500000000002,7250.0,0,0,0
 Male,59.0,0,0,former,27.32,5.0,100,0,Normal,Overweight,Normal,500.0,295.0,1611.88,136.6,5900.0,0,0,0
 Male,49.0,0,0,former,35.71,6.0,200,0,Prediabetes,Obesity,Possible Diabetes,1200.0,294.0,1749.79,214.26,9800.0,0,0,0
-Male,7.0,0,0,not current,27.32,6.6,80,0,Diabetes,Overweight,Normal,528.0,46.199999999999996,191.24,180.31199999999998,560.0,1,0,0
 Female,19.0,0,0,No Info,27.32,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,114.0,519.08,163.92000000000002,2945.0,0,0,0
 Female,34.0,0,0,No Info,33.53,5.7,155,1,Prediabetes,Obesity,Prediabetes,883.5,193.8,1140.02,191.121,5270.0,0,0,0
 Female,46.0,0,0,No Info,24.0,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,303.59999999999997,1104.0,158.39999999999998,4140.0,1,0,0
@@ -61215,7 +61094,6 @@ Female,31.0,0,0,current,30.66,5.7,100,0,Prediabetes,Obesity,Normal,570.0,176.700
 Male,48.0,0,0,current,27.32,6.0,160,0,Prediabetes,Overweight,Prediabetes,960.0,288.0,1311.3600000000001,163.92000000000002,7680.0,0,0,0
 Male,7.0,0,0,No Info,14.95,6.2,100,0,Prediabetes,Underweight,Normal,620.0,43.4,104.64999999999999,92.69,700.0,0,0,0
 Female,48.0,0,0,No Info,27.32,6.5,80,0,Diabetes,Overweight,Normal,520.0,312.0,1311.3600000000001,177.58,3840.0,0,0,0
-Female,9.0,0,0,not current,18.82,6.5,80,0,Diabetes,Healthy Weight,Normal,520.0,58.5,169.38,122.33,720.0,0,0,0
 Male,68.0,0,1,former,29.09,6.0,85,0,Prediabetes,Overweight,Normal,510.0,408.0,1978.12,174.54,5780.0,0,1,1
 Female,5.0,0,0,No Info,27.32,4.5,159,0,Normal,Overweight,Prediabetes,715.5,22.5,136.6,122.94,795.0,0,0,0
 Male,57.0,0,0,former,32.28,5.7,280,1,Prediabetes,Obesity,Possible Diabetes,1596.0,324.90000000000003,1839.96,183.996,15960.0,0,0,0
@@ -61238,7 +61116,6 @@ Male,5.0,0,0,No Info,17.09,6.6,130,0,Diabetes,Underweight,Normal,858.0,33.0,85.4
 Male,7.0,0,0,No Info,15.67,5.8,140,0,Prediabetes,Underweight,Prediabetes,812.0,40.6,109.69,90.886,980.0,0,0,0
 Female,32.0,0,0,not current,26.12,5.8,130,0,Prediabetes,Overweight,Normal,754.0,185.6,835.84,151.496,4160.0,0,0,0
 Female,25.0,0,0,No Info,28.32,4.0,159,0,Normal,Overweight,Prediabetes,636.0,100.0,708.0,113.28,3975.0,0,0,0
-Female,5.0,0,0,not current,20.71,5.8,158,0,Prediabetes,Healthy Weight,Prediabetes,916.4,29.0,103.55000000000001,120.118,790.0,0,0,0
 Male,4.0,0,0,No Info,27.32,5.7,100,0,Prediabetes,Overweight,Normal,570.0,22.8,109.28,155.72400000000002,400.0,0,0,0
 Female,71.0,0,0,never,27.28,3.5,90,0,Normal,Overweight,Normal,315.0,248.5,1936.88,95.48,6390.0,0,1,0
 Male,64.0,1,1,former,38.53,7.5,159,1,Diabetes,Obesity,Prediabetes,1192.5,480.0,2465.92,288.975,10176.0,1,1,1
@@ -62421,7 +62298,6 @@ Female,30.0,0,0,never,20.52,4.8,140,0,Normal,Healthy Weight,Prediabetes,672.0,14
 Female,63.0,0,0,No Info,27.32,5.7,100,0,Prediabetes,Overweight,Normal,570.0,359.1,1721.16,155.72400000000002,6300.0,0,1,0
 Female,58.0,0,0,No Info,27.32,4.8,100,0,Normal,Overweight,Normal,480.0,278.4,1584.56,131.136,5800.0,0,0,0
 Female,73.0,0,0,ever,29.05,4.0,90,0,Normal,Overweight,Normal,360.0,292.0,2120.65,116.2,6570.0,0,1,0
-Female,5.0,0,0,not current,17.9,5.7,200,0,Prediabetes,Underweight,Possible Diabetes,1140.0,28.5,89.5,102.03,1000.0,0,0,0
 Male,75.0,1,0,former,32.53,4.8,158,0,Normal,Obesity,Prediabetes,758.4,360.0,2439.75,156.144,11850.0,0,1,1
 Male,32.0,0,0,current,33.94,5.8,160,0,Prediabetes,Obesity,Prediabetes,928.0,185.6,1086.08,196.85199999999998,5120.0,0,0,0
 Male,53.0,0,0,current,31.47,5.0,80,0,Normal,Obesity,Normal,400.0,265.0,1667.9099999999999,157.35,4240.0,0,0,0
@@ -63324,7 +63200,6 @@ Female,48.0,0,0,No Info,37.02,5.7,158,0,Prediabetes,Obesity,Prediabetes,900.6,27
 Female,30.0,0,0,No Info,27.32,6.1,155,0,Prediabetes,Overweight,Prediabetes,945.5,183.0,819.6,166.652,4650.0,0,0,0
 Male,36.0,0,0,No Info,27.32,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,208.79999999999998,983.52,158.456,5040.0,0,0,0
 Female,18.0,0,0,never,23.69,5.7,85,0,Prediabetes,Healthy Weight,Normal,484.5,102.60000000000001,426.42,135.03300000000002,1530.0,0,0,0
-Male,8.0,0,0,not current,20.2,4.0,80,0,Normal,Healthy Weight,Normal,320.0,32.0,161.6,80.8,640.0,0,0,0
 Male,73.0,0,0,ever,27.32,4.8,80,0,Normal,Overweight,Normal,384.0,350.4,1994.3600000000001,131.136,5840.0,0,1,0
 Female,35.0,0,0,ever,28.22,4.5,80,0,Normal,Overweight,Normal,360.0,157.5,987.6999999999999,126.99,2800.0,0,0,0
 Female,16.0,0,0,never,21.58,4.8,130,0,Normal,Healthy Weight,Normal,624.0,76.8,345.28,103.58399999999999,2080.0,0,0,0
@@ -63698,7 +63573,6 @@ Male,46.0,0,0,ever,35.71,6.1,85,0,Prediabetes,Obesity,Normal,518.5,280.599999999
 Female,19.0,0,0,never,24.71,5.7,160,0,Prediabetes,Healthy Weight,Prediabetes,912.0,108.3,469.49,140.847,3040.0,0,0,0
 Male,62.0,0,0,current,24.82,4.5,155,0,Normal,Healthy Weight,Prediabetes,697.5,279.0,1538.84,111.69,9610.0,0,1,0
 Female,19.0,0,0,never,27.32,4.8,80,0,Normal,Overweight,Normal,384.0,91.2,519.08,131.136,1520.0,0,0,0
-Female,2.0,0,0,current,16.63,6.6,100,0,Diabetes,Underweight,Normal,660.0,13.2,33.26,109.75799999999998,200.0,1,0,0
 Male,27.0,0,0,current,26.08,4.5,130,0,Normal,Overweight,Normal,585.0,121.5,704.16,117.35999999999999,3510.0,0,0,0
 Female,57.0,0,0,No Info,29.89,3.5,145,0,Normal,Overweight,Prediabetes,507.5,199.5,1703.73,104.61500000000001,8265.0,0,0,0
 Male,63.0,1,0,never,40.35,6.1,158,0,Prediabetes,Obesity,Prediabetes,963.8,384.29999999999995,2542.05,246.135,9954.0,0,1,1
@@ -63849,7 +63723,6 @@ Female,66.0,1,0,never,50.44,6.2,130,1,Prediabetes,Obesity,Normal,806.0,409.2,332
 Female,70.0,0,0,never,37.27,5.0,159,0,Normal,Obesity,Prediabetes,795.0,350.0,2608.9,186.35000000000002,11130.0,0,1,0
 Female,5.0,0,0,No Info,16.74,5.7,145,0,Prediabetes,Underweight,Prediabetes,826.5,28.5,83.69999999999999,95.41799999999999,725.0,0,0,0
 Male,19.0,0,0,never,23.52,6.6,200,0,Diabetes,Healthy Weight,Possible Diabetes,1320.0,125.39999999999999,446.88,155.232,3800.0,1,0,0
-Female,8.0,0,0,not current,27.32,4.5,130,0,Normal,Overweight,Normal,585.0,36.0,218.56,122.94,1040.0,0,0,0
 Female,45.0,0,0,ever,29.17,5.7,145,1,Prediabetes,Overweight,Prediabetes,826.5,256.5,1312.65,166.269,6525.0,0,0,0
 Female,49.0,0,0,No Info,27.32,4.5,158,0,Normal,Overweight,Prediabetes,711.0,220.5,1338.68,122.94,7742.0,0,0,0
 Male,20.0,0,0,No Info,27.32,6.0,90,0,Prediabetes,Overweight,Normal,540.0,120.0,546.4,163.92000000000002,1800.0,0,0,0
@@ -63987,7 +63860,6 @@ Male,71.0,0,0,No Info,29.27,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,4
 Male,70.0,0,0,No Info,27.32,6.2,85,0,Prediabetes,Overweight,Normal,527.0,434.0,1912.4,169.38400000000001,5950.0,0,1,0
 Female,42.0,0,0,never,23.73,4.0,140,0,Normal,Healthy Weight,Prediabetes,560.0,168.0,996.66,94.92,5880.0,0,0,0
 Female,80.0,0,0,never,18.29,6.1,90,0,Prediabetes,Underweight,Normal,549.0,488.0,1463.1999999999998,111.56899999999999,7200.0,0,1,0
-Male,7.0,0,0,former,18.57,6.0,160,0,Prediabetes,Healthy Weight,Prediabetes,960.0,42.0,129.99,111.42,1120.0,0,0,0
 Male,61.0,1,0,former,29.14,6.5,140,0,Diabetes,Overweight,Prediabetes,910.0,396.5,1777.54,189.41,8540.0,0,1,1
 Female,68.0,0,0,No Info,27.32,4.8,90,0,Normal,Overweight,Normal,432.0,326.4,1857.76,131.136,6120.0,0,1,0
 Male,49.0,0,0,former,27.47,5.8,80,0,Prediabetes,Overweight,Normal,464.0,284.2,1346.03,159.326,3920.0,0,0,0
@@ -65086,7 +64958,6 @@ Female,68.0,0,0,former,23.4,6.0,159,0,Prediabetes,Healthy Weight,Prediabetes,954
 Male,64.0,0,0,No Info,23.75,5.7,140,0,Prediabetes,Healthy Weight,Prediabetes,798.0,364.8,1520.0,135.375,8960.0,0,1,0
 Female,69.0,0,0,not current,22.65,6.0,200,1,Prediabetes,Healthy Weight,Possible Diabetes,1200.0,414.0,1562.85,135.89999999999998,13800.0,0,1,0
 Male,0.48,0,0,No Info,18.06,5.7,140,0,Prediabetes,Underweight,Prediabetes,798.0,2.7359999999999998,8.6688,102.942,67.2,0,0,0
-Male,8.0,0,0,not current,16.4,5.7,159,0,Prediabetes,Underweight,Prediabetes,906.3000000000001,45.6,131.2,93.47999999999999,1272.0,0,0,0
 Female,80.0,0,0,never,24.11,6.5,145,0,Diabetes,Healthy Weight,Prediabetes,942.5,520.0,1928.8,156.715,11600.0,0,1,0
 Male,74.0,0,1,No Info,32.83,4.5,130,0,Normal,Obesity,Normal,585.0,333.0,2429.42,147.73499999999999,9620.0,0,1,1
 Female,39.0,0,0,never,24.97,3.5,158,0,Normal,Healthy Weight,Prediabetes,553.0,136.5,973.8299999999999,87.395,6162.0,0,0,0
@@ -65264,7 +65135,6 @@ Female,32.0,0,0,No Info,27.32,6.6,155,0,Diabetes,Overweight,Prediabetes,1023.0,2
 Female,57.0,0,0,No Info,21.69,3.5,145,0,Normal,Healthy Weight,Prediabetes,507.5,199.5,1236.3300000000002,75.915,8265.0,0,0,0
 Male,0.56,0,0,No Info,17.74,6.6,85,0,Diabetes,Underweight,Normal,561.0,3.696,9.9344,117.08399999999999,47.6,1,0,0
 Male,58.0,0,0,current,29.35,6.6,140,1,Diabetes,Overweight,Prediabetes,924.0,382.79999999999995,1702.3000000000002,193.71,8120.0,1,0,0
-Male,8.0,0,0,not current,18.79,3.5,159,0,Normal,Healthy Weight,Prediabetes,556.5,28.0,150.32,65.765,1272.0,0,0,0
 Female,80.0,0,1,not current,26.1,6.0,100,0,Prediabetes,Overweight,Normal,600.0,480.0,2088.0,156.60000000000002,8000.0,0,1,1
 Male,40.0,0,0,ever,27.94,4.8,80,0,Normal,Overweight,Normal,384.0,192.0,1117.6000000000001,134.112,3200.0,0,0,0
 Male,24.0,0,0,current,23.29,4.5,85,0,Normal,Healthy Weight,Normal,382.5,108.0,558.96,104.80499999999999,2040.0,0,0,0
@@ -65971,7 +65841,6 @@ Female,80.0,1,1,never,35.08,6.1,200,0,Prediabetes,Obesity,Possible Diabetes,1220
 Male,63.0,0,0,never,33.6,6.6,80,0,Diabetes,Obesity,Normal,528.0,415.79999999999995,2116.8,221.76,5040.0,1,1,0
 Female,66.0,1,0,never,32.8,4.0,126,0,Normal,Obesity,Normal,504.0,264.0,2164.7999999999997,131.2,8316.0,0,1,1
 Male,7.0,0,0,never,27.32,4.8,159,0,Normal,Overweight,Prediabetes,763.1999999999999,33.6,191.24,131.136,1113.0,0,0,0
-Male,7.0,0,0,not current,22.07,6.2,130,0,Prediabetes,Healthy Weight,Normal,806.0,43.4,154.49,136.834,910.0,0,0,0
 Female,11.0,0,0,never,22.3,3.5,100,0,Normal,Healthy Weight,Normal,350.0,38.5,245.3,78.05,1100.0,0,0,0
 Male,53.0,0,0,current,28.07,6.2,145,1,Prediabetes,Overweight,Prediabetes,899.0,328.6,1487.71,174.03400000000002,7685.0,0,0,0
 Male,32.0,0,0,never,27.39,6.0,159,0,Prediabetes,Overweight,Prediabetes,954.0,192.0,876.48,164.34,5088.0,0,0,0
@@ -66167,7 +66036,6 @@ Female,65.0,0,1,never,42.34,8.2,140,1,Diabetes,Obesity,Prediabetes,1148.0,533.0,
 Male,59.0,0,0,No Info,27.5,6.6,90,0,Diabetes,Overweight,Normal,594.0,389.4,1622.5,181.5,5310.0,1,0,0
 Male,43.0,0,0,former,31.18,6.0,145,0,Prediabetes,Obesity,Prediabetes,870.0,258.0,1340.74,187.07999999999998,6235.0,0,0,0
 Male,51.0,0,0,current,52.98,3.5,100,0,Normal,Obesity,Normal,350.0,178.5,2701.98,185.42999999999998,5100.0,0,0,0
-Male,5.0,0,0,not current,17.69,5.8,200,0,Prediabetes,Underweight,Possible Diabetes,1160.0,29.0,88.45,102.602,1000.0,0,0,0
 Female,63.0,0,0,No Info,22.4,6.5,140,0,Diabetes,Healthy Weight,Prediabetes,910.0,409.5,1411.1999999999998,145.6,8820.0,0,1,0
 Female,40.0,0,0,current,25.59,6.0,200,1,Prediabetes,Overweight,Possible Diabetes,1200.0,240.0,1023.6,153.54,8000.0,0,0,0
 Male,21.0,0,0,never,27.8,6.2,100,0,Prediabetes,Overweight,Normal,620.0,130.20000000000002,583.8000000000001,172.36,2100.0,0,0,0
@@ -66175,7 +66043,6 @@ Female,49.0,0,0,former,43.2,4.0,80,0,Normal,Obesity,Normal,320.0,196.0,2116.8,17
 Male,20.0,0,0,No Info,25.7,6.0,145,0,Prediabetes,Overweight,Prediabetes,870.0,120.0,514.0,154.2,2900.0,0,0,0
 Female,38.0,0,0,not current,38.7,6.1,126,0,Prediabetes,Obesity,Normal,768.5999999999999,231.79999999999998,1470.6000000000001,236.07,4788.0,0,0,0
 Female,34.0,0,0,not current,41.81,4.0,155,0,Normal,Obesity,Prediabetes,620.0,136.0,1421.54,167.24,5270.0,0,0,0
-Female,8.0,0,0,not current,16.11,4.8,100,0,Normal,Underweight,Normal,480.0,38.4,128.88,77.32799999999999,800.0,0,0,0
 Female,27.0,0,0,not current,34.21,5.8,90,0,Prediabetes,Obesity,Normal,522.0,156.6,923.6700000000001,198.418,2430.0,0,0,0
 Male,20.0,0,0,No Info,27.32,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,130.0,546.4,177.58,3180.0,0,0,0
 Male,26.0,0,0,never,27.32,4.8,159,0,Normal,Overweight,Prediabetes,763.1999999999999,124.8,710.32,131.136,4134.0,0,0,0
@@ -66473,7 +66340,6 @@ Female,80.0,0,0,No Info,37.7,6.5,140,1,Diabetes,Obesity,Prediabetes,910.0,520.0,
 Female,30.0,0,0,never,31.8,4.5,130,0,Normal,Obesity,Normal,585.0,135.0,954.0,143.1,3900.0,0,0,0
 Female,41.0,0,0,never,20.97,3.5,130,0,Normal,Healthy Weight,Normal,455.0,143.5,859.77,73.395,5330.0,0,0,0
 Male,24.0,0,0,current,23.7,6.6,130,0,Diabetes,Healthy Weight,Normal,858.0,158.39999999999998,568.8,156.42,3120.0,1,0,0
-Female,9.0,0,0,not current,14.2,6.0,200,0,Prediabetes,Underweight,Possible Diabetes,1200.0,54.0,127.8,85.19999999999999,1800.0,0,0,0
 Male,0.72,0,0,No Info,27.32,4.8,90,0,Normal,Overweight,Normal,432.0,3.456,19.6704,131.136,64.8,0,0,0
 Male,75.0,0,0,current,24.91,6.0,160,1,Prediabetes,Healthy Weight,Prediabetes,960.0,450.0,1868.25,149.46,12000.0,0,1,0
 Female,28.0,0,0,not current,27.32,6.0,160,0,Prediabetes,Overweight,Prediabetes,960.0,168.0,764.96,163.92000000000002,4480.0,0,0,0
@@ -66643,7 +66509,6 @@ Female,10.0,0,0,No Info,25.19,5.7,100,0,Prediabetes,Overweight,Normal,570.0,57.0
 Female,3.0,0,0,No Info,15.01,4.8,90,0,Normal,Underweight,Normal,432.0,14.399999999999999,45.03,72.048,270.0,0,0,0
 Female,34.0,0,0,never,37.63,6.0,155,0,Prediabetes,Obesity,Prediabetes,930.0,204.0,1279.42,225.78000000000003,5270.0,0,0,0
 Male,61.0,0,1,former,36.49,6.0,159,0,Prediabetes,Obesity,Prediabetes,954.0,366.0,2225.8900000000003,218.94,9699.0,0,1,1
-Male,7.0,0,0,not current,16.14,5.0,130,0,Normal,Underweight,Normal,650.0,35.0,112.98,80.7,910.0,0,0,0
 Female,38.0,0,0,never,32.94,6.2,155,0,Prediabetes,Obesity,Prediabetes,961.0,235.6,1251.7199999999998,204.22799999999998,5890.0,0,0,0
 Female,45.0,0,0,No Info,22.86,5.0,158,0,Normal,Healthy Weight,Prediabetes,790.0,225.0,1028.7,114.3,7110.0,0,0,0
 Female,23.0,0,0,never,32.57,6.0,85,0,Prediabetes,Obesity,Normal,510.0,138.0,749.11,195.42000000000002,1955.0,0,0,0
@@ -66960,7 +66825,6 @@ Female,19.0,0,0,current,23.04,6.2,80,0,Prediabetes,Healthy Weight,Normal,496.0,1
 Female,53.0,0,0,No Info,25.46,6.0,159,0,Prediabetes,Overweight,Prediabetes,954.0,318.0,1349.38,152.76,8427.0,0,0,0
 Female,70.0,1,0,former,24.56,4.5,90,0,Normal,Healthy Weight,Normal,405.0,315.0,1719.1999999999998,110.52,6300.0,0,1,1
 Female,19.0,0,0,never,19.85,3.5,126,0,Normal,Healthy Weight,Normal,441.0,66.5,377.15000000000003,69.47500000000001,2394.0,0,0,0
-Female,7.0,0,0,not current,14.77,4.0,145,0,Normal,Underweight,Prediabetes,580.0,28.0,103.39,59.08,1015.0,0,0,0
 Female,10.0,0,0,never,25.3,3.5,160,0,Normal,Overweight,Prediabetes,560.0,35.0,253.0,88.55,1600.0,0,0,0
 Female,3.0,0,0,No Info,15.25,5.7,126,0,Prediabetes,Underweight,Normal,718.2,17.1,45.75,86.925,378.0,0,0,0
 Female,61.0,0,0,not current,39.28,4.5,100,0,Normal,Obesity,Normal,450.0,274.5,2396.08,176.76,6100.0,0,1,0
@@ -68624,7 +68488,6 @@ Male,35.0,0,0,never,25.03,6.1,155,0,Prediabetes,Overweight,Prediabetes,945.5,213
 Male,40.0,0,0,not current,30.18,6.2,140,0,Prediabetes,Obesity,Prediabetes,868.0,248.0,1207.2,187.116,5600.0,0,0,0
 Female,44.0,0,0,never,20.9,6.0,80,0,Prediabetes,Healthy Weight,Normal,480.0,264.0,919.5999999999999,125.39999999999999,3520.0,0,0,0
 Male,67.0,0,0,former,29.02,6.2,140,0,Prediabetes,Overweight,Prediabetes,868.0,415.40000000000003,1944.34,179.924,9380.0,0,1,0
-Female,2.0,0,0,not current,17.8,4.0,140,0,Normal,Underweight,Prediabetes,560.0,8.0,35.6,71.2,280.0,0,0,0
 Male,63.0,0,0,No Info,32.22,8.8,240,1,Diabetes,Obesity,Possible Diabetes,2112.0,554.4000000000001,2029.86,283.536,15120.0,1,1,0
 Male,11.0,0,0,No Info,20.95,3.5,159,0,Normal,Healthy Weight,Prediabetes,556.5,38.5,230.45,73.325,1749.0,0,0,0
 Male,36.0,0,0,No Info,20.64,4.5,90,0,Normal,Healthy Weight,Normal,405.0,162.0,743.04,92.88,3240.0,0,0,0
@@ -68713,7 +68576,6 @@ Male,28.0,0,0,never,24.9,6.1,160,0,Prediabetes,Healthy Weight,Prediabetes,976.0,
 Male,33.0,0,0,former,29.66,5.7,130,0,Prediabetes,Overweight,Normal,741.0,188.1,978.78,169.062,4290.0,0,0,0
 Female,24.0,0,0,current,46.63,8.8,160,1,Diabetes,Obesity,Prediabetes,1408.0,211.20000000000002,1119.1200000000001,410.34400000000005,3840.0,1,0,0
 Female,32.0,0,0,never,44.93,6.0,159,1,Prediabetes,Obesity,Prediabetes,954.0,192.0,1437.76,269.58,5088.0,0,0,0
-Female,3.0,0,0,not current,18.64,6.0,140,0,Prediabetes,Healthy Weight,Prediabetes,840.0,18.0,55.92,111.84,420.0,0,0,0
 Female,35.0,0,0,never,27.32,6.2,200,0,Prediabetes,Overweight,Possible Diabetes,1240.0,217.0,956.2,169.38400000000001,7000.0,0,0,0
 Female,66.0,0,0,never,39.63,5.0,159,0,Normal,Obesity,Prediabetes,795.0,330.0,2615.5800000000004,198.15,10494.0,0,1,0
 Male,14.0,0,0,No Info,53.34,6.0,200,0,Prediabetes,Obesity,Possible Diabetes,1200.0,84.0,746.76,320.04,2800.0,0,0,0
@@ -69008,7 +68870,6 @@ Male,44.0,1,0,current,72.03,6.5,85,0,Diabetes,Obesity,Normal,552.5,286.0,3169.32
 Male,76.0,1,0,No Info,32.32,5.7,80,0,Prediabetes,Obesity,Normal,456.0,433.2,2456.32,184.22400000000002,6080.0,0,1,1
 Male,80.0,0,0,never,32.12,7.0,300,1,Diabetes,Obesity,Possible Diabetes,2100.0,560.0,2569.6,224.83999999999997,24000.0,1,1,0
 Female,6.0,0,0,No Info,15.14,4.0,155,0,Normal,Underweight,Prediabetes,620.0,24.0,90.84,60.56,930.0,0,0,0
-Male,2.0,0,0,current,16.21,5.7,85,0,Prediabetes,Underweight,Normal,484.5,11.4,32.42,92.397,170.0,0,0,0
 Female,80.0,0,0,never,26.95,6.2,155,0,Prediabetes,Overweight,Prediabetes,961.0,496.0,2156.0,167.09,12400.0,0,1,0
 Female,19.0,0,0,never,32.83,6.1,155,0,Prediabetes,Obesity,Prediabetes,945.5,115.89999999999999,623.77,200.26299999999998,2945.0,0,0,0
 Female,58.0,0,0,never,24.91,4.0,130,0,Normal,Healthy Weight,Normal,520.0,232.0,1444.78,99.64,7540.0,0,0,0
@@ -69501,7 +69362,6 @@ Female,12.0,0,0,never,27.32,6.5,160,0,Diabetes,Overweight,Prediabetes,1040.0,78.
 Female,37.0,0,0,never,24.22,6.0,140,0,Prediabetes,Healthy Weight,Prediabetes,840.0,222.0,896.14,145.32,5180.0,0,0,0
 Male,33.0,0,0,former,29.66,5.0,85,0,Normal,Overweight,Normal,425.0,165.0,978.78,148.3,2805.0,0,0,0
 Female,66.0,0,0,not current,41.19,7.5,160,1,Diabetes,Obesity,Prediabetes,1200.0,495.0,2718.54,308.92499999999995,10560.0,1,1,0
-Male,8.0,0,0,not current,27.32,4.5,90,0,Normal,Overweight,Normal,405.0,36.0,218.56,122.94,720.0,0,0,0
 Male,61.0,1,0,No Info,39.46,6.6,80,0,Diabetes,Obesity,Normal,528.0,402.59999999999997,2407.06,260.436,4880.0,1,1,1
 Female,80.0,0,1,former,19.72,5.8,80,0,Prediabetes,Healthy Weight,Normal,464.0,464.0,1577.6,114.37599999999999,6400.0,0,1,1
 Male,59.0,0,0,never,35.77,6.1,145,1,Prediabetes,Obesity,Prediabetes,884.5,359.9,2110.4300000000003,218.197,8555.0,0,0,0
@@ -69521,7 +69381,6 @@ Male,20.0,0,0,never,42.88,3.5,140,0,Normal,Obesity,Prediabetes,490.0,70.0,857.6,
 Male,63.0,0,0,ever,31.06,5.7,159,0,Prediabetes,Obesity,Prediabetes,906.3000000000001,359.1,1956.78,177.042,10017.0,0,1,0
 Female,2.0,0,0,No Info,16.79,6.2,140,0,Prediabetes,Underweight,Prediabetes,868.0,12.4,33.58,104.098,280.0,0,0,0
 Male,19.0,0,0,former,21.7,6.2,145,0,Prediabetes,Healthy Weight,Prediabetes,899.0,117.8,412.3,134.54,2755.0,0,0,0
-Female,8.0,0,0,not current,14.4,5.8,140,0,Prediabetes,Underweight,Prediabetes,812.0,46.4,115.2,83.52,1120.0,0,0,0
 Male,42.0,0,0,never,42.19,5.7,155,1,Prediabetes,Obesity,Prediabetes,883.5,239.4,1771.98,240.483,6510.0,0,0,0
 Female,80.0,0,0,No Info,28.95,5.8,159,0,Prediabetes,Overweight,Prediabetes,922.1999999999999,464.0,2316.0,167.91,12720.0,0,1,0
 Female,77.0,0,0,never,18.33,4.0,130,0,Normal,Underweight,Normal,520.0,308.0,1411.4099999999999,73.32,10010.0,0,1,0
@@ -70217,7 +70076,6 @@ Female,51.0,0,0,never,29.29,7.5,155,1,Diabetes,Overweight,Prediabetes,1162.5,382
 Male,80.0,0,0,never,35.44,9.0,280,1,Diabetes,Obesity,Possible Diabetes,2520.0,720.0,2835.2,318.96,22400.0,1,1,0
 Female,74.0,1,0,No Info,33.19,7.0,160,1,Diabetes,Obesity,Prediabetes,1120.0,518.0,2456.06,232.32999999999998,11840.0,1,1,1
 Male,33.0,0,0,No Info,27.32,6.1,126,0,Prediabetes,Overweight,Normal,768.5999999999999,201.29999999999998,901.5600000000001,166.652,4158.0,0,0,0
-Female,1.48,0,0,current,16.95,4.5,200,0,Normal,Underweight,Possible Diabetes,900.0,6.66,25.086,76.27499999999999,296.0,0,0,0
 Female,25.0,0,0,never,36.76,5.0,200,0,Normal,Obesity,Possible Diabetes,1000.0,125.0,919.0,183.79999999999998,5000.0,0,0,0
 Female,23.0,0,0,No Info,27.32,4.0,140,0,Normal,Overweight,Prediabetes,560.0,92.0,628.36,109.28,3220.0,0,0,0
 Female,68.0,0,0,No Info,19.76,5.0,155,0,Normal,Healthy Weight,Prediabetes,775.0,340.0,1343.68,98.80000000000001,10540.0,0,1,0
@@ -70349,7 +70207,6 @@ Male,56.0,1,1,No Info,24.68,3.5,85,0,Normal,Healthy Weight,Normal,297.5,196.0,13
 Male,23.0,0,0,No Info,27.32,6.6,80,0,Diabetes,Overweight,Normal,528.0,151.79999999999998,628.36,180.31199999999998,1840.0,1,0,0
 Male,75.0,0,0,former,31.83,5.7,126,0,Prediabetes,Obesity,Normal,718.2,427.5,2387.25,181.43099999999998,9450.0,0,1,0
 Male,42.0,0,0,current,20.71,5.0,90,0,Normal,Healthy Weight,Normal,450.0,210.0,869.82,103.55000000000001,3780.0,0,0,0
-Female,3.0,0,0,not current,18.23,4.5,80,0,Normal,Underweight,Normal,360.0,13.5,54.69,82.035,240.0,0,0,0
 Female,67.0,0,0,never,31.34,4.5,155,0,Normal,Obesity,Prediabetes,697.5,301.5,2099.78,141.03,10385.0,0,1,0
 Female,80.0,1,0,former,37.3,3.5,155,0,Normal,Obesity,Prediabetes,542.5,280.0,2984.0,130.54999999999998,12400.0,0,1,1
 Male,60.0,0,0,former,35.39,6.1,155,0,Prediabetes,Obesity,Prediabetes,945.5,366.0,2123.4,215.879,9300.0,0,1,0
@@ -70782,7 +70639,6 @@ Female,80.0,0,0,never,30.6,6.0,90,0,Prediabetes,Obesity,Normal,540.0,480.0,2448.
 Female,80.0,0,0,never,29.4,5.7,160,1,Prediabetes,Overweight,Prediabetes,912.0,456.0,2352.0,167.57999999999998,12800.0,0,1,0
 Female,71.0,0,0,never,50.33,5.0,90,0,Normal,Obesity,Normal,450.0,355.0,3573.43,251.64999999999998,6390.0,0,1,0
 Male,36.0,0,0,never,31.29,5.0,155,0,Normal,Obesity,Prediabetes,775.0,180.0,1126.44,156.45,5580.0,0,0,0
-Male,1.32,0,0,not current,21.01,6.1,130,0,Prediabetes,Healthy Weight,Normal,793.0,8.052,27.733200000000004,128.161,171.6,0,0,0
 Female,59.0,0,0,former,27.32,4.8,85,0,Normal,Overweight,Normal,408.0,283.2,1611.88,131.136,5015.0,0,0,0
 Female,33.0,0,0,never,27.32,6.1,155,0,Prediabetes,Overweight,Prediabetes,945.5,201.29999999999998,901.5600000000001,166.652,5115.0,0,0,0
 Male,15.0,0,0,never,26.2,6.5,140,0,Diabetes,Overweight,Prediabetes,910.0,97.5,393.0,170.29999999999998,2100.0,0,0,0
@@ -71366,11 +71222,9 @@ Female,39.0,0,0,former,27.32,4.5,200,0,Normal,Overweight,Possible Diabetes,900.0
 Male,16.0,0,0,No Info,27.32,5.7,100,0,Prediabetes,Overweight,Normal,570.0,91.2,437.12,155.72400000000002,1600.0,0,0,0
 Male,76.0,0,0,never,33.5,4.0,155,0,Normal,Obesity,Prediabetes,620.0,304.0,2546.0,134.0,11780.0,0,1,0
 Female,52.0,0,0,never,20.2,4.5,145,0,Normal,Healthy Weight,Prediabetes,652.5,234.0,1050.3999999999999,90.89999999999999,7540.0,0,0,0
-Female,6.0,0,0,not current,16.96,6.5,155,0,Diabetes,Underweight,Prediabetes,1007.5,39.0,101.76,110.24000000000001,930.0,0,0,0
 Female,74.0,0,0,never,27.32,4.0,145,0,Normal,Overweight,Prediabetes,580.0,296.0,2021.68,109.28,10730.0,0,1,0
 Female,70.0,0,0,never,34.97,5.0,90,0,Normal,Obesity,Normal,450.0,350.0,2447.9,174.85,6300.0,0,1,0
 Male,40.0,0,0,former,27.32,6.6,100,0,Diabetes,Overweight,Normal,660.0,264.0,1092.8,180.31199999999998,4000.0,1,0,0
-Female,4.0,0,0,not current,27.32,6.2,90,0,Prediabetes,Overweight,Normal,558.0,24.8,109.28,169.38400000000001,360.0,0,0,0
 Male,4.0,0,0,never,17.7,6.2,200,0,Prediabetes,Underweight,Possible Diabetes,1240.0,24.8,70.8,109.74,800.0,0,0,0
 Male,1.64,0,0,No Info,19.22,5.0,126,0,Normal,Healthy Weight,Normal,630.0,8.2,31.520799999999998,96.1,206.64,0,0,0
 Male,35.0,0,0,never,31.3,6.0,159,0,Prediabetes,Obesity,Prediabetes,954.0,210.0,1095.5,187.8,5565.0,0,0,0
@@ -71410,7 +71264,6 @@ Female,62.0,1,0,former,36.0,7.0,160,1,Diabetes,Obesity,Prediabetes,1120.0,434.0,
 Female,60.0,0,0,never,27.32,4.5,145,0,Normal,Overweight,Prediabetes,652.5,270.0,1639.2,122.94,8700.0,0,1,0
 Female,60.0,0,0,never,28.91,6.5,280,1,Diabetes,Overweight,Possible Diabetes,1820.0,390.0,1734.6,187.915,16800.0,0,1,0
 Female,74.0,0,0,No Info,27.32,5.7,130,0,Prediabetes,Overweight,Normal,741.0,421.8,2021.68,155.72400000000002,9620.0,0,1,0
-Male,7.0,0,0,not current,20.01,5.0,85,0,Normal,Healthy Weight,Normal,425.0,35.0,140.07000000000002,100.05000000000001,595.0,0,0,0
 Male,67.0,0,0,not current,31.21,6.8,300,1,Diabetes,Obesity,Possible Diabetes,2040.0,455.59999999999997,2091.07,212.228,20100.0,1,1,0
 Female,80.0,0,0,never,29.58,4.8,145,0,Normal,Overweight,Prediabetes,696.0,384.0,2366.3999999999996,141.98399999999998,11600.0,0,1,0
 Male,80.0,0,1,ever,24.13,6.2,130,0,Prediabetes,Healthy Weight,Normal,806.0,496.0,1930.3999999999999,149.606,10400.0,0,1,1
@@ -72390,7 +72243,6 @@ Male,80.0,0,0,former,23.49,5.7,160,0,Prediabetes,Healthy Weight,Prediabetes,912.
 Female,44.0,0,0,No Info,25.18,6.1,159,0,Prediabetes,Overweight,Prediabetes,969.9,268.4,1107.92,153.59799999999998,6996.0,0,0,0
 Female,19.0,0,0,current,23.99,5.7,160,0,Prediabetes,Healthy Weight,Prediabetes,912.0,108.3,455.80999999999995,136.743,3040.0,0,0,0
 Male,1.48,0,0,No Info,19.01,4.0,90,0,Normal,Healthy Weight,Normal,360.0,5.92,28.134800000000002,76.04,133.2,0,0,0
-Female,7.0,0,0,not current,16.4,5.0,85,0,Normal,Underweight,Normal,425.0,35.0,114.79999999999998,82.0,595.0,0,0,0
 Male,3.0,0,0,No Info,15.15,6.5,145,0,Diabetes,Underweight,Prediabetes,942.5,19.5,45.45,98.47500000000001,435.0,0,0,0
 Female,55.0,0,0,never,28.1,5.0,155,0,Normal,Overweight,Prediabetes,775.0,275.0,1545.5,140.5,8525.0,0,0,0
 Female,40.0,0,0,No Info,27.39,4.5,126,0,Normal,Overweight,Normal,567.0,180.0,1095.6,123.255,5040.0,0,0,0
@@ -72452,7 +72304,6 @@ Male,64.0,0,0,never,27.57,5.8,80,0,Prediabetes,Overweight,Normal,464.0,371.2,176
 Female,62.0,0,0,former,27.65,6.2,200,0,Prediabetes,Overweight,Possible Diabetes,1240.0,384.40000000000003,1714.3,171.43,12400.0,0,1,0
 Female,66.0,0,0,No Info,32.41,6.6,80,0,Diabetes,Obesity,Normal,528.0,435.59999999999997,2139.06,213.90599999999998,5280.0,1,1,0
 Male,43.0,0,0,never,33.16,4.0,130,0,Normal,Obesity,Normal,520.0,172.0,1425.8799999999999,132.64,5590.0,0,0,0
-Male,6.0,0,0,not current,15.29,4.5,155,0,Normal,Underweight,Prediabetes,697.5,27.0,91.74,68.80499999999999,930.0,0,0,0
 Female,62.0,0,0,former,33.48,5.7,200,1,Prediabetes,Obesity,Possible Diabetes,1140.0,353.40000000000003,2075.7599999999998,190.83599999999998,12400.0,0,1,0
 Female,74.0,0,0,No Info,21.33,4.5,126,0,Normal,Healthy Weight,Normal,567.0,333.0,1578.4199999999998,95.98499999999999,9324.0,0,1,0
 Female,33.0,0,0,No Info,30.41,6.6,90,0,Diabetes,Obesity,Normal,594.0,217.79999999999998,1003.53,200.706,2970.0,1,0,0
@@ -73250,7 +73101,6 @@ Female,80.0,0,0,never,25.88,8.2,159,1,Diabetes,Overweight,Prediabetes,1303.8,656
 Female,46.0,0,0,never,27.32,5.0,80,0,Normal,Overweight,Normal,400.0,230.0,1256.72,136.6,3680.0,0,0,0
 Female,13.0,0,0,No Info,18.9,3.5,85,0,Normal,Healthy Weight,Normal,297.5,45.5,245.7,66.14999999999999,1105.0,0,0,0
 Male,10.0,0,0,not current,22.81,6.2,140,0,Prediabetes,Healthy Weight,Prediabetes,868.0,62.0,228.1,141.422,1400.0,0,0,0
-Male,7.0,0,0,not current,18.12,6.5,145,0,Diabetes,Underweight,Prediabetes,942.5,45.5,126.84,117.78,1015.0,0,0,0
 Male,20.0,0,0,never,24.77,4.8,90,0,Normal,Healthy Weight,Normal,432.0,96.0,495.4,118.89599999999999,1800.0,0,0,0
 Female,65.0,0,0,No Info,27.95,4.5,100,0,Normal,Overweight,Normal,450.0,292.5,1816.75,125.77499999999999,6500.0,0,1,0
 Female,50.0,0,0,never,35.49,6.2,90,0,Prediabetes,Obesity,Normal,558.0,310.0,1774.5,220.038,4500.0,0,0,0
@@ -73273,7 +73123,6 @@ Female,22.0,0,0,never,21.69,5.8,159,0,Prediabetes,Healthy Weight,Prediabetes,922
 Male,71.0,0,0,never,23.7,5.7,90,0,Prediabetes,Healthy Weight,Normal,513.0,404.7,1682.7,135.09,6390.0,0,1,0
 Male,68.0,0,0,No Info,27.32,5.8,126,0,Prediabetes,Overweight,Normal,730.8,394.4,1857.76,158.456,8568.0,0,1,0
 Male,45.0,1,0,never,35.84,6.5,80,0,Diabetes,Obesity,Normal,520.0,292.5,1612.8000000000002,232.96000000000004,3600.0,0,0,1
-Female,2.0,0,0,current,17.97,5.7,130,0,Prediabetes,Underweight,Normal,741.0,11.4,35.94,102.429,260.0,0,0,0
 Male,57.0,0,0,not current,27.32,5.8,126,0,Prediabetes,Overweight,Normal,730.8,330.59999999999997,1557.24,158.456,7182.0,0,0,0
 Male,6.0,0,0,never,17.72,3.5,145,0,Normal,Underweight,Prediabetes,507.5,21.0,106.32,62.019999999999996,870.0,0,0,0
 Female,76.0,0,0,never,31.8,3.5,155,0,Normal,Obesity,Prediabetes,542.5,266.0,2416.8,111.3,11780.0,0,1,0
@@ -73956,7 +73805,6 @@ Male,66.0,0,1,No Info,27.32,4.0,126,0,Normal,Overweight,Normal,504.0,264.0,1803.
 Male,39.0,0,0,current,27.32,6.6,100,0,Diabetes,Overweight,Normal,660.0,257.4,1065.48,180.31199999999998,3900.0,1,0,0
 Male,50.0,0,0,never,28.73,4.8,159,0,Normal,Overweight,Prediabetes,763.1999999999999,240.0,1436.5,137.904,7950.0,0,0,0
 Female,50.0,0,0,never,26.64,4.5,158,0,Normal,Overweight,Prediabetes,711.0,225.0,1332.0,119.88,7900.0,0,0,0
-Male,4.0,0,0,not current,17.9,4.5,80,0,Normal,Underweight,Normal,360.0,18.0,71.6,80.55,320.0,0,0,0
 Female,59.0,0,0,former,46.44,4.0,140,0,Normal,Obesity,Prediabetes,560.0,236.0,2739.96,185.76,8260.0,0,0,0
 Male,34.0,0,0,former,24.45,4.0,145,0,Normal,Healthy Weight,Prediabetes,580.0,136.0,831.3,97.8,4930.0,0,0,0
 Female,80.0,1,1,never,23.69,6.0,240,1,Prediabetes,Healthy Weight,Possible Diabetes,1440.0,480.0,1895.2,142.14000000000001,19200.0,0,1,1
@@ -74694,7 +74542,6 @@ Female,28.0,0,0,current,27.32,4.8,140,0,Normal,Overweight,Prediabetes,672.0,134.
 Female,80.0,0,0,never,24.97,7.5,240,1,Diabetes,Healthy Weight,Possible Diabetes,1800.0,600.0,1997.6,187.27499999999998,19200.0,1,1,0
 Male,48.0,0,1,not current,23.7,5.0,155,0,Normal,Healthy Weight,Prediabetes,775.0,240.0,1137.6,118.5,7440.0,0,0,1
 Female,4.0,0,0,No Info,16.67,5.7,158,0,Prediabetes,Underweight,Prediabetes,900.6,22.8,66.68,95.01900000000002,632.0,0,0,0
-Male,5.0,0,0,not current,31.89,3.5,90,0,Normal,Obesity,Normal,315.0,17.5,159.45,111.61500000000001,450.0,0,0,0
 Female,69.0,0,1,No Info,27.24,5.0,140,0,Normal,Overweight,Prediabetes,700.0,345.0,1879.56,136.2,9660.0,0,1,1
 Female,18.0,0,0,No Info,21.0,5.0,140,0,Normal,Healthy Weight,Prediabetes,700.0,90.0,378.0,105.0,2520.0,0,0,0
 Female,44.0,0,0,never,30.1,4.0,159,0,Normal,Obesity,Prediabetes,636.0,176.0,1324.4,120.4,6996.0,0,0,0
@@ -76063,7 +75910,6 @@ Male,23.0,0,0,current,27.32,6.6,126,0,Diabetes,Overweight,Normal,831.59999999999
 Male,65.0,0,0,No Info,32.16,4.8,140,0,Normal,Obesity,Prediabetes,672.0,312.0,2090.3999999999996,154.36799999999997,9100.0,0,1,0
 Male,62.0,0,0,former,27.41,4.5,140,0,Normal,Overweight,Prediabetes,630.0,279.0,1699.42,123.345,8680.0,0,1,0
 Male,80.0,1,0,not current,24.85,6.0,159,0,Prediabetes,Healthy Weight,Prediabetes,954.0,480.0,1988.0,149.10000000000002,12720.0,0,1,1
-Female,7.0,0,0,not current,17.5,6.6,160,0,Diabetes,Underweight,Prediabetes,1056.0,46.199999999999996,122.5,115.5,1120.0,1,0,0
 Female,76.0,0,0,former,40.36,6.2,280,1,Prediabetes,Obesity,Possible Diabetes,1736.0,471.2,3067.36,250.232,21280.0,0,1,0
 Male,45.0,0,0,current,22.52,3.5,140,0,Normal,Healthy Weight,Prediabetes,490.0,157.5,1013.4,78.82,6300.0,0,0,0
 Male,57.0,0,0,never,29.02,4.8,85,0,Normal,Overweight,Normal,408.0,273.59999999999997,1654.1399999999999,139.296,4845.0,0,0,0
@@ -76353,7 +76199,6 @@ Female,52.0,0,0,former,25.3,5.7,140,0,Prediabetes,Overweight,Prediabetes,798.0,2
 Female,30.0,0,0,ever,18.3,6.1,126,0,Prediabetes,Underweight,Normal,768.5999999999999,183.0,549.0,111.63,3780.0,0,0,0
 Female,60.0,0,0,current,27.97,6.2,158,0,Prediabetes,Overweight,Prediabetes,979.6,372.0,1678.1999999999998,173.414,9480.0,0,1,0
 Female,12.0,0,0,No Info,24.0,5.0,158,0,Normal,Healthy Weight,Prediabetes,790.0,60.0,288.0,120.0,1896.0,0,0,0
-Male,4.0,0,0,not current,27.32,4.8,145,0,Normal,Overweight,Prediabetes,696.0,19.2,109.28,131.136,580.0,0,0,0
 Male,46.0,1,0,never,31.91,5.7,159,0,Prediabetes,Obesity,Prediabetes,906.3000000000001,262.2,1467.86,181.887,7314.0,0,0,1
 Female,19.0,0,0,No Info,40.42,6.6,130,0,Diabetes,Obesity,Normal,858.0,125.39999999999999,767.98,266.772,2470.0,1,0,0
 Female,23.0,0,0,not current,45.77,5.8,126,1,Prediabetes,Obesity,Normal,730.8,133.4,1052.71,265.466,2898.0,0,0,0
@@ -76505,7 +76350,6 @@ Female,26.0,0,0,never,25.8,6.6,145,0,Diabetes,Overweight,Prediabetes,957.0,171.6
 Female,62.0,1,0,former,51.21,6.2,160,1,Prediabetes,Obesity,Prediabetes,992.0,384.40000000000003,3175.02,317.502,9920.0,0,1,1
 Female,64.0,0,0,No Info,29.47,3.5,160,0,Normal,Overweight,Prediabetes,560.0,224.0,1886.08,103.145,10240.0,0,1,0
 Male,54.0,0,0,current,26.54,4.0,158,0,Normal,Overweight,Prediabetes,632.0,216.0,1433.1599999999999,106.16,8532.0,0,0,0
-Female,8.0,0,0,not current,19.84,6.1,85,0,Prediabetes,Healthy Weight,Normal,518.5,48.8,158.72,121.02399999999999,680.0,0,0,0
 Male,27.0,0,0,never,25.2,6.6,158,0,Diabetes,Overweight,Prediabetes,1042.8,178.2,680.4,166.32,4266.0,1,0,0
 Male,31.0,0,0,current,24.6,3.5,100,0,Normal,Healthy Weight,Normal,350.0,108.5,762.6,86.10000000000001,3100.0,0,0,0
 Female,48.0,0,0,ever,39.0,5.8,100,0,Prediabetes,Obesity,Normal,580.0,278.4,1872.0,226.2,4800.0,0,0,0
@@ -76837,7 +76681,6 @@ Female,56.0,0,0,never,27.32,6.5,200,0,Diabetes,Overweight,Possible Diabetes,1300
 Female,41.0,0,0,No Info,22.48,4.0,126,0,Normal,Healthy Weight,Normal,504.0,164.0,921.6800000000001,89.92,5166.0,0,0,0
 Female,57.0,0,0,No Info,29.35,4.0,160,0,Normal,Overweight,Prediabetes,640.0,228.0,1672.95,117.4,9120.0,0,0,0
 Male,7.0,0,0,No Info,14.77,6.2,85,0,Prediabetes,Underweight,Normal,527.0,43.4,103.39,91.574,595.0,0,0,0
-Male,7.0,0,0,not current,23.61,3.5,145,0,Normal,Healthy Weight,Prediabetes,507.5,24.5,165.26999999999998,82.63499999999999,1015.0,0,0,0
 Female,47.0,0,0,ever,28.98,6.0,90,0,Prediabetes,Overweight,Normal,540.0,282.0,1362.06,173.88,4230.0,0,0,0
 Male,80.0,0,1,No Info,27.32,4.0,160,0,Normal,Overweight,Prediabetes,640.0,320.0,2185.6,109.28,12800.0,0,1,1
 Female,21.0,0,0,never,30.29,6.6,155,0,Diabetes,Obesity,Prediabetes,1023.0,138.6,636.09,199.914,3255.0,1,0,0
@@ -77135,7 +76978,6 @@ Female,21.0,0,0,No Info,32.84,6.2,200,0,Prediabetes,Obesity,Possible Diabetes,12
 Male,41.0,0,0,never,27.76,4.5,158,0,Normal,Overweight,Prediabetes,711.0,184.5,1138.16,124.92,6478.0,0,0,0
 Female,37.0,0,0,No Info,22.32,5.0,155,0,Normal,Healthy Weight,Prediabetes,775.0,185.0,825.84,111.6,5735.0,0,0,0
 Male,80.0,0,0,not current,27.32,6.2,155,0,Prediabetes,Overweight,Prediabetes,961.0,496.0,2185.6,169.38400000000001,12400.0,0,1,0
-Female,6.0,0,0,not current,18.11,6.0,140,0,Prediabetes,Underweight,Prediabetes,840.0,36.0,108.66,108.66,840.0,0,0,0
 Male,39.0,0,0,No Info,27.32,4.8,90,0,Normal,Overweight,Normal,432.0,187.2,1065.48,131.136,3510.0,0,0,0
 Female,19.0,0,0,No Info,21.36,4.5,90,0,Normal,Healthy Weight,Normal,405.0,85.5,405.84,96.12,1710.0,0,0,0
 Female,12.0,0,0,No Info,27.32,4.5,80,0,Normal,Overweight,Normal,360.0,54.0,327.84000000000003,122.94,960.0,0,0,0
@@ -77200,7 +77042,6 @@ Female,47.0,0,0,No Info,36.09,4.8,90,0,Normal,Obesity,Normal,432.0,225.6,1696.23
 Female,51.0,0,0,ever,29.45,5.0,80,0,Normal,Overweight,Normal,400.0,255.0,1501.95,147.25,4080.0,0,0,0
 Female,29.0,0,0,ever,27.32,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,174.0,792.28,163.92000000000002,4495.0,0,0,0
 Female,37.0,0,0,never,18.54,4.0,85,0,Normal,Healthy Weight,Normal,340.0,148.0,685.98,74.16,3145.0,0,0,0
-Male,9.0,0,0,not current,16.3,6.5,155,0,Diabetes,Underweight,Prediabetes,1007.5,58.5,146.70000000000002,105.95,1395.0,0,0,0
 Male,64.0,0,0,No Info,27.32,6.2,145,0,Prediabetes,Overweight,Prediabetes,899.0,396.8,1748.48,169.38400000000001,9280.0,0,1,0
 Female,45.0,0,0,former,27.37,5.7,145,0,Prediabetes,Overweight,Prediabetes,826.5,256.5,1231.65,156.00900000000001,6525.0,0,0,0
 Male,31.0,0,0,ever,27.8,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,179.79999999999998,861.8000000000001,161.24,4340.0,0,0,0
@@ -77227,7 +77068,6 @@ Female,60.0,0,0,never,36.58,4.8,145,0,Normal,Obesity,Prediabetes,696.0,288.0,219
 Female,60.0,0,1,former,26.63,7.5,160,1,Diabetes,Overweight,Prediabetes,1200.0,450.0,1597.8,199.725,9600.0,1,1,1
 Female,26.0,0,0,ever,18.79,3.5,200,0,Normal,Healthy Weight,Possible Diabetes,700.0,91.0,488.53999999999996,65.765,5200.0,0,0,0
 Female,54.0,0,0,not current,28.17,5.7,159,0,Prediabetes,Overweight,Prediabetes,906.3000000000001,307.8,1521.18,160.56900000000002,8586.0,0,0,0
-Male,4.0,0,0,not current,13.31,6.1,100,0,Prediabetes,Underweight,Normal,610.0,24.4,53.24,81.191,400.0,0,0,0
 Female,5.0,0,0,No Info,19.77,6.2,126,0,Prediabetes,Healthy Weight,Normal,781.2,31.0,98.85,122.574,630.0,0,0,0
 Female,69.0,0,0,not current,36.06,4.8,85,0,Normal,Obesity,Normal,408.0,331.2,2488.1400000000003,173.088,5865.0,0,1,0
 Female,80.0,1,0,No Info,19.92,6.5,160,0,Diabetes,Healthy Weight,Prediabetes,1040.0,520.0,1593.6000000000001,129.48000000000002,12800.0,0,1,1
@@ -77673,7 +77513,6 @@ Female,22.0,0,0,never,20.8,6.1,200,0,Prediabetes,Healthy Weight,Possible Diabete
 Male,2.0,0,0,No Info,15.28,3.5,145,0,Normal,Underweight,Prediabetes,507.5,7.0,30.56,53.48,290.0,0,0,0
 Male,36.0,0,0,ever,27.32,4.8,155,0,Normal,Overweight,Prediabetes,744.0,172.79999999999998,983.52,131.136,5580.0,0,0,0
 Female,28.0,0,0,current,28.03,3.5,145,0,Normal,Overweight,Prediabetes,507.5,98.0,784.84,98.105,4060.0,0,0,0
-Male,4.0,0,0,not current,15.18,6.1,160,0,Prediabetes,Underweight,Prediabetes,976.0,24.4,60.72,92.598,640.0,0,0,0
 Male,71.0,0,0,current,27.32,5.0,158,0,Normal,Overweight,Prediabetes,790.0,355.0,1939.72,136.6,11218.0,0,1,0
 Female,0.24,0,0,No Info,14.1,6.2,160,0,Prediabetes,Underweight,Prediabetes,992.0,1.488,3.384,87.42,38.4,0,0,0
 Female,27.0,0,0,never,29.15,5.0,200,0,Normal,Overweight,Possible Diabetes,1000.0,135.0,787.05,145.75,5400.0,0,0,0
@@ -77904,7 +77743,6 @@ Female,25.0,0,0,No Info,27.32,5.0,85,0,Normal,Overweight,Normal,425.0,125.0,683.
 Female,16.0,0,0,never,23.7,6.0,126,0,Prediabetes,Healthy Weight,Normal,756.0,96.0,379.2,142.2,2016.0,0,0,0
 Female,80.0,0,0,never,30.1,5.8,200,0,Prediabetes,Obesity,Possible Diabetes,1160.0,464.0,2408.0,174.58,16000.0,0,1,0
 Male,69.0,1,0,former,32.16,4.0,80,0,Normal,Obesity,Normal,320.0,276.0,2219.04,128.64,5520.0,0,1,1
-Female,4.0,0,0,not current,27.32,6.1,158,0,Prediabetes,Overweight,Prediabetes,963.8,24.4,109.28,166.652,632.0,0,0,0
 Male,34.0,1,0,never,27.32,3.5,155,0,Normal,Overweight,Prediabetes,542.5,119.0,928.88,95.62,5270.0,0,0,1
 Female,79.0,0,0,never,26.1,4.8,140,0,Normal,Overweight,Prediabetes,672.0,379.2,2061.9,125.28,11060.0,0,1,0
 Male,54.0,0,0,ever,21.81,6.1,126,0,Prediabetes,Healthy Weight,Normal,768.5999999999999,329.4,1177.74,133.041,6804.0,0,0,0
@@ -78567,7 +78405,6 @@ Female,19.0,0,0,No Info,17.76,4.8,158,0,Normal,Underweight,Prediabetes,758.4,91.
 Male,57.0,0,0,never,27.32,6.2,80,0,Prediabetes,Overweight,Normal,496.0,353.40000000000003,1557.24,169.38400000000001,4560.0,0,0,0
 Male,76.0,0,1,current,34.74,8.8,300,1,Diabetes,Obesity,Possible Diabetes,2640.0,668.8000000000001,2640.2400000000002,305.71200000000005,22800.0,1,1,1
 Male,14.0,0,0,never,20.44,5.7,100,0,Prediabetes,Healthy Weight,Normal,570.0,79.8,286.16,116.50800000000001,1400.0,0,0,0
-Male,9.0,0,0,not current,19.8,6.2,85,0,Prediabetes,Healthy Weight,Normal,527.0,55.800000000000004,178.20000000000002,122.76,765.0,0,0,0
 Female,42.0,0,0,never,23.24,4.5,155,0,Normal,Healthy Weight,Prediabetes,697.5,189.0,976.0799999999999,104.58,6510.0,0,0,0
 Female,33.0,0,0,No Info,27.18,4.0,90,0,Normal,Overweight,Normal,360.0,132.0,896.9399999999999,108.72,2970.0,0,0,0
 Female,60.0,1,0,never,27.32,6.1,155,0,Prediabetes,Overweight,Prediabetes,945.5,366.0,1639.2,166.652,9300.0,0,1,1
@@ -79278,7 +79115,6 @@ Female,31.0,0,0,never,16.83,6.6,155,0,Diabetes,Underweight,Prediabetes,1023.0,20
 Female,11.0,0,0,No Info,19.41,6.2,159,0,Prediabetes,Healthy Weight,Prediabetes,985.8000000000001,68.2,213.51,120.342,1749.0,0,0,0
 Female,4.0,0,0,No Info,14.95,6.6,155,0,Diabetes,Underweight,Prediabetes,1023.0,26.4,59.8,98.66999999999999,620.0,1,0,0
 Female,41.0,1,0,never,31.34,6.2,130,0,Prediabetes,Obesity,Normal,806.0,254.20000000000002,1284.94,194.308,5330.0,0,0,1
-Female,9.0,0,0,not current,17.5,6.6,158,0,Diabetes,Underweight,Prediabetes,1042.8,59.4,157.5,115.5,1422.0,1,0,0
 Female,52.0,0,0,never,25.4,4.8,155,0,Normal,Overweight,Prediabetes,744.0,249.6,1320.8,121.91999999999999,8060.0,0,0,0
 Female,13.0,0,0,never,27.77,6.6,80,0,Diabetes,Overweight,Normal,528.0,85.8,361.01,183.28199999999998,1040.0,1,0,0
 Male,1.16,0,0,No Info,20.86,4.8,100,0,Normal,Healthy Weight,Normal,480.0,5.568,24.197599999999998,100.128,115.99999999999999,0,0,0
@@ -79412,7 +79248,6 @@ Female,20.0,0,0,current,33.34,3.5,160,0,Normal,Obesity,Prediabetes,560.0,70.0,66
 Female,65.0,0,0,former,21.3,5.7,155,0,Prediabetes,Healthy Weight,Prediabetes,883.5,370.5,1384.5,121.41000000000001,10075.0,0,1,0
 Male,66.0,1,0,current,27.32,4.5,160,0,Normal,Overweight,Prediabetes,720.0,297.0,1803.1200000000001,122.94,10560.0,0,1,1
 Male,33.0,0,0,No Info,39.3,6.1,85,0,Prediabetes,Obesity,Normal,518.5,201.29999999999998,1296.8999999999999,239.72999999999996,2805.0,0,0,0
-Male,3.0,0,0,not current,20.97,6.2,158,0,Prediabetes,Healthy Weight,Prediabetes,979.6,18.6,62.91,130.014,474.0,0,0,0
 Male,80.0,0,1,not current,27.32,5.0,85,0,Normal,Overweight,Normal,425.0,400.0,2185.6,136.6,6800.0,0,1,1
 Female,26.0,0,0,never,20.8,6.0,130,0,Prediabetes,Healthy Weight,Normal,780.0,156.0,540.8000000000001,124.80000000000001,3380.0,0,0,0
 Female,73.0,1,0,never,12.91,6.0,160,1,Prediabetes,Underweight,Prediabetes,960.0,438.0,942.4300000000001,77.46000000000001,11680.0,0,1,1
@@ -79424,7 +79259,6 @@ Female,59.0,0,0,never,27.32,5.7,126,0,Prediabetes,Overweight,Normal,718.2,336.3,
 Female,1.4,0,0,No Info,16.52,6.6,159,0,Diabetes,Underweight,Prediabetes,1049.3999999999999,9.239999999999998,23.127999999999997,109.032,222.6,1,0,0
 Female,47.0,0,0,No Info,27.32,4.0,145,0,Normal,Overweight,Prediabetes,580.0,188.0,1284.04,109.28,6815.0,0,0,0
 Female,46.0,0,0,not current,28.08,4.0,200,0,Normal,Overweight,Possible Diabetes,800.0,184.0,1291.6799999999998,112.32,9200.0,0,0,0
-Male,7.0,0,0,not current,15.2,3.5,200,0,Normal,Underweight,Possible Diabetes,700.0,24.5,106.39999999999999,53.199999999999996,1400.0,0,0,0
 Female,21.0,0,0,No Info,27.32,6.1,90,0,Prediabetes,Overweight,Normal,549.0,128.1,573.72,166.652,1890.0,0,0,0
 Female,76.0,0,0,never,27.32,3.5,155,0,Normal,Overweight,Prediabetes,542.5,266.0,2076.32,95.62,11780.0,0,1,0
 Female,69.0,0,0,No Info,27.32,6.6,158,0,Diabetes,Overweight,Prediabetes,1042.8,455.4,1885.08,180.31199999999998,10902.0,1,1,0
@@ -79771,7 +79605,6 @@ Male,78.0,1,1,former,27.32,8.8,155,1,Diabetes,Overweight,Prediabetes,1364.0,686.
 Female,45.0,0,0,No Info,27.32,6.2,200,0,Prediabetes,Overweight,Possible Diabetes,1240.0,279.0,1229.4,169.38400000000001,9000.0,0,0,0
 Male,74.0,0,0,ever,27.32,6.1,126,0,Prediabetes,Overweight,Normal,768.5999999999999,451.4,2021.68,166.652,9324.0,0,1,0
 Male,17.0,0,0,never,23.3,4.5,130,0,Normal,Healthy Weight,Normal,585.0,76.5,396.1,104.85000000000001,2210.0,0,0,0
-Female,8.0,0,0,not current,18.21,5.7,159,0,Prediabetes,Underweight,Prediabetes,906.3000000000001,45.6,145.68,103.79700000000001,1272.0,0,0,0
 Male,54.0,1,0,former,27.32,6.5,126,1,Diabetes,Overweight,Normal,819.0,351.0,1475.28,177.58,6804.0,0,0,1
 Female,24.0,0,0,current,26.52,5.0,145,0,Normal,Overweight,Prediabetes,725.0,120.0,636.48,132.6,3480.0,0,0,0
 Male,57.0,0,0,No Info,33.85,5.8,80,0,Prediabetes,Obesity,Normal,464.0,330.59999999999997,1929.45,196.33,4560.0,0,0,0
@@ -79853,7 +79686,6 @@ Female,1.24,0,0,No Info,16.5,4.8,158,0,Normal,Underweight,Prediabetes,758.4,5.95
 Male,5.0,0,0,never,17.16,4.5,160,0,Normal,Underweight,Prediabetes,720.0,22.5,85.8,77.22,800.0,0,0,0
 Female,67.0,0,0,No Info,33.32,5.7,90,0,Prediabetes,Obesity,Normal,513.0,381.90000000000003,2232.44,189.924,6030.0,0,1,0
 Male,69.0,0,1,never,30.69,5.8,100,0,Prediabetes,Obesity,Normal,580.0,400.2,2117.61,178.002,6900.0,0,1,1
-Female,1.8,0,0,current,18.68,6.0,126,0,Prediabetes,Healthy Weight,Normal,756.0,10.8,33.624,112.08,226.8,0,0,0
 Female,48.0,0,0,No Info,27.32,6.1,130,0,Prediabetes,Overweight,Normal,793.0,292.79999999999995,1311.3600000000001,166.652,6240.0,0,0,0
 Female,7.0,0,0,never,27.32,6.6,100,0,Diabetes,Overweight,Normal,660.0,46.199999999999996,191.24,180.31199999999998,700.0,1,0,0
 Female,28.0,0,0,never,23.63,6.6,126,0,Diabetes,Healthy Weight,Normal,831.5999999999999,184.79999999999998,661.64,155.958,3528.0,1,0,0
@@ -80856,7 +80688,6 @@ Male,42.0,0,0,No Info,27.32,5.8,140,0,Prediabetes,Overweight,Prediabetes,812.0,2
 Female,26.0,0,0,never,37.55,4.8,80,0,Normal,Obesity,Normal,384.0,124.8,976.3,180.23999999999998,2080.0,0,0,0
 Female,47.0,0,0,never,31.83,6.1,158,0,Prediabetes,Obesity,Prediabetes,963.8,286.7,1496.01,194.16299999999998,7426.0,0,0,0
 Female,37.0,0,0,not current,24.85,4.5,126,0,Normal,Healthy Weight,Normal,567.0,166.5,919.45,111.825,4662.0,0,0,0
-Male,7.0,0,0,not current,18.27,6.2,85,0,Prediabetes,Underweight,Normal,527.0,43.4,127.89,113.274,595.0,0,0,0
 Female,49.0,0,0,No Info,27.32,6.5,200,0,Diabetes,Overweight,Possible Diabetes,1300.0,318.5,1338.68,177.58,9800.0,0,0,0
 Female,13.0,0,0,never,18.54,4.8,126,0,Normal,Healthy Weight,Normal,604.8,62.4,241.01999999999998,88.99199999999999,1638.0,0,0,0
 Male,37.0,0,0,never,25.96,5.8,85,0,Prediabetes,Overweight,Normal,493.0,214.6,960.52,150.568,3145.0,0,0,0
@@ -81408,7 +81239,6 @@ Male,67.0,0,0,current,26.4,5.8,145,0,Prediabetes,Overweight,Prediabetes,841.0,38
 Male,70.0,0,0,never,22.47,9.0,200,1,Diabetes,Healthy Weight,Possible Diabetes,1800.0,630.0,1572.8999999999999,202.23,14000.0,1,1,0
 Male,57.0,0,0,current,25.79,7.0,159,1,Diabetes,Overweight,Prediabetes,1113.0,399.0,1470.03,180.53,9063.0,1,0,0
 Male,41.0,0,0,current,27.78,4.0,200,0,Normal,Overweight,Possible Diabetes,800.0,164.0,1138.98,111.12,8200.0,0,0,0
-Female,7.0,0,0,not current,15.8,5.8,145,0,Prediabetes,Underweight,Prediabetes,841.0,40.6,110.60000000000001,91.64,1015.0,0,0,0
 Male,35.0,0,0,never,52.24,8.8,160,1,Diabetes,Obesity,Prediabetes,1408.0,308.0,1828.4,459.71200000000005,5600.0,1,0,0
 Male,73.0,0,0,never,32.2,5.7,85,0,Prediabetes,Obesity,Normal,484.5,416.1,2350.6000000000004,183.54000000000002,6205.0,0,1,0
 Female,45.0,0,0,former,32.24,5.0,159,0,Normal,Obesity,Prediabetes,795.0,225.0,1450.8000000000002,161.20000000000002,7155.0,0,0,0
@@ -81726,7 +81556,6 @@ Female,1.64,0,0,No Info,16.6,5.7,90,0,Prediabetes,Underweight,Normal,513.0,9.347
 Male,65.0,1,1,No Info,32.38,6.0,90,0,Prediabetes,Obesity,Normal,540.0,390.0,2104.7000000000003,194.28000000000003,5850.0,0,1,1
 Female,37.0,0,0,No Info,26.43,6.6,160,0,Diabetes,Overweight,Prediabetes,1056.0,244.2,977.91,174.438,5920.0,1,0,0
 Female,26.0,0,0,No Info,27.32,5.7,80,0,Prediabetes,Overweight,Normal,456.0,148.20000000000002,710.32,155.72400000000002,2080.0,0,0,0
-Male,9.0,0,0,not current,17.3,5.8,80,0,Prediabetes,Underweight,Normal,464.0,52.199999999999996,155.70000000000002,100.34,720.0,0,0,0
 Female,53.0,0,0,No Info,33.27,4.0,90,0,Normal,Obesity,Normal,360.0,212.0,1763.3100000000002,133.08,4770.0,0,0,0
 Female,80.0,0,0,never,29.87,6.6,155,0,Diabetes,Overweight,Prediabetes,1023.0,528.0,2389.6,197.142,12400.0,1,1,0
 Male,5.0,0,0,No Info,16.31,6.6,85,0,Diabetes,Underweight,Normal,561.0,33.0,81.55,107.64599999999999,425.0,1,0,0
@@ -81736,7 +81565,6 @@ Female,73.0,0,0,never,24.78,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,481.79
 Female,31.0,0,0,never,20.68,3.5,85,0,Normal,Healthy Weight,Normal,297.5,108.5,641.08,72.38,2635.0,0,0,0
 Female,78.0,0,0,former,22.68,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,514.8,1769.04,149.688,7020.0,1,1,0
 Female,4.0,0,0,No Info,21.84,3.5,85,0,Normal,Healthy Weight,Normal,297.5,14.0,87.36,76.44,340.0,0,0,0
-Male,8.0,0,0,not current,19.0,6.0,126,0,Prediabetes,Healthy Weight,Normal,756.0,48.0,152.0,114.0,1008.0,0,0,0
 Female,39.0,0,0,never,24.02,6.1,126,0,Prediabetes,Healthy Weight,Normal,768.5999999999999,237.89999999999998,936.78,146.522,4914.0,0,0,0
 Female,24.0,0,0,No Info,17.97,4.5,160,0,Normal,Underweight,Prediabetes,720.0,108.0,431.28,80.865,3840.0,0,0,0
 Female,72.0,0,0,former,42.03,4.0,159,0,Normal,Obesity,Prediabetes,636.0,288.0,3026.16,168.12,11448.0,0,1,0
@@ -83121,7 +82949,6 @@ Female,8.0,0,0,No Info,15.86,4.8,130,0,Normal,Underweight,Normal,624.0,38.4,126.
 Female,53.0,0,0,former,31.71,4.0,130,0,Normal,Obesity,Normal,520.0,212.0,1680.63,126.84,6890.0,0,0,0
 Male,2.0,0,0,No Info,17.79,3.5,145,0,Normal,Underweight,Prediabetes,507.5,7.0,35.58,62.265,290.0,0,0,0
 Female,60.0,0,0,never,22.22,6.2,85,0,Prediabetes,Healthy Weight,Normal,527.0,372.0,1333.1999999999998,137.764,5100.0,0,1,0
-Female,8.0,0,0,not current,27.32,6.6,100,0,Diabetes,Overweight,Normal,660.0,52.8,218.56,180.31199999999998,800.0,1,0,0
 Male,37.0,0,0,never,28.61,6.5,200,0,Diabetes,Overweight,Possible Diabetes,1300.0,240.5,1058.57,185.965,7400.0,0,0,0
 Male,28.0,0,0,current,25.0,5.8,126,0,Prediabetes,Overweight,Normal,730.8,162.4,700.0,145.0,3528.0,0,0,0
 Male,65.0,0,1,not current,31.04,3.5,145,0,Normal,Obesity,Prediabetes,507.5,227.5,2017.6,108.64,9425.0,0,1,1
@@ -83173,12 +83000,10 @@ Female,43.0,0,0,not current,53.4,7.5,140,1,Diabetes,Obesity,Prediabetes,1050.0,3
 Male,66.0,0,0,former,41.55,6.8,159,1,Diabetes,Obesity,Prediabetes,1081.2,448.8,2742.2999999999997,282.53999999999996,10494.0,1,1,0
 Female,2.0,0,0,No Info,17.7,5.8,126,0,Prediabetes,Underweight,Normal,730.8,11.6,35.4,102.66,252.0,0,0,0
 Male,57.0,1,1,ever,31.42,3.5,80,0,Normal,Obesity,Normal,280.0,199.5,1790.94,109.97,4560.0,0,0,1
-Female,6.0,0,0,not current,13.68,6.6,130,0,Diabetes,Underweight,Normal,858.0,39.599999999999994,82.08,90.288,780.0,1,0,0
 Female,29.0,0,0,former,37.69,6.0,140,0,Prediabetes,Obesity,Prediabetes,840.0,174.0,1093.01,226.14,4060.0,0,0,0
 Female,4.0,0,0,No Info,19.24,4.8,140,0,Normal,Healthy Weight,Prediabetes,672.0,19.2,76.96,92.35199999999999,560.0,0,0,0
 Female,20.0,0,0,never,30.7,6.1,85,0,Prediabetes,Obesity,Normal,518.5,122.0,614.0,187.26999999999998,1700.0,0,0,0
 Male,62.0,0,0,No Info,31.33,5.7,159,0,Prediabetes,Obesity,Prediabetes,906.3000000000001,353.40000000000003,1942.4599999999998,178.581,9858.0,0,1,0
-Male,9.0,0,0,not current,16.59,6.1,200,0,Prediabetes,Underweight,Possible Diabetes,1220.0,54.9,149.31,101.199,1800.0,0,0,0
 Female,24.0,0,0,never,20.67,5.8,90,0,Prediabetes,Healthy Weight,Normal,522.0,139.2,496.08000000000004,119.88600000000001,2160.0,0,0,0
 Female,44.0,0,0,never,28.14,5.0,145,0,Normal,Overweight,Prediabetes,725.0,220.0,1238.16,140.7,6380.0,0,0,0
 Male,2.0,0,0,No Info,16.02,4.0,130,0,Normal,Underweight,Normal,520.0,8.0,32.04,64.08,260.0,0,0,0
@@ -84268,7 +84093,6 @@ Female,61.0,0,0,never,31.41,6.1,90,0,Prediabetes,Obesity,Normal,549.0,372.099999
 Male,66.0,0,0,never,25.09,4.0,90,0,Normal,Overweight,Normal,360.0,264.0,1655.94,100.36,5940.0,0,1,0
 Female,55.0,0,0,former,34.04,6.2,200,0,Prediabetes,Obesity,Possible Diabetes,1240.0,341.0,1872.2,211.048,11000.0,0,0,0
 Male,2.0,0,0,never,19.27,4.8,160,0,Normal,Healthy Weight,Prediabetes,768.0,9.6,38.54,92.496,320.0,0,0,0
-Female,7.0,0,0,not current,14.94,5.8,160,0,Prediabetes,Underweight,Prediabetes,928.0,40.6,104.58,86.652,1120.0,0,0,0
 Female,32.0,0,0,never,24.69,6.5,80,0,Diabetes,Healthy Weight,Normal,520.0,208.0,790.08,160.485,2560.0,0,0,0
 Male,79.0,0,0,not current,25.64,4.8,145,0,Normal,Overweight,Prediabetes,696.0,379.2,2025.56,123.072,11455.0,0,1,0
 Female,41.0,0,0,current,21.22,5.8,85,0,Prediabetes,Healthy Weight,Normal,493.0,237.79999999999998,870.02,123.076,3485.0,0,0,0
@@ -84328,7 +84152,6 @@ Female,59.0,0,0,not current,19.63,5.7,80,0,Prediabetes,Healthy Weight,Normal,456
 Male,39.0,0,0,current,27.32,5.8,100,0,Prediabetes,Overweight,Normal,580.0,226.2,1065.48,158.456,3900.0,0,0,0
 Male,48.0,0,0,No Info,27.32,8.2,159,1,Diabetes,Overweight,Prediabetes,1303.8,393.59999999999997,1311.3600000000001,224.02399999999997,7632.0,1,0,0
 Female,38.0,0,0,No Info,38.12,6.1,158,0,Prediabetes,Obesity,Prediabetes,963.8,231.79999999999998,1448.56,232.53199999999998,6004.0,0,0,0
-Female,6.0,0,0,ever,15.28,3.5,140,0,Normal,Underweight,Prediabetes,490.0,21.0,91.67999999999999,53.48,840.0,0,0,0
 Male,24.0,0,0,ever,22.89,6.5,155,0,Diabetes,Healthy Weight,Prediabetes,1007.5,156.0,549.36,148.785,3720.0,0,0,0
 Female,46.0,0,0,current,38.25,5.8,159,0,Prediabetes,Obesity,Prediabetes,922.1999999999999,266.8,1759.5,221.85,7314.0,0,0,0
 Female,61.0,0,0,No Info,31.59,4.0,80,0,Normal,Obesity,Normal,320.0,244.0,1926.99,126.36,4880.0,0,1,0
@@ -84969,7 +84792,6 @@ Female,69.0,0,0,No Info,54.29,6.5,300,1,Diabetes,Obesity,Possible Diabetes,1950.
 Male,9.0,0,0,never,17.22,5.8,160,0,Prediabetes,Underweight,Prediabetes,928.0,52.199999999999996,154.98,99.87599999999999,1440.0,0,0,0
 Female,29.0,0,0,ever,36.76,4.0,158,0,Normal,Obesity,Prediabetes,632.0,116.0,1066.04,147.04,4582.0,0,0,0
 Male,64.0,0,0,No Info,33.08,6.6,160,0,Diabetes,Obesity,Prediabetes,1056.0,422.4,2117.12,218.32799999999997,10240.0,1,1,0
-Male,8.0,0,0,not current,14.99,6.0,200,0,Prediabetes,Underweight,Possible Diabetes,1200.0,48.0,119.92,89.94,1600.0,0,0,0
 Male,1.08,0,0,No Info,15.53,3.5,140,0,Normal,Underweight,Prediabetes,490.0,3.7800000000000002,16.7724,54.355,151.20000000000002,0,0,0
 Female,26.0,0,0,No Info,27.32,4.8,80,0,Normal,Overweight,Normal,384.0,124.8,710.32,131.136,2080.0,0,0,0
 Male,46.0,0,0,No Info,27.32,5.0,140,0,Normal,Overweight,Prediabetes,700.0,230.0,1256.72,136.6,6440.0,0,0,0
@@ -85189,7 +85011,6 @@ Female,35.0,0,0,never,26.68,3.5,90,0,Normal,Overweight,Normal,315.0,122.5,933.8,
 Male,56.0,0,0,never,38.88,6.5,90,0,Diabetes,Obesity,Normal,585.0,364.0,2177.28,252.72000000000003,5040.0,0,0,0
 Male,66.0,0,1,former,28.63,6.0,200,0,Prediabetes,Overweight,Possible Diabetes,1200.0,396.0,1889.58,171.78,13200.0,0,1,1
 Female,64.0,1,0,former,27.06,4.0,145,0,Normal,Overweight,Prediabetes,580.0,256.0,1731.84,108.24,9280.0,0,1,1
-Male,5.0,0,0,not current,14.17,5.8,155,0,Prediabetes,Underweight,Prediabetes,899.0,29.0,70.85,82.18599999999999,775.0,0,0,0
 Male,3.0,0,0,No Info,21.89,4.0,85,0,Normal,Healthy Weight,Normal,340.0,12.0,65.67,87.56,255.0,0,0,0
 Female,29.0,0,0,never,36.0,4.8,155,0,Normal,Obesity,Prediabetes,744.0,139.2,1044.0,172.79999999999998,4495.0,0,0,0
 Male,43.0,0,0,ever,27.32,5.0,90,0,Normal,Overweight,Normal,450.0,215.0,1174.76,136.6,3870.0,0,0,0
@@ -85336,7 +85157,6 @@ Male,2.0,0,0,No Info,16.87,5.7,130,0,Prediabetes,Underweight,Normal,741.0,11.4,3
 Male,38.0,0,0,never,27.32,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,247.0,1038.16,177.58,6042.0,0,0,0
 Female,56.0,0,0,former,34.11,4.0,90,0,Normal,Obesity,Normal,360.0,224.0,1910.1599999999999,136.44,5040.0,0,0,0
 Female,27.0,0,0,No Info,23.24,5.7,100,0,Prediabetes,Healthy Weight,Normal,570.0,153.9,627.4799999999999,132.468,2700.0,0,0,0
-Male,8.0,0,0,not current,16.1,5.8,140,0,Prediabetes,Underweight,Prediabetes,812.0,46.4,128.8,93.38000000000001,1120.0,0,0,0
 Female,23.0,0,0,former,27.32,3.5,140,0,Normal,Overweight,Prediabetes,490.0,80.5,628.36,95.62,3220.0,0,0,0
 Female,1.56,0,0,No Info,15.18,4.0,130,0,Normal,Underweight,Normal,520.0,6.24,23.6808,60.72,202.8,0,0,0
 Male,3.0,0,0,No Info,16.07,6.2,80,0,Prediabetes,Underweight,Normal,496.0,18.6,48.21,99.634,240.0,0,0,0
@@ -86008,7 +85828,6 @@ Female,49.0,0,0,never,25.05,3.5,126,0,Normal,Overweight,Normal,441.0,171.5,1227.
 Female,80.0,0,0,former,26.5,6.1,140,0,Prediabetes,Overweight,Prediabetes,854.0,488.0,2120.0,161.64999999999998,11200.0,0,1,0
 Female,23.0,0,0,never,24.1,5.8,126,0,Prediabetes,Healthy Weight,Normal,730.8,133.4,554.3000000000001,139.78,2898.0,0,0,0
 Female,14.0,0,0,No Info,29.75,5.8,90,0,Prediabetes,Overweight,Normal,522.0,81.2,416.5,172.54999999999998,1260.0,0,0,0
-Male,3.0,0,0,not current,27.32,3.5,155,0,Normal,Overweight,Prediabetes,542.5,10.5,81.96000000000001,95.62,465.0,0,0,0
 Female,65.0,0,0,never,27.52,6.6,200,0,Diabetes,Overweight,Possible Diabetes,1320.0,429.0,1788.8,181.63199999999998,13000.0,1,1,0
 Male,8.0,0,0,No Info,18.31,3.5,130,0,Normal,Underweight,Normal,455.0,28.0,146.48,64.085,1040.0,0,0,0
 Male,61.0,0,0,never,35.58,6.2,126,0,Prediabetes,Obesity,Normal,781.2,378.2,2170.38,220.596,7686.0,0,1,0
@@ -86211,7 +86030,6 @@ Female,80.0,0,0,No Info,27.32,6.6,220,1,Diabetes,Overweight,Possible Diabetes,14
 Male,43.0,0,0,never,25.34,5.8,155,1,Prediabetes,Overweight,Prediabetes,899.0,249.4,1089.62,146.972,6665.0,0,0,0
 Male,60.0,0,0,never,36.75,6.6,200,0,Diabetes,Obesity,Possible Diabetes,1320.0,396.0,2205.0,242.54999999999998,12000.0,1,1,0
 Female,12.0,0,0,never,35.21,6.0,100,0,Prediabetes,Obesity,Normal,600.0,72.0,422.52,211.26,1200.0,0,0,0
-Male,9.0,0,0,not current,18.35,5.7,159,0,Prediabetes,Underweight,Prediabetes,906.3000000000001,51.300000000000004,165.15,104.59500000000001,1431.0,0,0,0
 Male,2.0,0,0,No Info,27.32,6.0,85,0,Prediabetes,Overweight,Normal,510.0,12.0,54.64,163.92000000000002,170.0,0,0,0
 Male,43.0,0,0,No Info,27.32,5.8,80,0,Prediabetes,Overweight,Normal,464.0,249.4,1174.76,158.456,3440.0,0,0,0
 Male,14.0,0,0,never,17.9,6.6,100,0,Diabetes,Underweight,Normal,660.0,92.39999999999999,250.59999999999997,118.13999999999999,1400.0,1,0,0
@@ -86755,7 +86573,6 @@ Female,27.0,0,0,No Info,37.9,6.6,280,1,Diabetes,Obesity,Possible Diabetes,1848.0
 Female,16.0,0,0,not current,21.25,4.8,145,0,Normal,Healthy Weight,Prediabetes,696.0,76.8,340.0,102.0,2320.0,0,0,0
 Male,43.0,0,0,former,30.21,4.0,80,0,Normal,Obesity,Normal,320.0,172.0,1299.03,120.84,3440.0,0,0,0
 Female,43.0,0,0,No Info,29.39,4.8,155,0,Normal,Overweight,Prediabetes,744.0,206.4,1263.77,141.072,6665.0,0,0,0
-Male,7.0,0,0,not current,17.95,3.5,155,0,Normal,Underweight,Prediabetes,542.5,24.5,125.64999999999999,62.824999999999996,1085.0,0,0,0
 Female,5.0,0,0,never,15.77,6.0,145,0,Prediabetes,Underweight,Prediabetes,870.0,30.0,78.85,94.62,725.0,0,0,0
 Female,4.0,0,0,never,16.03,5.7,140,0,Prediabetes,Underweight,Prediabetes,798.0,22.8,64.12,91.37100000000001,560.0,0,0,0
 Male,80.0,0,0,not current,28.21,4.0,100,0,Normal,Overweight,Normal,400.0,320.0,2256.8,112.84,8000.0,0,1,0
@@ -86839,7 +86656,6 @@ Female,20.0,0,0,never,25.69,6.0,155,0,Prediabetes,Overweight,Prediabetes,930.0,1
 Female,23.0,0,0,never,27.71,6.5,159,0,Diabetes,Overweight,Prediabetes,1033.5,149.5,637.33,180.115,3657.0,0,0,0
 Female,34.0,0,0,No Info,87.7,6.0,126,0,Prediabetes,Obesity,Normal,756.0,204.0,2981.8,526.2,4284.0,0,0,0
 Female,2.0,0,0,No Info,18.72,4.5,90,0,Normal,Healthy Weight,Normal,405.0,9.0,37.44,84.24,180.0,0,0,0
-Female,5.0,0,0,not current,20.71,5.0,158,0,Normal,Healthy Weight,Prediabetes,790.0,25.0,103.55000000000001,103.55000000000001,790.0,0,0,0
 Male,75.0,0,0,No Info,31.9,6.2,280,1,Prediabetes,Obesity,Possible Diabetes,1736.0,465.0,2392.5,197.78,21000.0,0,1,0
 Male,39.0,0,0,never,39.2,4.0,90,0,Normal,Obesity,Normal,360.0,156.0,1528.8000000000002,156.8,3510.0,0,0,0
 Female,48.0,0,0,never,28.95,4.0,159,0,Normal,Overweight,Prediabetes,636.0,192.0,1389.6,115.8,7632.0,0,0,0
@@ -89127,7 +88943,6 @@ Female,61.0,0,0,never,27.32,4.8,158,0,Normal,Overweight,Prediabetes,758.4,292.8,
 Female,63.0,0,0,No Info,27.32,6.6,159,0,Diabetes,Overweight,Prediabetes,1049.3999999999999,415.79999999999995,1721.16,180.31199999999998,10017.0,1,1,0
 Female,58.0,0,0,former,30.98,5.0,130,0,Normal,Obesity,Normal,650.0,290.0,1796.84,154.9,7540.0,0,0,0
 Female,18.0,0,0,No Info,38.72,4.5,158,0,Normal,Obesity,Prediabetes,711.0,81.0,696.96,174.24,2844.0,0,0,0
-Female,6.0,0,0,not current,14.23,3.5,145,0,Normal,Underweight,Prediabetes,507.5,21.0,85.38,49.805,870.0,0,0,0
 Female,26.0,0,0,No Info,27.32,5.0,100,0,Normal,Overweight,Normal,500.0,130.0,710.32,136.6,2600.0,0,0,0
 Male,27.0,0,0,never,26.59,4.0,158,0,Normal,Overweight,Prediabetes,632.0,108.0,717.93,106.36,4266.0,0,0,0
 Female,13.0,0,0,No Info,22.85,4.5,100,0,Normal,Healthy Weight,Normal,450.0,58.5,297.05,102.825,1300.0,0,0,0
@@ -89348,7 +89163,6 @@ Female,26.0,0,0,current,27.32,6.0,126,0,Prediabetes,Overweight,Normal,756.0,156.
 Female,62.0,0,0,No Info,30.07,4.0,158,0,Normal,Obesity,Prediabetes,632.0,248.0,1864.34,120.28,9796.0,0,1,0
 Female,44.0,0,0,not current,37.7,5.7,80,0,Prediabetes,Obesity,Normal,456.0,250.8,1658.8000000000002,214.89000000000001,3520.0,0,0,0
 Female,62.0,1,0,never,36.0,5.8,155,0,Prediabetes,Obesity,Prediabetes,899.0,359.59999999999997,2232.0,208.79999999999998,9610.0,0,1,1
-Female,5.0,0,0,not current,16.72,6.1,90,0,Prediabetes,Underweight,Normal,549.0,30.5,83.6,101.99199999999999,450.0,0,0,0
 Male,6.0,0,0,never,19.8,4.5,160,0,Normal,Healthy Weight,Prediabetes,720.0,27.0,118.80000000000001,89.10000000000001,960.0,0,0,0
 Female,52.0,0,0,No Info,27.32,5.8,80,0,Prediabetes,Overweight,Normal,464.0,301.59999999999997,1420.64,158.456,4160.0,0,0,0
 Female,36.0,0,0,never,23.72,3.5,140,0,Normal,Healthy Weight,Prediabetes,490.0,126.0,853.92,83.02,5040.0,0,0,0
@@ -90353,7 +90167,6 @@ Female,12.0,0,0,No Info,27.32,4.8,126,0,Normal,Overweight,Normal,604.8,57.599999
 Female,80.0,0,0,current,27.32,6.0,140,0,Prediabetes,Overweight,Prediabetes,840.0,480.0,2185.6,163.92000000000002,11200.0,0,1,0
 Female,50.0,0,1,never,27.32,3.5,159,0,Normal,Overweight,Prediabetes,556.5,175.0,1366.0,95.62,7950.0,0,0,1
 Male,80.0,1,1,former,29.67,9.0,200,1,Diabetes,Overweight,Possible Diabetes,1800.0,720.0,2373.6000000000004,267.03000000000003,16000.0,1,1,1
-Male,6.0,0,0,not current,19.11,5.0,158,0,Normal,Healthy Weight,Prediabetes,790.0,30.0,114.66,95.55,948.0,0,0,0
 Male,35.0,0,0,No Info,41.43,6.6,80,0,Diabetes,Obesity,Normal,528.0,231.0,1450.05,273.438,2800.0,1,0,0
 Female,67.0,1,0,never,25.32,4.5,130,0,Normal,Overweight,Normal,585.0,301.5,1696.44,113.94,8710.0,0,1,1
 Female,48.0,0,0,No Info,20.4,3.5,126,0,Normal,Healthy Weight,Normal,441.0,168.0,979.1999999999999,71.39999999999999,6048.0,0,0,0
@@ -90373,7 +90186,6 @@ Male,17.0,0,0,No Info,27.32,3.5,90,0,Normal,Overweight,Normal,315.0,59.5,464.44,
 Female,11.0,0,0,No Info,32.28,6.6,159,0,Diabetes,Obesity,Prediabetes,1049.3999999999999,72.6,355.08000000000004,213.048,1749.0,1,0,0
 Male,6.0,0,0,No Info,26.3,3.5,159,0,Normal,Overweight,Prediabetes,556.5,21.0,157.8,92.05,954.0,0,0,0
 Male,59.0,0,0,never,27.79,5.8,160,0,Prediabetes,Overweight,Prediabetes,928.0,342.2,1639.61,161.182,9440.0,0,0,0
-Female,3.0,0,0,not current,16.73,6.5,159,0,Diabetes,Underweight,Prediabetes,1033.5,19.5,50.19,108.745,477.0,0,0,0
 Female,7.0,0,0,No Info,20.22,6.1,126,0,Prediabetes,Healthy Weight,Normal,768.5999999999999,42.699999999999996,141.54,123.34199999999998,882.0,0,0,0
 Female,30.0,0,0,No Info,27.32,6.0,140,0,Prediabetes,Overweight,Prediabetes,840.0,180.0,819.6,163.92000000000002,4200.0,0,0,0
 Male,44.0,0,0,never,29.34,6.5,100,0,Diabetes,Overweight,Normal,650.0,286.0,1290.96,190.71,4400.0,0,0,0
@@ -90406,7 +90218,6 @@ Female,46.0,0,0,never,23.18,4.0,145,0,Normal,Healthy Weight,Prediabetes,580.0,18
 Female,28.0,0,0,No Info,27.3,5.7,160,0,Prediabetes,Overweight,Prediabetes,912.0,159.6,764.4,155.61,4480.0,0,0,0
 Female,21.0,0,0,never,38.26,5.0,140,0,Normal,Obesity,Prediabetes,700.0,105.0,803.4599999999999,191.29999999999998,2940.0,0,0,0
 Female,58.0,0,0,never,32.0,3.5,80,0,Normal,Obesity,Normal,280.0,203.0,1856.0,112.0,4640.0,0,0,0
-Female,9.0,0,0,not current,27.32,4.8,159,0,Normal,Overweight,Prediabetes,763.1999999999999,43.199999999999996,245.88,131.136,1431.0,0,0,0
 Female,1.08,0,0,No Info,16.02,6.0,80,0,Prediabetes,Underweight,Normal,480.0,6.48,17.3016,96.12,86.4,0,0,0
 Male,47.0,0,0,never,40.27,6.2,140,0,Prediabetes,Obesity,Prediabetes,868.0,291.40000000000003,1892.69,249.67400000000004,6580.0,0,0,0
 Male,36.0,0,0,never,27.32,5.0,160,0,Normal,Overweight,Prediabetes,800.0,180.0,983.52,136.6,5760.0,0,0,0
@@ -90551,7 +90362,6 @@ Female,43.0,0,0,former,24.63,3.5,80,0,Normal,Healthy Weight,Normal,280.0,150.5,1
 Female,51.0,0,0,not current,27.32,6.2,260,1,Prediabetes,Overweight,Possible Diabetes,1612.0,316.2,1393.32,169.38400000000001,13260.0,0,0,0
 Female,39.0,0,0,never,27.32,4.0,126,0,Normal,Overweight,Normal,504.0,156.0,1065.48,109.28,4914.0,0,0,0
 Male,78.0,0,0,No Info,29.27,5.7,140,1,Prediabetes,Overweight,Prediabetes,798.0,444.6,2283.06,166.839,10920.0,0,1,0
-Male,5.0,0,0,not current,27.32,4.0,126,0,Normal,Overweight,Normal,504.0,20.0,136.6,109.28,630.0,0,0,0
 Female,75.0,0,0,former,23.9,6.0,85,0,Prediabetes,Healthy Weight,Normal,510.0,450.0,1792.5,143.39999999999998,6375.0,0,1,0
 Female,4.0,0,0,No Info,16.23,4.8,85,0,Normal,Underweight,Normal,408.0,19.2,64.92,77.904,340.0,0,0,0
 Female,66.0,0,0,No Info,37.79,6.2,80,0,Prediabetes,Obesity,Normal,496.0,409.2,2494.14,234.298,5280.0,0,1,0
@@ -90609,7 +90419,6 @@ Female,31.0,0,0,never,30.84,6.5,130,0,Diabetes,Obesity,Normal,845.0,201.5,956.04
 Male,36.0,0,0,never,22.83,6.2,145,0,Prediabetes,Healthy Weight,Prediabetes,899.0,223.20000000000002,821.8799999999999,141.546,5220.0,0,0,0
 Male,42.0,0,0,former,25.99,5.7,100,0,Prediabetes,Overweight,Normal,570.0,239.4,1091.58,148.143,4200.0,0,0,0
 Female,80.0,0,0,never,32.88,6.1,155,0,Prediabetes,Obesity,Prediabetes,945.5,488.0,2630.4,200.568,12400.0,0,1,0
-Male,4.0,0,0,current,16.7,4.0,158,0,Normal,Underweight,Prediabetes,632.0,16.0,66.8,66.8,632.0,0,0,0
 Female,54.0,0,0,never,22.27,6.5,85,0,Diabetes,Healthy Weight,Normal,552.5,351.0,1202.58,144.755,4590.0,0,0,0
 Male,51.0,0,0,never,30.6,5.0,200,0,Normal,Obesity,Possible Diabetes,1000.0,255.0,1560.6000000000001,153.0,10200.0,0,0,0
 Female,32.0,0,0,never,50.9,4.0,140,0,Normal,Obesity,Prediabetes,560.0,128.0,1628.8,203.6,4480.0,0,0,0
@@ -90651,7 +90460,6 @@ Female,47.0,0,0,current,33.94,7.5,300,1,Diabetes,Obesity,Possible Diabetes,2250.
 Female,67.0,0,0,not current,27.32,6.5,155,0,Diabetes,Overweight,Prediabetes,1007.5,435.5,1830.44,177.58,10385.0,0,1,0
 Female,76.0,0,0,never,25.51,6.1,130,0,Prediabetes,Overweight,Normal,793.0,463.59999999999997,1938.7600000000002,155.611,9880.0,0,1,0
 Female,5.0,0,0,No Info,17.16,5.0,126,0,Normal,Underweight,Normal,630.0,25.0,85.8,85.8,630.0,0,0,0
-Female,4.0,0,0,not current,18.3,5.7,140,0,Prediabetes,Underweight,Prediabetes,798.0,22.8,73.2,104.31,560.0,0,0,0
 Male,0.88,0,0,No Info,17.9,6.6,145,0,Diabetes,Underweight,Prediabetes,957.0,5.808,15.751999999999999,118.13999999999999,127.6,1,0,0
 Male,29.0,0,0,current,19.25,6.1,158,0,Prediabetes,Healthy Weight,Prediabetes,963.8,176.89999999999998,558.25,117.425,4582.0,0,0,0
 Female,71.0,0,0,No Info,23.7,6.0,85,0,Prediabetes,Healthy Weight,Normal,510.0,426.0,1682.7,142.2,6035.0,0,1,0
@@ -90778,7 +90586,6 @@ Male,12.0,0,0,No Info,16.7,6.1,85,0,Prediabetes,Underweight,Normal,518.5,73.1999
 Female,44.0,0,0,not current,26.89,4.0,145,0,Normal,Overweight,Prediabetes,580.0,176.0,1183.16,107.56,6380.0,0,0,0
 Male,80.0,0,0,not current,30.85,4.5,140,0,Normal,Obesity,Prediabetes,630.0,360.0,2468.0,138.82500000000002,11200.0,0,1,0
 Female,46.0,1,0,current,22.96,4.5,80,0,Normal,Healthy Weight,Normal,360.0,207.0,1056.16,103.32000000000001,3680.0,0,0,1
-Male,9.0,0,0,not current,21.9,6.0,200,0,Prediabetes,Healthy Weight,Possible Diabetes,1200.0,54.0,197.1,131.39999999999998,1800.0,0,0,0
 Female,37.0,0,0,current,27.32,6.6,130,0,Diabetes,Overweight,Normal,858.0,244.2,1010.84,180.31199999999998,4810.0,1,0,0
 Female,18.0,0,0,current,22.4,4.0,140,0,Normal,Healthy Weight,Prediabetes,560.0,72.0,403.2,89.6,2520.0,0,0,0
 Male,35.0,0,0,No Info,25.87,4.0,80,0,Normal,Overweight,Normal,320.0,140.0,905.45,103.48,2800.0,0,0,0
@@ -91174,7 +90981,6 @@ Female,80.0,1,0,former,32.95,4.0,160,0,Normal,Obesity,Prediabetes,640.0,320.0,26
 Female,80.0,0,0,never,22.4,6.6,90,0,Diabetes,Healthy Weight,Normal,594.0,528.0,1792.0,147.83999999999997,7200.0,1,1,0
 Female,32.0,0,0,ever,23.17,4.8,140,0,Normal,Healthy Weight,Prediabetes,672.0,153.6,741.44,111.21600000000001,4480.0,0,0,0
 Female,16.0,0,0,never,34.52,4.8,126,0,Normal,Obesity,Normal,604.8,76.8,552.32,165.696,2016.0,0,0,0
-Male,3.0,0,0,not current,27.32,5.8,159,0,Prediabetes,Overweight,Prediabetes,922.1999999999999,17.4,81.96000000000001,158.456,477.0,0,0,0
 Male,1.0,0,0,No Info,18.42,6.2,126,0,Prediabetes,Underweight,Normal,781.2,6.2,18.42,114.20400000000001,126.0,0,0,0
 Female,29.0,0,0,never,21.97,5.7,80,0,Prediabetes,Healthy Weight,Normal,456.0,165.3,637.13,125.229,2320.0,0,0,0
 Male,0.24,0,0,never,17.14,6.5,140,0,Diabetes,Underweight,Prediabetes,910.0,1.56,4.1136,111.41,33.6,0,0,0
@@ -91236,7 +91042,6 @@ Male,77.0,1,0,former,24.84,3.5,158,0,Normal,Healthy Weight,Prediabetes,553.0,269
 Male,30.0,0,0,former,27.32,5.7,159,0,Prediabetes,Overweight,Prediabetes,906.3000000000001,171.0,819.6,155.72400000000002,4770.0,0,0,0
 Male,34.0,0,0,never,38.77,4.5,126,0,Normal,Obesity,Normal,567.0,153.0,1318.18,174.465,4284.0,0,0,0
 Female,5.0,0,0,No Info,22.75,3.5,159,0,Normal,Healthy Weight,Prediabetes,556.5,17.5,113.75,79.625,795.0,0,0,0
-Male,5.0,0,0,not current,15.78,4.0,85,0,Normal,Underweight,Normal,340.0,20.0,78.89999999999999,63.12,425.0,0,0,0
 Male,17.0,0,0,No Info,27.32,5.0,80,0,Normal,Overweight,Normal,400.0,85.0,464.44,136.6,1360.0,0,0,0
 Male,9.0,0,0,No Info,22.19,3.5,155,0,Normal,Healthy Weight,Prediabetes,542.5,31.5,199.71,77.665,1395.0,0,0,0
 Male,42.0,0,0,never,24.57,6.0,155,0,Prediabetes,Healthy Weight,Prediabetes,930.0,252.0,1031.94,147.42000000000002,6510.0,0,0,0
@@ -91383,7 +91188,6 @@ Female,0.48,0,0,No Info,10.86,6.2,155,0,Prediabetes,Underweight,Prediabetes,961.
 Female,48.0,1,0,current,30.44,5.7,160,1,Prediabetes,Obesity,Prediabetes,912.0,273.6,1461.1200000000001,173.508,7680.0,0,0,1
 Male,80.0,0,0,not current,27.32,5.8,155,0,Prediabetes,Overweight,Prediabetes,899.0,464.0,2185.6,158.456,12400.0,0,1,0
 Female,58.0,0,0,never,45.04,5.8,100,0,Prediabetes,Obesity,Normal,580.0,336.4,2612.32,261.23199999999997,5800.0,0,0,0
-Female,4.0,0,0,not current,27.32,4.8,100,0,Normal,Overweight,Normal,480.0,19.2,109.28,131.136,400.0,0,0,0
 Female,36.0,0,0,never,27.32,4.5,100,0,Normal,Overweight,Normal,450.0,162.0,983.52,122.94,3600.0,0,0,0
 Male,14.0,0,0,No Info,27.32,4.0,158,0,Normal,Overweight,Prediabetes,632.0,56.0,382.48,109.28,2212.0,0,0,0
 Female,51.0,0,0,never,41.4,7.5,280,1,Diabetes,Obesity,Possible Diabetes,2100.0,382.5,2111.4,310.5,14280.0,1,0,0
@@ -91709,7 +91513,6 @@ Female,48.0,0,0,never,32.86,4.8,126,0,Normal,Obesity,Normal,604.8,230.3999999999
 Female,7.0,0,0,No Info,17.51,6.1,200,0,Prediabetes,Underweight,Possible Diabetes,1220.0,42.699999999999996,122.57000000000001,106.811,1400.0,0,0,0
 Male,46.0,0,0,never,35.81,5.7,90,0,Prediabetes,Obesity,Normal,513.0,262.2,1647.2600000000002,204.11700000000002,4140.0,0,0,0
 Male,20.0,0,0,No Info,27.32,4.8,90,0,Normal,Overweight,Normal,432.0,96.0,546.4,131.136,1800.0,0,0,0
-Male,7.0,0,0,not current,15.4,8.2,280,1,Diabetes,Underweight,Possible Diabetes,2296.0,57.39999999999999,107.8,126.27999999999999,1960.0,1,0,0
 Female,51.0,1,0,never,35.53,7.5,160,1,Diabetes,Obesity,Prediabetes,1200.0,382.5,1812.03,266.475,8160.0,1,0,1
 Female,43.0,0,0,No Info,45.03,6.1,80,0,Prediabetes,Obesity,Normal,488.0,262.3,1936.29,274.683,3440.0,0,0,0
 Male,66.0,0,0,never,37.5,6.2,160,0,Prediabetes,Obesity,Prediabetes,992.0,409.2,2475.0,232.5,10560.0,0,1,0
@@ -92272,7 +92075,6 @@ Female,65.0,0,0,never,40.77,3.5,126,0,Normal,Obesity,Normal,441.0,227.5,2650.05,
 Female,26.0,0,0,current,27.32,6.6,80,0,Diabetes,Overweight,Normal,528.0,171.6,710.32,180.31199999999998,2080.0,1,0,0
 Female,78.0,0,0,never,42.67,6.5,140,0,Diabetes,Obesity,Prediabetes,910.0,507.0,3328.26,277.355,10920.0,0,1,0
 Female,63.0,1,0,ever,35.56,6.5,200,0,Diabetes,Obesity,Possible Diabetes,1300.0,409.5,2240.28,231.14000000000001,12600.0,0,1,1
-Female,1.48,0,0,not current,19.06,4.5,160,0,Normal,Healthy Weight,Prediabetes,720.0,6.66,28.208799999999997,85.77,236.8,0,0,0
 Female,74.0,0,0,never,36.71,5.7,145,1,Prediabetes,Obesity,Prediabetes,826.5,421.8,2716.54,209.247,10730.0,0,1,0
 Female,1.88,0,0,No Info,16.5,6.2,140,0,Prediabetes,Underweight,Prediabetes,868.0,11.655999999999999,31.02,102.3,263.2,0,0,0
 Female,58.0,0,0,No Info,27.32,6.5,85,0,Diabetes,Overweight,Normal,552.5,377.0,1584.56,177.58,4930.0,0,0,0
@@ -92930,7 +92732,6 @@ Female,53.0,0,0,former,23.55,4.8,158,0,Normal,Healthy Weight,Prediabetes,758.4,2
 Male,15.0,0,0,never,22.0,4.5,155,0,Normal,Healthy Weight,Prediabetes,697.5,67.5,330.0,99.0,2325.0,0,0,0
 Male,64.0,0,0,current,31.48,4.8,85,0,Normal,Obesity,Normal,408.0,307.2,2014.72,151.10399999999998,5440.0,0,1,0
 Male,2.0,0,0,No Info,16.72,5.8,130,0,Prediabetes,Underweight,Normal,754.0,11.6,33.44,96.97599999999998,260.0,0,0,0
-Male,7.0,0,0,not current,19.17,5.7,80,0,Prediabetes,Healthy Weight,Normal,456.0,39.9,134.19,109.26900000000002,560.0,0,0,0
 Male,80.0,0,0,No Info,27.32,4.5,158,0,Normal,Overweight,Prediabetes,711.0,360.0,2185.6,122.94,12640.0,0,1,0
 Female,44.0,0,0,not current,29.24,6.0,160,0,Prediabetes,Overweight,Prediabetes,960.0,264.0,1286.56,175.44,7040.0,0,0,0
 Female,55.0,0,0,never,36.52,5.8,155,0,Prediabetes,Obesity,Prediabetes,899.0,319.0,2008.6000000000001,211.816,8525.0,0,0,0
@@ -94009,7 +93810,6 @@ Female,0.88,0,0,No Info,11.28,5.8,159,0,Prediabetes,Underweight,Prediabetes,922.
 Female,60.0,0,0,former,29.5,4.5,159,0,Normal,Overweight,Prediabetes,715.5,270.0,1770.0,132.75,9540.0,0,1,0
 Female,60.0,0,0,No Info,30.22,4.0,130,0,Normal,Obesity,Normal,520.0,240.0,1813.1999999999998,120.88,7800.0,0,1,0
 Female,61.0,0,0,current,20.82,4.0,160,0,Normal,Healthy Weight,Prediabetes,640.0,244.0,1270.02,83.28,9760.0,0,1,0
-Female,6.0,0,0,not current,15.4,5.0,160,0,Normal,Underweight,Prediabetes,800.0,30.0,92.4,77.0,960.0,0,0,0
 Female,53.0,0,0,No Info,27.32,5.8,130,0,Prediabetes,Overweight,Normal,754.0,307.4,1447.96,158.456,6890.0,0,0,0
 Female,46.0,0,0,never,27.32,4.0,160,0,Normal,Overweight,Prediabetes,640.0,184.0,1256.72,109.28,7360.0,0,0,0
 Female,40.0,0,0,current,32.61,6.2,80,0,Prediabetes,Obesity,Normal,496.0,248.0,1304.4,202.18200000000002,3200.0,0,0,0
@@ -94359,7 +94159,6 @@ Male,57.0,0,0,former,31.87,6.2,200,0,Prediabetes,Obesity,Possible Diabetes,1240.
 Female,73.0,0,0,former,27.32,5.7,85,0,Prediabetes,Overweight,Normal,484.5,416.1,1994.3600000000001,155.72400000000002,6205.0,0,1,0
 Male,8.0,0,0,No Info,18.95,6.6,155,0,Diabetes,Healthy Weight,Prediabetes,1023.0,52.8,151.6,125.07,1240.0,1,0,0
 Female,71.0,0,0,No Info,27.32,6.1,140,0,Prediabetes,Overweight,Prediabetes,854.0,433.09999999999997,1939.72,166.652,9940.0,0,1,0
-Female,3.0,0,0,not current,17.16,6.6,100,0,Diabetes,Underweight,Normal,660.0,19.799999999999997,51.480000000000004,113.256,300.0,1,0,0
 Male,3.0,0,0,never,16.78,6.2,80,0,Prediabetes,Underweight,Normal,496.0,18.6,50.34,104.03600000000002,240.0,0,0,0
 Male,38.0,0,0,former,27.19,3.5,160,0,Normal,Overweight,Prediabetes,560.0,133.0,1033.22,95.165,6080.0,0,0,0
 Male,39.0,0,0,No Info,28.59,5.8,90,0,Prediabetes,Overweight,Normal,522.0,226.2,1115.01,165.822,3510.0,0,0,0
@@ -94666,7 +94465,6 @@ Male,16.0,0,0,never,20.84,5.0,90,0,Normal,Healthy Weight,Normal,450.0,80.0,333.4
 Female,42.0,0,0,not current,21.12,4.8,126,0,Normal,Healthy Weight,Normal,604.8,201.6,887.0400000000001,101.376,5292.0,0,0,0
 Female,28.0,0,0,never,33.94,6.6,80,0,Diabetes,Obesity,Normal,528.0,184.79999999999998,950.3199999999999,224.00399999999996,2240.0,1,0,0
 Male,30.0,0,0,former,40.6,4.0,90,0,Normal,Obesity,Normal,360.0,120.0,1218.0,162.4,2700.0,0,0,0
-Female,1.4,0,0,current,19.53,5.8,80,0,Prediabetes,Healthy Weight,Normal,464.0,8.12,27.342,113.274,112.0,0,0,0
 Female,38.0,0,0,never,42.33,5.7,126,0,Prediabetes,Obesity,Normal,718.2,216.6,1608.54,241.281,4788.0,0,0,0
 Male,53.0,0,0,No Info,27.32,5.7,140,1,Prediabetes,Overweight,Prediabetes,798.0,302.1,1447.96,155.72400000000002,7420.0,0,0,0
 Female,17.0,0,0,never,26.52,8.2,300,1,Diabetes,Overweight,Possible Diabetes,2460.0,139.39999999999998,450.84,217.46399999999997,5100.0,1,0,0
@@ -95062,7 +94860,6 @@ Female,66.0,0,0,current,26.21,4.0,140,0,Normal,Overweight,Prediabetes,560.0,264.
 Male,4.0,0,0,No Info,17.64,5.7,200,0,Prediabetes,Underweight,Possible Diabetes,1140.0,22.8,70.56,100.548,800.0,0,0,0
 Female,52.0,0,0,never,21.71,6.0,158,0,Prediabetes,Healthy Weight,Prediabetes,948.0,312.0,1128.92,130.26,8216.0,0,0,0
 Female,40.0,0,0,No Info,37.37,5.0,200,0,Normal,Obesity,Possible Diabetes,1000.0,200.0,1494.8,186.85,8000.0,0,0,0
-Male,6.0,0,0,current,24.09,6.0,155,0,Prediabetes,Healthy Weight,Prediabetes,930.0,36.0,144.54,144.54,930.0,0,0,0
 Female,29.0,0,0,never,27.41,6.2,140,0,Prediabetes,Overweight,Prediabetes,868.0,179.8,794.89,169.942,4060.0,0,0,0
 Female,33.0,0,0,never,22.64,4.5,126,0,Normal,Healthy Weight,Normal,567.0,148.5,747.12,101.88,4158.0,0,0,0
 Male,13.0,0,0,No Info,22.73,6.0,160,0,Prediabetes,Healthy Weight,Prediabetes,960.0,78.0,295.49,136.38,2080.0,0,0,0
@@ -95946,7 +95743,6 @@ Female,3.0,0,0,never,27.32,3.5,90,0,Normal,Overweight,Normal,315.0,10.5,81.96000
 Female,34.0,0,0,No Info,27.32,4.5,80,0,Normal,Overweight,Normal,360.0,153.0,928.88,122.94,2720.0,0,0,0
 Female,38.0,0,0,No Info,25.84,4.5,160,0,Normal,Overweight,Prediabetes,720.0,171.0,981.92,116.28,6080.0,0,0,0
 Male,5.0,0,0,No Info,16.19,5.7,140,0,Prediabetes,Underweight,Prediabetes,798.0,28.5,80.95,92.28300000000002,700.0,0,0,0
-Male,8.0,0,0,not current,17.43,4.8,130,0,Normal,Underweight,Normal,624.0,38.4,139.44,83.664,1040.0,0,0,0
 Male,57.0,0,0,former,23.19,5.0,200,0,Normal,Healthy Weight,Possible Diabetes,1000.0,285.0,1321.8300000000002,115.95,11400.0,0,0,0
 Female,43.0,0,0,current,29.35,5.8,90,0,Prediabetes,Overweight,Normal,522.0,249.4,1262.05,170.23,3870.0,0,0,0
 Female,28.0,0,0,never,20.77,6.2,155,0,Prediabetes,Healthy Weight,Prediabetes,961.0,173.6,581.56,128.774,4340.0,0,0,0
