@@ -1,5 +1,6 @@
 from altair import sample
 import pandas as pd
+import numpy as np
 import joblib
 
 from sklearn.compose import ColumnTransformer
@@ -72,9 +73,10 @@ class DataTransformation:
         x = self.prepare_features(x)
 
         transformed = self.preprocessor.transform(x)
+        self.feature_names_ = self.preprocessor.get_feature_names_out()
 
         return pd.DataFrame(
-            transformed,
+            transformed.astype(np.float32),
             columns=self.feature_names_,
             index=x.index
         )
