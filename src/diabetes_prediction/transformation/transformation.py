@@ -1,16 +1,31 @@
-from altair import sample
 import pandas as pd
 import joblib
 
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, RobustScaler
 
+import sys
+from pathlib import Path
+
+project_root = Path.cwd().resolve()
+
+while not (project_root / "src").exists():
+    if project_root == project_root.parent:
+        raise RuntimeError("Could not find project root containing 'src'")
+    project_root = project_root.parent
+
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+
+preprocessor_path = project_root / "notebooks" / "Transformation" / "preprocessor.pkl"
+
 
 class DataTransformation:
     def __init__(self):
         self.preprocessor = ColumnTransformer(
             transformers=[
-                ("smoking_ohe", OneHotEncoder(handle_unknown="ignore"), ["smoking_history"]),
+                ("smoking_ohe", OneHotEncoder(handle_unknown="ignore",drop="first"), ["smoking_history"]),
                 ("age_minmax", MinMaxScaler(), ["age"]),
                 ("robust_features", RobustScaler(), [
                     "bmi",
@@ -21,7 +36,6 @@ class DataTransformation:
                     "age_bmi_interaction",
                     "bmi_hba1c_interaction",
                     "age_glucose_interaction",
-                    "metabolic_load_score"
                 ])
             ],
             remainder="passthrough",
@@ -49,6 +63,60 @@ class DataTransformation:
         df["cardio_risk_flag"] = ((df["hypertension"] == 1) | (df["heart_disease"] == 1)).astype(int)
 
         return df
+    
+    def ordinal_encode_categories(df):
+
+        hba1c_mapping = {
+            "Normal"      : 0,
+            "Prediabetes" : 1,
+            "Diabetes"    : 2
+        }
+
+        bmi_mapping = {
+            "Underweight"    : 0,
+            "Healthy Weight" : 1,
+            "Overweight"     : 2,
+            "Obesity"        : 3
+        }
+
+        blood_glucose_mapping = {
+            "Normal"            : 0,
+            "Prediabetes"       : 1,
+            "Possible Diabetes" : 2
+        }
+
+        df["hba1c_category"]         = df["hba1c_category"].map(hba1c_mapping).astype(int)
+        df["bmi_category"]           = df["bmi_category"].map(bmi_mapping).astype(int)
+        df["blood_glucose_category"] = df["blood_glucose_category"].map(blood_glucose_mapping).astype(int)
+
+        return df
+    
+    def discretize(self, df: pd.DataFrame) -> pd.DataFrame:
+        df = df.copy()
+
+        df["hba1c_category"] = pd.cut(
+            df["HbA1c_level"],
+            bins=[0, 5.7, 6.5, float("inf")],
+            labels=["Normal", "Prediabetes", "Diabetes"],
+            right=False,
+        )
+
+        df["bmi_category"] = pd.cut(
+            df["bmi"],
+            bins=[0, 18.5, 25, 30, float("inf")],
+            labels=["Underweight", "Healthy Weight", "Overweight", "Obesity"],
+            right=False,
+        )
+
+        df["blood_glucose_category"] = pd.cut(
+            df["blood_glucose_level"],
+            bins=[70, 140, 200, float("inf")],
+            labels=["Normal", "Prediabetes", "Possible Diabetes"],
+            right=False,
+        )
+
+        return df
+    
 
     def prepare_features(self, df: pd.DataFrame):
         df = df.copy()
@@ -60,22 +128,20 @@ class DataTransformation:
         x_train = self.prepare_features(x_train)
 
         transformed = self.preprocessor.fit_transform(x_train)
-        self.feature_names_ = self.preprocessor.get_feature_names_out()
+        self.feature_names_ = list(self.preprocessor.get_feature_names_out())
 
         return pd.DataFrame(
             transformed,
-            columns=self.feature_names_,
+            columns=self.preprocessor.get_feature_names_out(),
             index=x_train.index
         )
 
     def transform(self, x: pd.DataFrame):
         x = self.prepare_features(x)
-
         transformed = self.preprocessor.transform(x)
-
         return pd.DataFrame(
             transformed,
-            columns=self.feature_names_,
+            columns=self.preprocessor.get_feature_names_out(),
             index=x.index
         )
     
@@ -96,8 +162,9 @@ class DataTransformation:
             index=[0]
         )
 
-    def save_preprocessor(self, path="preprocessor.pkl"):
+    def save_preprocessor(self, path=preprocessor_path):
         joblib.dump(self.preprocessor, path)
 
-    def load_preprocessor(self, path="preprocessor.pkl"):
+    def load_preprocessor(self, path=preprocessor_path):
         self.preprocessor = joblib.load(path)
+        self.feature_names_ = list(self.preprocessor.get_feature_names_out())
