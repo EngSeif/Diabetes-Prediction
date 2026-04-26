@@ -27,7 +27,7 @@ class DataTransformation:
     def __init__(self):
         self.preprocessor = ColumnTransformer(
             transformers=[
-                ("smoking_ohe", OneHotEncoder(handle_unknown="ignore"), ["smoking_history"]),
+                ("smoking_ohe", OneHotEncoder(handle_unknown="ignore",drop="first"), ["smoking_history"]),
                 ("age_minmax", MinMaxScaler(), ["age"]),
                 ("robust_features", RobustScaler(), [
                     "bmi",
