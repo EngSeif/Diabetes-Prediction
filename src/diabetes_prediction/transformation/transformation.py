@@ -6,6 +6,22 @@ import joblib
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, RobustScaler
 
+import sys
+from pathlib import Path
+
+project_root = Path.cwd().resolve()
+
+while not (project_root / "src").exists():
+    if project_root == project_root.parent:
+        raise RuntimeError("Could not find project root containing 'src'")
+    project_root = project_root.parent
+
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+
+preprocessor_path = project_root / "notebooks" / "Transformation" / "preprocessor.pkl"
+
 
 class DataTransformation:
     def __init__(self):
@@ -98,8 +114,8 @@ class DataTransformation:
             index=[0]
         )
 
-    def save_preprocessor(self, path="preprocessor.pkl"):
+    def save_preprocessor(self, path = preprocessor_path):
         joblib.dump(self.preprocessor, path)
 
-    def load_preprocessor(self, path="preprocessor.pkl"):
+    def load_preprocessor(self, path = preprocessor_path):
         self.preprocessor = joblib.load(path)
