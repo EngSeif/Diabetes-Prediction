@@ -19,6 +19,10 @@ app.add_middleware(
 def root():
     return {"message": "API running"}
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 @app.post("/predict", response_model=PredictionResponse)
 def predict(data: PatientData):
     print("Received data:", data)
