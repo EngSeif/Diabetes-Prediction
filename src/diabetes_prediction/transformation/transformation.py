@@ -105,11 +105,12 @@ class DataTransformation:
         
         sample = self.prepare_features(sample)
         transformed = self.preprocessor.transform(sample)
+        self.feature_names_ = self.preprocessor.get_feature_names_out()
 
         return pd.DataFrame(
             transformed,
             columns=self.feature_names_,
-            index=[0]
+            index=sample.index
         )
 
     def save_preprocessor(self, path = preprocessor_path):

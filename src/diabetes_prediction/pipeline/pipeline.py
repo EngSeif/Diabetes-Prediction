@@ -180,6 +180,23 @@ class DiabetesFullPipeline:
         }
     
 
+
+
+def predict_single_sample(user_input: dict) -> dict:
+    
+    try:
+        pipeline = DiabetesFullPipeline(
+                raw_data_path="data/raw/diabetes_prediction_dataset.csv",
+                model_path="models/RF_model.pkl",
+                preprocessor_path="notebooks/Transformation/preprocessor.pkl",
+        )
+        pipeline.load_artifacts()
+        result = pipeline.predict_one(user_input)
+        return {"success": True, "result": result}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
 if __name__ == "__main__":
     pipeline = DiabetesFullPipeline(
         raw_data_path="data/raw/diabetes_prediction_dataset.csv",
