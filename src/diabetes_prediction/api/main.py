@@ -1,9 +1,16 @@
+import os
+
 from fastapi import FastAPI
 from schemas import PatientData, PredictionResponse
 
 from fastapi.middleware.cors import CORSMiddleware
-
 import logging
+
+from .schemas import PatientData, PredictionResponse, ExplainRequest
+from .llm import explain_prediction
+
+
+
 
 app = FastAPI(title="Diabetes Prediction API")
 
@@ -34,4 +41,17 @@ def predict(data: PatientData):
     return {
         "prediction": 0,
         "probability": 0.5
+    }
+
+
+@app.post("/explain")
+def explain(req: ExplainRequest):
+    explanation = explain_prediction(
+        req.data.dict(),
+        req.prediction,
+        req.probability
+    )
+
+    return {
+        "explanation": explanation
     }
