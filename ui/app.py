@@ -7,6 +7,7 @@ import plotly.express as px
 from dashboard.kpi import kpis
 from dashboard.main_chart import main_chart
 from dashboard.subplots import gender_age_heatmap, risk_flags_chart, bmi_diabetes_chart
+from form.form import form
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -20,8 +21,9 @@ def prepare_data():
 
 
 def main():
+    st.title("Diabetes Predictor")
+    st.subheader("By Team Alpha")
     tab_dashboard, tab_interactive = st.tabs(["Dashboard", "Predictor"])
-    
     with tab_dashboard:
         st.header("Diabetes Predictor Dashboard")
         df = prepare_data()
@@ -34,12 +36,10 @@ def main():
             risk_flags_chart(df)
         with col2:
             bmi_diabetes_chart(df)
-            
+
     with tab_interactive:
         st.header("Interactive Form")
-        
-        
-        
+        form()
 
 
 main()
