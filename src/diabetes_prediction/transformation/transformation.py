@@ -38,7 +38,6 @@ class DataTransformation:
                     "age_bmi_interaction",
                     "bmi_hba1c_interaction",
                     "age_glucose_interaction",
-                    "metabolic_load_score"
                 ])
             ],
             remainder="passthrough",
@@ -75,7 +74,6 @@ class DataTransformation:
 
     def fit_transform(self, x_train: pd.DataFrame):
         x_train = self.prepare_features(x_train)
-
         transformed = self.preprocessor.fit_transform(x_train)
         self.feature_names_ = self.preprocessor.get_feature_names_out()
 
