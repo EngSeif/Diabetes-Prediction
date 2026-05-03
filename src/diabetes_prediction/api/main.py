@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .schemas import PatientData, PredictionResponse
+from schemas import PatientData, PredictionResponse
 
 from fastapi.middleware.cors import CORSMiddleware
 
