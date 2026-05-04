@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/user/Desktop/Kolia%20Stuff/SP26/Data%20Science/Project/Data-Science-Project/mlruns/233192210587388565/e726962fd4794fd38b77f98e20d3e654/artifacts
+end_time: 1777885735458
+entry_point_name: ''
+experiment_id: '233192210587388565'
+lifecycle_stage: active
+run_id: e726962fd4794fd38b77f98e20d3e654
+run_name: KNN - best
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777885723237
+status: 3
+tags: []
+user_id: user
