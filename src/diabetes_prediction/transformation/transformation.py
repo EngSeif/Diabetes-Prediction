@@ -65,10 +65,62 @@ class DataTransformation:
         df["cardio_risk_flag"] = ((df["hypertension"] == 1) | (df["heart_disease"] == 1)).astype(int)
 
         return df
+    
+    def discretize(self ,df : pd.DataFrame) -> pd.DataFrame:
+        df = df.copy()
+
+        # Discretize numeric features into categories
+        df["hba1c_category"] = pd.cut(
+            df['HbA1c_level'],
+            bins=[0, 5.7, 6.5, float("inf")],
+            labels=["Normal", "Prediabetes", "Diabetes"],
+            right=False
+        )
+        df['bmi_category'] = pd.cut(
+            df['bmi'],
+            bins=[0, 18.5, 25, 30, float("inf")],
+            labels=["Underweight", "Healthy Weight", "Overweight", "Obesity"],
+            right=False
+        )
+        df['blood_glucose_category'] = pd.cut(
+            df['blood_glucose_level'],
+            bins=[70, 140, 200, float("inf")],
+            labels=["Normal", "Prediabetes", "Possible Diabetes"],
+            right=False
+        )
+        return df
+    
+    def ordinal_encoding(self,df: pd.DataFrame) -> pd.DataFrame:
+        hba1c_mapping = {
+            "Normal"      : 0,
+            "Prediabetes" : 1,
+            "Diabetes"    : 2
+        }
+
+        bmi_mapping = {
+            "Underweight"    : 0,
+            "Healthy Weight" : 1,
+            "Overweight"     : 2,
+            "Obesity"        : 3
+        }
+
+        blood_glucose_mapping = {
+            "Normal"            : 0,
+            "Prediabetes"       : 1,
+            "Possible Diabetes" : 2
+        }
+
+        df["hba1c_category"]         = df["hba1c_category"].map(hba1c_mapping).astype(int)
+        df["bmi_category"]           = df["bmi_category"].map(bmi_mapping).astype(int)
+        df["blood_glucose_category"] = df["blood_glucose_category"].map(blood_glucose_mapping).astype(int)
+
+        return df
 
     def prepare_features(self, df: pd.DataFrame):
         df = df.copy()
         df = self.encode_gender(df)
+        df = self.discretize(df)
+        df = self.ordinal_encoding(df)
         df = self.add_engineered_features(df)
         return df
 
