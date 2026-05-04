@@ -2,13 +2,13 @@ import os
 
 from fastapi import FastAPI
 from diabetes_prediction.api.schemas import PatientData, PredictionResponse
-from diabetes_prediction.pipeline.pipeline import predict_single_sample
+from diabetes_prediction.pipeline.predict_one_sample import predict_single_sample
 
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 
-from .schemas import PatientData, PredictionResponse, ExplainRequest
-from .llm import explain_prediction
+
+#from diabetes_prediction.api.llm import explain_prediction
 
 
 
