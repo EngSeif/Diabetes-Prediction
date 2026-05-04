@@ -8,3 +8,5 @@ __pycache__/
 src/models/*.pkl
 
 catboost_info
+
+mlruns/
