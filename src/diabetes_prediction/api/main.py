@@ -1,7 +1,8 @@
 import os
 
 from fastapi import FastAPI
-from schemas import PatientData, PredictionResponse
+from diabetes_prediction.api.schemas import PatientData, PredictionResponse
+from diabetes_prediction.pipeline.pipeline import predict_single_sample
 
 from fastapi.middleware.cors import CORSMiddleware
 import logging
@@ -32,26 +33,26 @@ def health():
 
 @app.post("/predict", response_model=PredictionResponse)
 def predict(data: PatientData):
-    print("Received data:", data)
+    try:
+        # Convert Pydantic model to dict
+        user_input = data.dict()
+        
+        # Call prediction function
+        result = predict_single_sample(user_input)
 
-    logging.basicConfig(level=logging.INFO)
-    logging.info(f"Received: {data}")
+        logging.basicConfig(level=logging.INFO)
+        logging.info(f"Received: {data}")
 
-    # TEMP response (NOT just print)
-    return {
-        "prediction": 0,
-        "probability": 0.5
-    }
+        if result["success"]:
+            prediction = result["result"]["prediction"]
+            probability = result["result"].get("diabetes_probability", 0.0)
+            return {"prediction": prediction, "probability": probability}
+        else:
+            # If something went wrong 
+            return {"prediction": -1, "probability": 0.0}
 
+    except Exception as e:
+        logging.error(f"Error during prediction: {e}")
+        return {"prediction": -1, "probability": 0.0}
 
-@app.post("/explain")
-def explain(req: ExplainRequest):
-    explanation = explain_prediction(
-        req.data.dict(),
-        req.prediction,
-        req.probability
-    )
-
-    return {
-        "explanation": explanation
-    }
+   

@@ -5,6 +5,6 @@ models/*.pkl
 models/*.joblib
 __pycache__/
 *.pyc
+src/models/*.pkl
 
-.env
 catboost_info
