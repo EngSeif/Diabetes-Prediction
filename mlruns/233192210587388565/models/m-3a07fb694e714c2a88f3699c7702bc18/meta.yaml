@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/user/Desktop/Kolia%20Stuff/SP26/Data%20Science/Project/Data-Science-Project/mlruns/233192210587388565/models/m-3a07fb694e714c2a88f3699c7702bc18/artifacts
+creation_timestamp: 1777885723661
+experiment_id: '233192210587388565'
+last_updated_timestamp: 1777885735429
+model_id: m-3a07fb694e714c2a88f3699c7702bc18
+model_type: null
+name: model
+source_run_id: e726962fd4794fd38b77f98e20d3e654
+status: 2
+status_message: null
