@@ -174,7 +174,6 @@ class DiabetesFullPipeline:
     def predict_one(self, sample: dict) -> Dict:
         X_sample_transformed = self.transformer.transform_one(sample)
         X_sample_transformed = X_sample_transformed[self.selected_columns]
-
         prediction = int(self.model.predict(X_sample_transformed)[0])
 
         result = {
