@@ -23,3 +23,8 @@ class PatientData(BaseModel):
 class PredictionResponse(BaseModel):
     prediction: int
     probability: float
+
+class ExplainRequest(BaseModel):
+    data: PatientData
+    prediction: int
+    probability: float    
