@@ -7,8 +7,9 @@ load_dotenv()
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
+
 def explain_prediction(user_data: dict, prediction: int, probability: float):
-    
+
     prompt = f"""
 You are a medical assistant AI.
 

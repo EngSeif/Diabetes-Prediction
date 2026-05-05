@@ -10,9 +10,9 @@ class FeatureSelection:
             "age_bmi_interaction",
             "age_hba1c_interaction",
             "hypertension",
-            #"bmi_category",
-            #"hba1c_category",
-            #"blood_glucose_category",
+            # "bmi_category",
+            # "hba1c_category",
+            # "blood_glucose_category",
         ]
         cleaned = self.df.drop(columns=to_drop)
         return cleaned

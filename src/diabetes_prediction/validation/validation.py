@@ -1,18 +1,18 @@
-import numpy as np
 import pandas as pd
 import great_expectations as gx
+
 
 class DataValidator:
 
     def __init__(self, df: pd.DataFrame):
         self.df = df
-        
+
     def _add_completeness_expectations(self, suite, df):
         for col in df.columns:
             suite.add_expectation(
                 gx.expectations.ExpectColumnValuesToNotBeNull(column=col)
             )
-            
+
     def _add_accuracy_expectations(self, suite):
         numeric_ranges = {
             "age": (0, 120),
@@ -36,7 +36,14 @@ class DataValidator:
         suite.add_expectation(
             gx.expectations.ExpectColumnValuesToBeInSet(
                 column="smoking_history",
-                value_set=["never", "former", "current", "ever", "not current", "No Info"],
+                value_set=[
+                    "never",
+                    "former",
+                    "current",
+                    "ever",
+                    "not current",
+                    "No Info",
+                ],
             )
         )
 
@@ -47,7 +54,7 @@ class DataValidator:
                     value_set=[0, 1],
                 )
             )
-            
+
     def _add_consistency_expectations(self, suite, df_consistency):
         df_consistency["_high_hba1c_no_diabetes"] = (
             (df_consistency["HbA1c_level"] >= 7.5) & (df_consistency["diabetes"] == 0)
@@ -61,7 +68,8 @@ class DataValidator:
         )
 
         df_consistency["_high_glucose_no_diabetes"] = (
-            (df_consistency["blood_glucose_level"] > 300) & (df_consistency["diabetes"] == 0)
+            (df_consistency["blood_glucose_level"] > 300)
+            & (df_consistency["diabetes"] == 0)
         ).astype(int)
         suite.add_expectation(
             gx.expectations.ExpectColumnValuesToBeInSet(
@@ -73,7 +81,10 @@ class DataValidator:
 
         df_consistency["_young_with_conditions"] = (
             (df_consistency["age"] < 10)
-            & ((df_consistency["hypertension"] == 1) | (df_consistency["heart_disease"] == 1))
+            & (
+                (df_consistency["hypertension"] == 1)
+                | (df_consistency["heart_disease"] == 1)
+            )
         ).astype(int)
         suite.add_expectation(
             gx.expectations.ExpectColumnValuesToBeInSet(
@@ -82,7 +93,7 @@ class DataValidator:
                 notes="Patients under 10 should not have hypertension or heart disease.",
             )
         )
-        
+
     def _add_uniqueness_expectations(self, suite, df_consistency):
         df_consistency["_is_duplicate"] = (
             df_consistency[self.df.columns.tolist()]
@@ -96,9 +107,9 @@ class DataValidator:
                 notes="Each row should be unique across all columns.",
             )
         )
-        
+
     def _add_outlier_expectations(self, suite, df):
-        cols = ['age', 'bmi', 'HbA1c_level', 'blood_glucose_level']
+        cols = ["age", "bmi", "HbA1c_level", "blood_glucose_level"]
 
         for col in cols:
             if col not in df.columns:
@@ -111,10 +122,7 @@ class DataValidator:
             upper = Q3 + 1.5 * IQR
 
             flag_col = f"_iqr_outlier_{col}"
-            df[flag_col] = (
-                ((df[col] < lower) | (df[col] > upper))
-                .astype(int)
-            )
+            df[flag_col] = ((df[col] < lower) | (df[col] > upper)).astype(int)
 
             suite.add_expectation(
                 gx.expectations.ExpectColumnValuesToBeInSet(
@@ -133,12 +141,10 @@ class DataValidator:
         context = gx.get_context(mode="ephemeral")
 
         data_source = context.data_sources.add_pandas(name="pandas")
-        data_asset  = data_source.add_dataframe_asset(name="dataset")
-        batch_def   = data_asset.add_batch_definition_whole_dataframe("batch")
+        data_asset = data_source.add_dataframe_asset(name="dataset")
+        batch_def = data_asset.add_batch_definition_whole_dataframe("batch")
 
-        suite = context.suites.add(
-            gx.ExpectationSuite(name="dataset_validation_suite")
-        )
+        suite = context.suites.add(gx.ExpectationSuite(name="dataset_validation_suite"))
 
         df_consistency = df.copy()
 
@@ -162,7 +168,6 @@ class DataValidator:
         self._print_report(results)
         return results
 
-
     def _print_report(self, results):
         success = results.success
         W = 58
@@ -172,21 +177,21 @@ class DataValidator:
         print("=" * W)
         print(f"  Overall Result : {'PASSED' if success else 'FAILED'}")
         print("=" * W)
-        
+
         # ── Column Data Types ──────────────────────────────────
         if df is not None:
             print(f"\n{'─' * W}")
             print("  COLUMN DATA TYPES")
             print(f"{'─' * W}")
             for col, dtype in df.dtypes.items():
-                if not col.startswith("_"):          # skip internal flag cols
+                if not col.startswith("_"):  # skip internal flag cols
                     print(f"   {col:<30} {str(dtype)}")
 
         # ── Route results into buckets ─────────────────────────
         completeness, accuracy, consistency, uniqueness, outlier = [], [], [], [], []
 
         for r in results.results:
-            col      = r.expectation_config.kwargs.get("column", "")
+            col = r.expectation_config.kwargs.get("column", "")
             exp_type = r.expectation_config.type
 
             if col.startswith("_iqr_outlier_"):
@@ -208,15 +213,16 @@ class DataValidator:
             print(f"{'─' * W}")
             for exp_result in items:
                 exp_type = exp_result.expectation_config.type
-                col      = exp_result.expectation_config.kwargs.get("column", "table-level")
-                status   = "PASS" if exp_result.success else "FAIL"
+                col = exp_result.expectation_config.kwargs.get("column", "table-level")
+                status = "PASS" if exp_result.success else "FAIL"
 
                 # Clean up column name for internal flag cols
-                display_col = (col
-                    .replace("_iqr_outlier_", "")
+                display_col = (
+                    col.replace("_iqr_outlier_", "")
                     .replace("_is_duplicate", "all columns")
                     .replace("_high_", "")
-                    .replace("_young_", ""))
+                    .replace("_young_", "")
+                )
 
                 print(f"\n  [{status}] {exp_type}")
                 print(f"   Column : {display_col}")
@@ -237,27 +243,27 @@ class DataValidator:
         print_section(
             "[1] COMPLETENESS CHECKS",
             "Detects missing / null values in each column.",
-            completeness
+            completeness,
         )
         print_section(
             "[2] ACCURACY CHECKS",
             "Detects values outside expected ranges or allowed sets.",
-            accuracy
+            accuracy,
         )
         print_section(
             "[3] CONSISTENCY CHECKS",
             "Detects logical contradictions between columns.",
-            consistency
+            consistency,
         )
         print_section(
             "[4] UNIQUENESS CHECK",
             "Detects duplicate rows across all columns.",
-            uniqueness
+            uniqueness,
         )
         print_section(
             "[5] IQR OUTLIER CHECKS",
             "Detects extreme numeric values via Q1 - 1.5×IQR  /  Q3 + 1.5×IQR.",
-            outlier
+            outlier,
         )
 
         print("\n" + "=" * W)

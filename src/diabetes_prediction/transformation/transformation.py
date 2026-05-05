@@ -1,4 +1,3 @@
-from altair import sample
 import pandas as pd
 import numpy as np
 import joblib
@@ -27,21 +26,29 @@ class DataTransformation:
     def __init__(self):
         self.preprocessor = ColumnTransformer(
             transformers=[
-                ("smoking_ohe", OneHotEncoder(handle_unknown="ignore",drop="first"), ["smoking_history"]),
+                (
+                    "smoking_ohe",
+                    OneHotEncoder(handle_unknown="ignore", drop="first"),
+                    ["smoking_history"],
+                ),
                 ("age_minmax", MinMaxScaler(), ["age"]),
-                ("robust_features", RobustScaler(), [
-                    "bmi",
-                    "HbA1c_level",
-                    "blood_glucose_level",
-                    "glucose_hba1c_interaction",
-                    "age_hba1c_interaction",
-                    "age_bmi_interaction",
-                    "bmi_hba1c_interaction",
-                    "age_glucose_interaction",
-                ])
+                (
+                    "robust_features",
+                    RobustScaler(),
+                    [
+                        "bmi",
+                        "HbA1c_level",
+                        "blood_glucose_level",
+                        "glucose_hba1c_interaction",
+                        "age_hba1c_interaction",
+                        "age_bmi_interaction",
+                        "bmi_hba1c_interaction",
+                        "age_glucose_interaction",
+                    ],
+                ),
             ],
             remainder="passthrough",
-            verbose_feature_names_out=False
+            verbose_feature_names_out=False,
         )
         self.feature_names_ = None
 
@@ -62,11 +69,11 @@ class DataTransformation:
         df["high_hba1c_flag"] = (df["HbA1c_level"] >= 6.6).astype(int)
         df["senior_flag"] = (df["age"] >= 60).astype(int)
 
-        df["cardio_risk_flag"] = ((df["hypertension"] == 1) | (df["heart_disease"] == 1)).astype(int)
+        df["cardio_risk_flag"] = (
+            (df["hypertension"] == 1) | (df["heart_disease"] == 1)
+        ).astype(int)
 
         return df
-    
-    
 
     def prepare_features(self, df: pd.DataFrame):
         df = df.copy()
@@ -80,9 +87,7 @@ class DataTransformation:
         self.feature_names_ = self.preprocessor.get_feature_names_out()
 
         return pd.DataFrame(
-            transformed,
-            columns=self.feature_names_,
-            index=x_train.index
+            transformed, columns=self.feature_names_, index=x_train.index
         )
 
     def transform(self, x: pd.DataFrame):
@@ -92,11 +97,9 @@ class DataTransformation:
         self.feature_names_ = self.preprocessor.get_feature_names_out()
 
         return pd.DataFrame(
-            transformed.astype(np.float32),
-            columns=self.feature_names_,
-            index=x.index
+            transformed.astype(np.float32), columns=self.feature_names_, index=x.index
         )
-    
+
     def transform_one(self, sample):
         if isinstance(sample, dict):
             sample = pd.DataFrame([sample])
@@ -104,19 +107,16 @@ class DataTransformation:
         elif isinstance(sample, pd.Series):
             sample = sample.to_frame().T
 
-        
         sample = self.prepare_features(sample)
         transformed = self.preprocessor.transform(sample)
         self.feature_names_ = self.preprocessor.get_feature_names_out()
 
         return pd.DataFrame(
-            transformed,
-            columns=self.feature_names_,
-            index=sample.index
+            transformed, columns=self.feature_names_, index=sample.index
         )
 
-    def save_preprocessor(self, path = preprocessor_path):
+    def save_preprocessor(self, path=preprocessor_path):
         joblib.dump(self.preprocessor, path)
 
-    def load_preprocessor(self, path = preprocessor_path):
+    def load_preprocessor(self, path=preprocessor_path):
         self.preprocessor = joblib.load(path)

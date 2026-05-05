@@ -1,7 +1,5 @@
 import os
 import pandas as pd
-import numpy as np
-from loguru import logger
 
 # Imbalanced-learn - Resampling
 from imblearn.over_sampling import SMOTE, ADASYN
@@ -18,7 +16,7 @@ class DataImbalance:
             os.path.dirname(__file__), "..", "..", "data", "imbalance_resolve"
         )
         os.makedirs(self.output_dir, exist_ok=True)
-    
+
     def _to_dataframe(self, X_res, y_res):
         X_res = pd.DataFrame(X_res, columns=self.X_train.columns)
         y_res = pd.Series(y_res, name=self.target_col)

@@ -2,6 +2,7 @@ from pydantic import BaseModel, Field
 from typing import Literal
 from enum import Enum
 
+
 class SmokingHistory(str, Enum):
     never = "never"
     ever = "ever"
@@ -9,6 +10,7 @@ class SmokingHistory(str, Enum):
     former = "former"
     not_current = "not current"
     no_info = "No Info"
+
 
 class PatientData(BaseModel):
     gender: str
@@ -20,11 +22,13 @@ class PatientData(BaseModel):
     HbA1c_level: float = Field(gt=0)
     blood_glucose_level: int = Field(gt=0)
 
+
 class PredictionResponse(BaseModel):
     prediction: int
     probability: float
 
+
 class ExplainRequest(BaseModel):
     data: PatientData
     prediction: int
-    probability: float    
+    probability: float

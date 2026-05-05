@@ -1,6 +1,6 @@
 """
 1) Load raw data
-2) Validate raw/cleaned data 
+2) Validate raw/cleaned data
 3) Clean data
 4) Split train/validation/test
 5) Feature engineering + preprocessing
@@ -9,11 +9,11 @@
 8) Save/load full pipeline
 9) Predict for one new raw sample
 """
+
 import sys
-import os
 from sklearn.ensemble import RandomForestClassifier
 from pathlib import Path
-from typing import Dict, Union
+from typing import Dict
 import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -76,7 +76,7 @@ class DiabetesFullPipeline:
             class_weight=None,
             random_state=random_state,
             n_jobs=-1,
-            )
+        )
         self.selected_columns = None
 
     # ------------------------------------------------------------------
@@ -217,8 +217,7 @@ class DiabetesFullPipeline:
         model_path.parent.mkdir(parents=True, exist_ok=True)
         joblib.dump(self.model, model_path)
         joblib.dump(
-            self.selected_columns,
-            PROJECT_ROOT / "models" / "selected_columns.pkl"
+            self.selected_columns, PROJECT_ROOT / "models" / "selected_columns.pkl"
         )
         log.info("Model and selected columns saved to '{}'", model_path.parent)
 
@@ -262,7 +261,9 @@ class DiabetesFullPipeline:
         log = stage_logger("LOAD ARTIFACTS")
         log.info("Loading model, selected columns, and preprocessor from disk")
         self.model = joblib.load(PROJECT_ROOT / "models" / "final.pkl")
-        self.selected_columns = joblib.load(PROJECT_ROOT / "models" / "selected_columns.pkl")
+        self.selected_columns = joblib.load(
+            PROJECT_ROOT / "models" / "selected_columns.pkl"
+        )
         self.transformer.load_preprocessor()
         log.info("Artifacts loaded successfully")
         return self
@@ -307,9 +308,7 @@ class DiabetesFullPipeline:
             X_val,
             X_test,
         )
-        X_train, X_val, X_test = self.select_features(
-            X_train, X_val, X_test
-        )
+        X_train, X_val, X_test = self.select_features(X_train, X_val, X_test)
 
         train_df = X_train.copy()
         train_df = train_df.apply(pd.to_numeric, errors="coerce")
@@ -363,7 +362,9 @@ def predict_single_sample(user_input: dict) -> dict:
     log.info("Predicting for input: {}", user_input)
     try:
         # --- paths relative to project root ---
-        preprocessor_path = PROJECT_ROOT / "notebooks" / "Transformation" / "preprocessor.pkl"
+        preprocessor_path = (
+            PROJECT_ROOT / "notebooks" / "Transformation" / "preprocessor.pkl"
+        )
         model_path = PROJECT_ROOT / "models" / "RF_model.pkl"
 
         # --- load artifacts ---
@@ -374,7 +375,7 @@ def predict_single_sample(user_input: dict) -> dict:
 
         # --- build a one-row DataFrame from the raw dict ---
         transformer = DataTransformation()
-        transformer.preprocessor = preprocessor          # use the saved preprocessor
+        transformer.preprocessor = preprocessor  # use the saved preprocessor
 
         log.debug("Transforming input sample")
         X_sample = transformer.transform_one(user_input)  # prepare_features + transform
