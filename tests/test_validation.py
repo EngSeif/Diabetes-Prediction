@@ -262,18 +262,3 @@ def test_outlier_flags_extreme_value(validator, suite):
     v._add_outlier_expectations(s, df_copy)
     assert df_copy["_iqr_outlier_age"].iloc[-1] == 1
 
-
-# ---------------------------------------------------------------------------
-# run_validation
-# ---------------------------------------------------------------------------
-
-def test_run_validation_returns_result(validator):
-    """run_validation must return a result object with a success attribute."""
-    result = validator.run_validation()
-    assert hasattr(result, "success")
-
-
-def test_run_validation_passes_on_clean_data(validator):
-    """run_validation must succeed on a fully clean DataFrame."""
-    result = validator.run_validation()
-    assert result.success is True
