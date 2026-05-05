@@ -34,7 +34,6 @@ from src.diabetes_prediction.transformation.transformation import DataTransforma
 from src.diabetes_prediction.imbalance.imbalance import DataImbalance
 from src.diabetes_prediction.selection.selection import FeatureSelection
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(PROJECT_ROOT))
 
@@ -49,6 +48,7 @@ logger.add(
     format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {extra[stage]} | {message}",
     level="DEBUG",
 )
+
 
 # Convenience: a stage-bound logger factory
 def stage_logger(stage: str):
@@ -107,7 +107,9 @@ class DiabetesFullPipeline:
     # ------------------------------------------------------------------
     # 4. Split data
     # ------------------------------------------------------------------
-    def split_data(self, df: pd.DataFrame, test_size: float = 0.15, val_size: float = 0.15):
+    def split_data(
+        self, df: pd.DataFrame, test_size: float = 0.15, val_size: float = 0.15
+    ):
         log = stage_logger("SPLIT DATA")
         log.info(
             "Splitting data (test={:.0%}, val={:.0%}, train={:.0%})",
@@ -191,9 +193,7 @@ class DiabetesFullPipeline:
         log.info("Class distribution before ADASYN: {}", class_counts)
         imbalance_handler = DataImbalance(df)
         balanced_df = imbalance_handler.adasyn()
-        balanced_df = balanced_df.rename(
-            columns={"diabetes_target": self.target_col}
-        )
+        balanced_df = balanced_df.rename(columns={"diabetes_target": self.target_col})
         class_counts_after = balanced_df[self.target_col].value_counts().to_dict()
         log.info(
             "Class distribution after ADASYN: {} (total rows: {})",
@@ -446,5 +446,5 @@ if __name__ == "__main__":
         "HbA1c_level": 6.1,
         "blood_glucose_level": 160,
     }
-    print("\nExample prediction (via notebook artifacts):")
-    print(predict_single_sample(example_patient))
+    # print("\nExample prediction (via notebook artifacts):")
+    # print(predict_single_sample(example_patient))

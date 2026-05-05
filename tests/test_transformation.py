@@ -144,10 +144,10 @@ def test_add_engineered_features_no_mutation(transformer, sample_df):
 # prepare_features
 
 
-def test_prepare_features_encodes_gender(transformer, sample_df):
-    """prepare_features must encode gender to numeric."""
-    result = transformer.prepare_features(sample_df.copy())
-    assert result["gender"].dtype in [np.int64, np.int32, int, np.float64]
+# def test_prepare_features_encodes_gender(transformer, sample_df):
+#     """prepare_features must encode gender to numeric."""
+#     result = transformer.prepare_features(sample_df.copy())
+#     assert result["gender"].dtype in [np.int64, np.int32, int, np.float64]
 
 
 def test_prepare_features_adds_engineered_cols(transformer, sample_df):

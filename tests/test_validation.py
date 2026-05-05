@@ -269,4 +269,3 @@ def test_outlier_flags_extreme_value(validator, suite):
     s = context.suites.add(gx.ExpectationSuite(name="outlier_suite"))
     v._add_outlier_expectations(s, df_copy)
     assert df_copy["_iqr_outlier_age"].iloc[-1] == 1
-
