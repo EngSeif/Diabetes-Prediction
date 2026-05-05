@@ -154,7 +154,7 @@ class DataValidator:
         self._add_uniqueness_expectations(suite, df_consistency)
         self._add_outlier_expectations(suite, df_consistency)
 
-        batch = batch_def.get_batch(batch_parameters={"dataframe": df_consistency})
+        # batch = batch_def.get_batch(batch_parameters={"dataframe": df_consistency})
 
         validation_def = context.validation_definitions.add(
             gx.ValidationDefinition(

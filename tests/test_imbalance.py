@@ -2,26 +2,27 @@ import os
 import pytest
 import pandas as pd
 import numpy as np
-from unittest.mock import patch
 from src.diabetes_prediction.imbalance.imbalance import DataImbalance
-
 
 # ──────────────────────────────────────────────
 #  Fixtures
 # ──────────────────────────────────────────────
+
 
 @pytest.fixture
 def imbalanced_df():
     """Imbalanced dataset: 80 negatives, 20 positives."""
     np.random.seed(42)
     n = 100
-    df = pd.DataFrame({
-        "age":             np.random.randint(20, 80, n).astype(float),
-        "bmi":             np.random.uniform(18, 45, n),
-        "HbA1c_level":     np.random.uniform(3.5, 9.0, n),
-        "blood_glucose_level": np.random.randint(80, 300, n).astype(float),
-        "diabetes":        [0] * 80 + [1] * 20,
-    })
+    df = pd.DataFrame(
+        {
+            "age": np.random.randint(20, 80, n).astype(float),
+            "bmi": np.random.uniform(18, 45, n),
+            "HbA1c_level": np.random.uniform(3.5, 9.0, n),
+            "blood_glucose_level": np.random.randint(80, 300, n).astype(float),
+            "diabetes": [0] * 80 + [1] * 20,
+        }
+    )
     return df
 
 
@@ -42,7 +43,7 @@ def test_init_splits_X_and_y(imbalanced_df):
 
 def test_init_creates_output_dir(imbalanced_df, tmp_path):
     """output_dir must be created automatically on init."""
-    target = tmp_path / "imbalance_resolve"
+    # target = tmp_path / "imbalance_resolve"
     # Just check the object initializes without error and output_dir is set
     obj = DataImbalance(imbalanced_df.copy())
     assert os.path.exists(obj.output_dir)
@@ -54,11 +55,12 @@ def test_init_custom_target_col(imbalanced_df):
     obj = DataImbalance(df, target_col="label")
     assert obj.y_train.name == "label"
     assert "label" not in obj.X_train.columns
-    
+
 
 # ──────────────────────────────────────────────
 #  _to_dataframe
 # ──────────────────────────────────────────────
+
 
 def test_to_dataframe_returns_dataframe(handler):
     """_to_dataframe must return a pd.DataFrame."""
@@ -89,6 +91,7 @@ def test_to_dataframe_all_numeric(handler):
 # ──────────────────────────────────────────────
 #  _save
 # ──────────────────────────────────────────────
+
 
 def test_save_creates_csv_file(handler, tmp_path):
     """_save must write a CSV file at the correct path."""
@@ -124,12 +127,12 @@ def test_adasyn_preserves_feature_columns(handler):
     result = handler.adasyn()
     for col in handler.X_train.columns:
         assert col in result.columns
-        
-        
+
 
 # ──────────────────────────────────────────────
 #  smote_df
 # ──────────────────────────────────────────────
+
 
 def test_smote_df_returns_self(handler):
     """smote_df must return self for method chaining."""
@@ -147,6 +150,7 @@ def test_smote_df_saves_csv(handler, tmp_path):
 #  smote_tomek_df
 # ──────────────────────────────────────────────
 
+
 def test_smote_tomek_saves_csv(handler, tmp_path):
     """smote_tomek_df must write train_smote_tomek.csv."""
     handler.smote_tomek_df()
@@ -157,15 +161,17 @@ def test_smote_tomek_saves_csv(handler, tmp_path):
 #  smote_enn_df
 # ──────────────────────────────────────────────
 
+
 def test_smote_enn_saves_csv(handler, tmp_path):
     """smote_enn_df must write train_smote_enn.csv."""
     handler.smote_enn_df()
     assert (tmp_path / "train_smote_enn.csv").exists()
-    
-    
+
+
 # ──────────────────────────────────────────────
 #  run_pipeline  — bug documented
 # ──────────────────────────────────────────────
+
 
 def test_run_pipeline_raises_due_to_typo(handler):
     """run_pipeline calls self.adaysn_df() which does not exist — must raise AttributeError."""
@@ -176,10 +182,10 @@ def test_run_pipeline_raises_due_to_typo(handler):
 def test_run_pipeline_after_fix(handler, tmp_path, monkeypatch):
     """After fixing the typo, all four methods must be called."""
     called = []
-    monkeypatch.setattr(handler, "adasyn",        lambda: called.append("adasyn"))
-    monkeypatch.setattr(handler, "smote_df",      lambda: called.append("smote"))
-    monkeypatch.setattr(handler, "smote_enn_df",  lambda: called.append("enn"))
-    monkeypatch.setattr(handler, "smote_tomek_df",lambda: called.append("tomek"))
+    monkeypatch.setattr(handler, "adasyn", lambda: called.append("adasyn"))
+    monkeypatch.setattr(handler, "smote_df", lambda: called.append("smote"))
+    monkeypatch.setattr(handler, "smote_enn_df", lambda: called.append("enn"))
+    monkeypatch.setattr(handler, "smote_tomek_df", lambda: called.append("tomek"))
 
     # simulate fixed pipeline
     handler.adasyn()

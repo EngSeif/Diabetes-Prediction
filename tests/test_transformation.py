@@ -1,25 +1,26 @@
 import pytest
 import pandas as pd
 import numpy as np
-import joblib
 from src.diabetes_prediction.transformation.transformation import DataTransformation
 
-
 # Fixtures
+
 
 @pytest.fixture
 def sample_df():
     """Minimal DataFrame with all required raw columns."""
-    return pd.DataFrame({
-        "gender":              ["Male", "Female", "Male"],
-        "age":                 [25.0, 45.0, 60.0],
-        "bmi":                 [22.5, 30.1, 27.8],
-        "HbA1c_level":         [5.5, 7.2, 6.1],
-        "blood_glucose_level": [120.0, 200.0, 150.0],
-        "smoking_history":     ["never", "former", "current"],
-        "hypertension":        [0, 1, 0],
-        "heart_disease":       [0, 0, 1],
-    })
+    return pd.DataFrame(
+        {
+            "gender": ["Male", "Female", "Male"],
+            "age": [25.0, 45.0, 60.0],
+            "bmi": [22.5, 30.1, 27.8],
+            "HbA1c_level": [5.5, 7.2, 6.1],
+            "blood_glucose_level": [120.0, 200.0, 150.0],
+            "smoking_history": ["never", "former", "current"],
+            "hypertension": [0, 1, 0],
+            "heart_disease": [0, 0, 1],
+        }
+    )
 
 
 @pytest.fixture
@@ -35,6 +36,7 @@ def fitted_transformer(transformer, sample_df):
 
 
 # encode_gender
+
 
 def test_encode_gender_male_to_1(transformer, sample_df):
     """Male must be encoded as 1."""
@@ -57,6 +59,7 @@ def test_encode_gender_no_mutation(transformer, sample_df):
 
 # add_engineered_features
 
+
 def test_add_engineered_features_glucose_hba1c(transformer, sample_df):
     """glucose_hba1c_interaction must equal blood_glucose_level * HbA1c_level."""
     result = transformer.add_engineered_features(sample_df.copy())
@@ -64,7 +67,7 @@ def test_add_engineered_features_glucose_hba1c(transformer, sample_df):
     pd.testing.assert_series_equal(
         result["glucose_hba1c_interaction"].reset_index(drop=True),
         expected.reset_index(drop=True),
-        check_names=False
+        check_names=False,
     )
 
 
@@ -75,7 +78,7 @@ def test_add_engineered_features_age_hba1c(transformer, sample_df):
     pd.testing.assert_series_equal(
         result["age_hba1c_interaction"].reset_index(drop=True),
         expected.reset_index(drop=True),
-        check_names=False
+        check_names=False,
     )
 
 
@@ -86,7 +89,7 @@ def test_add_engineered_features_high_hba1c_flag(transformer, sample_df):
     pd.testing.assert_series_equal(
         result["high_hba1c_flag"].reset_index(drop=True),
         expected.reset_index(drop=True),
-        check_names=False
+        check_names=False,
     )
 
 
@@ -97,18 +100,20 @@ def test_add_engineered_features_senior_flag(transformer, sample_df):
     pd.testing.assert_series_equal(
         result["senior_flag"].reset_index(drop=True),
         expected.reset_index(drop=True),
-        check_names=False
+        check_names=False,
     )
 
 
 def test_add_engineered_features_cardio_risk_flag(transformer, sample_df):
     """cardio_risk_flag must be 1 when hypertension == 1 OR heart_disease == 1."""
     result = transformer.add_engineered_features(sample_df.copy())
-    expected = ((sample_df["hypertension"] == 1) | (sample_df["heart_disease"] == 1)).astype(int)
+    expected = (
+        (sample_df["hypertension"] == 1) | (sample_df["heart_disease"] == 1)
+    ).astype(int)
     pd.testing.assert_series_equal(
         result["cardio_risk_flag"].reset_index(drop=True),
         expected.reset_index(drop=True),
-        check_names=False
+        check_names=False,
     )
 
 
@@ -138,6 +143,7 @@ def test_add_engineered_features_no_mutation(transformer, sample_df):
 
 # prepare_features
 
+
 def test_prepare_features_encodes_gender(transformer, sample_df):
     """prepare_features must encode gender to numeric."""
     result = transformer.prepare_features(sample_df.copy())
@@ -152,6 +158,7 @@ def test_prepare_features_adds_engineered_cols(transformer, sample_df):
 
 
 # fit_transform
+
 
 def test_fit_transform_returns_dataframe(transformer, sample_df):
     """fit_transform must return a pd.DataFrame."""
@@ -180,6 +187,7 @@ def test_fit_transform_no_nulls(transformer, sample_df):
 
 # transform
 
+
 def test_transform_returns_dataframe(fitted_transformer, sample_df):
     """transform must return a pd.DataFrame."""
     result = fitted_transformer.transform(sample_df.copy())
@@ -199,6 +207,7 @@ def test_transform_same_columns_as_fit(fitted_transformer, sample_df):
 
 
 # transform_one
+
 
 def test_transform_one_accepts_dict(fitted_transformer, sample_df):
     """transform_one must accept a dict input."""
@@ -225,6 +234,7 @@ def test_transform_one_accepts_dataframe(fitted_transformer, sample_df):
 
 
 # save and load preprocessor
+
 
 def test_save_and_load_preprocessor(fitted_transformer, tmp_path):
     """Saved preprocessor must be reloadable and produce identical output."""

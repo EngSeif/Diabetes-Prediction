@@ -6,6 +6,7 @@ CSV so no real dataset file is required.  Each test covers one pipeline
 stage or the pipeline as a whole, verifying that stages compose correctly
 and that outputs have the expected shapes, types, and keys.
 """
+
 import pytest
 import numpy as np
 import pandas as pd
@@ -17,14 +18,20 @@ from src.diabetes_prediction.pipeline.pipeline import (
     predict_single_sample,
 )
 
-
 # ---------------------------------------------------------------------------
 # Shared synthetic data helpers
 # ---------------------------------------------------------------------------
 
 RAW_COLUMNS = [
-    "gender", "age", "hypertension", "heart_disease",
-    "smoking_history", "bmi", "HbA1c_level", "blood_glucose_level", "diabetes",
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "smoking_history",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level",
+    "diabetes",
 ]
 
 EXAMPLE_PATIENT = {
@@ -49,20 +56,22 @@ def _make_raw_df(n: int = 200, seed: int = 0) -> pd.DataFrame:
     n_neg = n - n_pos
 
     def _block(size, diab):
-        return pd.DataFrame({
-            "gender":              rng.choice(["Male", "Female"], size=size),
-            "age":                 rng.uniform(20, 80, size=size),
-            "hypertension":        rng.integers(0, 2, size=size),
-            "heart_disease":       rng.integers(0, 2, size=size),
-            "smoking_history":     rng.choice(
-                                       ["never", "former", "current", "No Info"],
-                                       size=size,
-                                   ),
-            "bmi":                 rng.uniform(15, 50, size=size),
-            "HbA1c_level":         rng.uniform(4.0, 9.0, size=size),
-            "blood_glucose_level": rng.uniform(80, 300, size=size),
-            "diabetes":            [diab] * size,
-        })
+        return pd.DataFrame(
+            {
+                "gender": rng.choice(["Male", "Female"], size=size),
+                "age": rng.uniform(20, 80, size=size),
+                "hypertension": rng.integers(0, 2, size=size),
+                "heart_disease": rng.integers(0, 2, size=size),
+                "smoking_history": rng.choice(
+                    ["never", "former", "current", "No Info"],
+                    size=size,
+                ),
+                "bmi": rng.uniform(15, 50, size=size),
+                "HbA1c_level": rng.uniform(4.0, 9.0, size=size),
+                "blood_glucose_level": rng.uniform(80, 300, size=size),
+                "diabetes": [diab] * size,
+            }
+        )
 
     return pd.concat([_block(n_neg, 0), _block(n_pos, 1)], ignore_index=True)
 
@@ -89,6 +98,7 @@ def pipeline(csv_path):
 # Stage 1 – load_data
 # ---------------------------------------------------------------------------
 
+
 class TestLoadData:
     def test_returns_dataframe(self, pipeline, raw_df):
         df = pipeline.load_data()
@@ -106,6 +116,7 @@ class TestLoadData:
 # ---------------------------------------------------------------------------
 # Stage 2 – clean_data
 # ---------------------------------------------------------------------------
+
 
 class TestCleanData:
     def test_returns_dataframe(self, pipeline, raw_df):
@@ -132,6 +143,7 @@ class TestCleanData:
 # ---------------------------------------------------------------------------
 # Stage 3 – split_data
 # ---------------------------------------------------------------------------
+
 
 class TestSplitData:
     @pytest.fixture
@@ -168,6 +180,7 @@ class TestSplitData:
 # Stage 4 – transform_data
 # ---------------------------------------------------------------------------
 
+
 class TestTransformData:
     @pytest.fixture
     def transformed(self, pipeline, raw_df):
@@ -197,6 +210,7 @@ class TestTransformData:
 # Stage 5 – select_features
 # ---------------------------------------------------------------------------
 
+
 class TestSelectFeatures:
     @pytest.fixture
     def selected(self, pipeline, raw_df):
@@ -221,6 +235,7 @@ class TestSelectFeatures:
 # ---------------------------------------------------------------------------
 # Stage 6 – handle_imbalance
 # ---------------------------------------------------------------------------
+
 
 class TestHandleImbalance:
     @pytest.fixture
@@ -254,6 +269,7 @@ class TestHandleImbalance:
 # Stage 7 – train_model + evaluate_model
 # ---------------------------------------------------------------------------
 
+
 class TestTrainAndEvaluate:
     @pytest.fixture
     def trained_pipeline(self, pipeline, raw_df, tmp_path):
@@ -261,8 +277,12 @@ class TestTrainAndEvaluate:
         with patch.object(pipe_mod, "PROJECT_ROOT", tmp_path):
             clean = pipeline.clean_data(raw_df)
             X_train, X_val, X_test, y_train, y_val, y_test = pipeline.split_data(clean)
-            X_train_t, X_val_t, X_test_t = pipeline.transform_data(X_train, X_val, X_test)
-            X_train_s, X_val_s, X_test_s = pipeline.select_features(X_train_t, X_val_t, X_test_t)
+            X_train_t, X_val_t, X_test_t = pipeline.transform_data(
+                X_train, X_val, X_test
+            )
+            X_train_s, X_val_s, X_test_s = pipeline.select_features(
+                X_train_t, X_val_t, X_test_t
+            )
 
             train_df = X_train_s.copy().apply(pd.to_numeric, errors="coerce").dropna()
             y_aligned = y_train.loc[train_df.index]
@@ -282,8 +302,14 @@ class TestTrainAndEvaluate:
     def test_evaluate_returns_required_keys(self, trained_pipeline):
         p, X_val, y_val, *_ = trained_pipeline
         results = p.evaluate_model(X_val, y_val, dataset_name="Validation")
-        for key in ("accuracy", "precision", "recall", "f1_score",
-                    "confusion_matrix", "roc_auc"):
+        for key in (
+            "accuracy",
+            "precision",
+            "recall",
+            "f1_score",
+            "confusion_matrix",
+            "roc_auc",
+        ):
             assert key in results, f"Missing key: {key}"
 
     def test_accuracy_in_valid_range(self, trained_pipeline):
@@ -301,6 +327,7 @@ class TestTrainAndEvaluate:
 # Stage 8 – full pipeline run()
 # ---------------------------------------------------------------------------
 
+
 class TestPipelineRun:
     @pytest.fixture
     def run_results(self, pipeline, tmp_path):
@@ -311,14 +338,25 @@ class TestPipelineRun:
         assert isinstance(run_results, dict)
 
     def test_required_keys_present(self, run_results):
-        for key in ("raw_shape", "clean_shape", "train_shape",
-                    "validation_shape", "test_shape",
-                    "validation_results", "test_results"):
+        for key in (
+            "raw_shape",
+            "clean_shape",
+            "train_shape",
+            "validation_shape",
+            "test_shape",
+            "validation_results",
+            "test_results",
+        ):
             assert key in run_results, f"Missing key: {key}"
 
     def test_shapes_are_tuples(self, run_results):
-        for key in ("raw_shape", "clean_shape", "train_shape",
-                    "validation_shape", "test_shape"):
+        for key in (
+            "raw_shape",
+            "clean_shape",
+            "train_shape",
+            "validation_shape",
+            "test_shape",
+        ):
             assert isinstance(run_results[key], tuple)
 
     def test_clean_shape_rows_lte_raw(self, run_results):
@@ -334,6 +372,7 @@ class TestPipelineRun:
 # ---------------------------------------------------------------------------
 # Stage 9 – predict_one (instance method)
 # ---------------------------------------------------------------------------
+
 
 class TestPredictOne:
     @pytest.fixture
@@ -361,6 +400,7 @@ class TestPredictOne:
 # predict_single_sample (standalone function using notebook artifacts)
 # ---------------------------------------------------------------------------
 
+
 class TestPredictSingleSample:
     @pytest.fixture
     def mock_artifacts(self, tmp_path):
@@ -379,9 +419,13 @@ class TestPredictSingleSample:
         def fake_transform_one(sample):
             return pd.DataFrame([[0.0] * 5], columns=fake_columns)
 
-        with patch.object(pipe_mod, "PROJECT_ROOT", tmp_path), \
-             patch("src.diabetes_prediction.pipeline.pipeline.joblib.load") as mock_load, \
-             patch("src.diabetes_prediction.pipeline.pipeline.DataTransformation") as MockDT:
+        with (
+            patch.object(pipe_mod, "PROJECT_ROOT", tmp_path),
+            patch("src.diabetes_prediction.pipeline.pipeline.joblib.load") as mock_load,
+            patch(
+                "src.diabetes_prediction.pipeline.pipeline.DataTransformation"
+            ) as MockDT,
+        ):
 
             mock_load.side_effect = [fake_preprocessor, dummy_model]
 
@@ -393,16 +437,22 @@ class TestPredictSingleSample:
 
     def test_returns_success_on_valid_input(self, mock_artifacts):
         result = predict_single_sample(EXAMPLE_PATIENT)
-        assert result["success"] is True, f"Expected success but got error: {result.get('error')}"
+        assert (
+            result["success"] is True
+        ), f"Expected success but got error: {result.get('error')}"
 
     def test_result_contains_prediction(self, mock_artifacts):
         result = predict_single_sample(EXAMPLE_PATIENT)
-        assert result["success"] is True, f"Expected success but got error: {result.get('error')}"
+        assert (
+            result["success"] is True
+        ), f"Expected success but got error: {result.get('error')}"
         assert "prediction" in result["result"]
 
     def test_prediction_is_binary(self, mock_artifacts):
         result = predict_single_sample(EXAMPLE_PATIENT)
-        assert result["success"] is True, f"Expected success but got error: {result.get('error')}"
+        assert (
+            result["success"] is True
+        ), f"Expected success but got error: {result.get('error')}"
         assert result["result"]["prediction"] in (0, 1)
 
     def test_returns_failure_on_bad_input(self):
