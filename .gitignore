@@ -10,3 +10,5 @@ src/models/*.pkl
 catboost_info
 
 mlruns/
+
+.env
