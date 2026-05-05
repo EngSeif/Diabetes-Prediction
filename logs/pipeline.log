@@ -1,0 +1,32 @@
+2026-05-05 02:58:16 | INFO     | PIPELINE | ============================================================
+2026-05-05 02:58:16 | INFO     | PIPELINE | Starting DiabetesFullPipeline
+2026-05-05 02:58:16 | INFO     | PIPELINE | ============================================================
+2026-05-05 02:58:16 | INFO     | LOAD DATA | Reading raw CSV from 'data\raw\diabetes_prediction_dataset.csv'
+2026-05-05 02:58:16 | INFO     | LOAD DATA | Loaded 100000 rows × 9 columns
+2026-05-05 02:58:16 | INFO     | CLEAN DATA | Starting data cleaning on 100000 rows
+2026-05-05 02:58:16 | INFO     | CLEAN DATA | Cleaning complete — 95914 rows remaining (4086 dropped)
+2026-05-05 02:58:16 | INFO     | SPLIT DATA | Splitting data (test=15%, val=15%, train=70%)
+2026-05-05 02:58:16 | INFO     | SPLIT DATA | Split sizes — train: 67139, val: 14387, test: 14388
+2026-05-05 02:58:16 | INFO     | TRANSFORM DATA | Fitting transformer on training set (67139 rows)
+2026-05-05 02:58:16 | DEBUG    | TRANSFORM DATA | Transforming validation set
+2026-05-05 02:58:16 | DEBUG    | TRANSFORM DATA | Transforming test set
+2026-05-05 02:58:16 | INFO     | TRANSFORM DATA | Transformation complete — output shape: train=(67139, 20), val=(14387, 20), test=(14388, 20)
+2026-05-05 02:58:16 | INFO     | FEATURE SELECTION | Running feature selection on 20 columns
+2026-05-05 02:58:16 | INFO     | FEATURE SELECTION | Feature selection complete — 15 columns selected: ['smoking_history_current', 'smoking_history_ever', 'smoking_history_former', 'smoking_history_never', 'smoking_history_not current', 'bmi', 'HbA1c_level', 'glucose_hba1c_interaction', 'bmi_hba1c_interaction', 'age_glucose_interaction', 'gender', 'heart_disease', 'high_hba1c_flag', 'senior_flag', 'cardio_risk_flag']
+2026-05-05 02:58:16 | INFO     | HANDLE IMBALANCE | Class distribution before ADASYN: {0: 61203, 1: 5936}
+2026-05-05 02:58:17 | INFO     | HANDLE IMBALANCE | Class distribution after ADASYN: {1: 61413, 0: 61203} (total rows: 122616)
+2026-05-05 02:58:17 | INFO     | TRAIN MODEL | Training RandomForestClassifier on 122616 samples with 15 features
+2026-05-05 02:58:19 | INFO     | TRAIN MODEL | Model and selected columns saved to 'C:\Users\Dell\Desktop\Faculty\SP26\Data Science\Diabetes-Prediction\models'
+2026-05-05 02:58:19 | INFO     | EVALUATE MODEL | Evaluating model on 'Validation' set (14387 samples)
+2026-05-05 02:58:19 | INFO     | EVALUATE MODEL | [Validation] accuracy=0.9439 | precision=0.6523 | recall=0.7830 | f1=0.7117 | roc_auc=0.9663
+2026-05-05 02:58:19 | INFO     | EVALUATE MODEL | Evaluating model on 'Test' set (14388 samples)
+2026-05-05 02:58:19 | INFO     | EVALUATE MODEL | [Test] accuracy=0.9434 | precision=0.6523 | recall=0.7712 | f1=0.7068 | roc_auc=0.9633
+2026-05-05 02:58:19 | INFO     | PIPELINE | ============================================================
+2026-05-05 02:58:19 | INFO     | PIPELINE | DiabetesFullPipeline finished successfully
+2026-05-05 02:58:19 | INFO     | PIPELINE | ============================================================
+2026-05-05 02:58:19 | INFO     | PREDICT SINGLE SAMPLE | Predicting for input: {'gender': 'Female', 'age': 55, 'hypertension': 0, 'heart_disease': 0, 'smoking_history': 'never', 'bmi': 29.5, 'HbA1c_level': 6.1, 'blood_glucose_level': 160}
+2026-05-05 02:58:19 | DEBUG    | PREDICT SINGLE SAMPLE | Loading preprocessor from 'C:\Users\Dell\Desktop\Faculty\SP26\Data Science\Diabetes-Prediction\notebooks\Transformation\preprocessor.pkl'
+2026-05-05 02:58:19 | DEBUG    | PREDICT SINGLE SAMPLE | Loading model from 'C:\Users\Dell\Desktop\Faculty\SP26\Data Science\Diabetes-Prediction\models\RF_model.pkl'
+2026-05-05 02:58:19 | DEBUG    | PREDICT SINGLE SAMPLE | Transforming input sample
+2026-05-05 02:58:19 | DEBUG    | PREDICT SINGLE SAMPLE | Dropping columns: ['age', 'blood_glucose_level', 'age_bmi_interaction', 'age_hba1c_interaction', 'hypertension']
+2026-05-05 02:58:19 | INFO     | PREDICT SINGLE SAMPLE | Prediction result: {'prediction': 0, 'diabetes_probability': 0.34}
