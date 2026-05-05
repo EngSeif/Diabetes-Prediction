@@ -1,10 +1,14 @@
 name: TODO Workflow
 
-on: ["push", "pull_request", "workflow_dispatch"]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   todo-pipeline:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -14,10 +18,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Poetry
         run: |
-          pip install -e .
-          
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: poetry install
+
       - name: Run all
         run: make all
-
