@@ -27,6 +27,7 @@ User data:
 
 Prediction:
 {prediction}
+if prediction = 1, means model predicted patient has diabetes
 
 Probability:
 {probability}

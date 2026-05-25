@@ -1,14 +1,16 @@
 from fastapi import FastAPI
-from src.diabetes_prediction.api.schemas import (
+from diabetes_prediction.api.schemas import (
     PatientData,
     PredictionResponse,
     ExplainRequest,
 )
-from src.diabetes_prediction.pipeline.predict_one_sample import predict_single_sample
+from diabetes_prediction.pipeline.predict_one_sample import predict_single_sample
 
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 
+
+from diabetes_prediction.api.llm import explain_prediction
 
 app = FastAPI(title="Diabetes Prediction API")
 
@@ -49,7 +51,11 @@ def predict(data: PatientData):
             return {"prediction": prediction, "probability": probability}
         else:
             # If something went wrong
-            return {"prediction": -1, "probability": 0.0}
+                return {
+                    "prediction": -1,
+                    "probability": 0.0,
+                    "error": result["error"],
+                }
 
     except Exception as e:
         logging.error(f"Error during prediction: {e}")
@@ -58,4 +64,6 @@ def predict(data: PatientData):
 
 @app.post("/explain")
 def explain(req: ExplainRequest):
-    return {"explanation": "explanation"}
+    explanation = explain_prediction(req.data.dict(), req.prediction, req.probability)
+
+    return {"explanation": explanation}
