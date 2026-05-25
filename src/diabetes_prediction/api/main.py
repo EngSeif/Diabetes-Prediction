@@ -49,18 +49,14 @@ def predict(data: PatientData):
             prediction = result["result"]["prediction"]
             probability = result["result"].get("diabetes_probability", 0.0)
             return {"prediction": prediction, "probability": probability}
-        else:
-            # If something went wrong
-            logging.error(f"PREDICTION FAILED: {result}")
-            return {
-                "prediction": -1,
-                "probability": 0.0,
-                "error": result["error"],
-            }
 
     except Exception as e:
-        logging.error(f"Error during prediction: {e}")
-        return {"prediction": -1, "probability": 0.0}
+        logging.exception("Prediction failed")
+        return {
+            "prediction": -1,
+            "probability": 0.0,
+            "error": str(e)
+        }
 
 
 @app.post("/explain")
