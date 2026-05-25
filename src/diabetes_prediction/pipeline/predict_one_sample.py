@@ -6,7 +6,7 @@ import logging
 
 from src.diabetes_prediction.transformation.transformation import DataTransformation
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 
@@ -23,9 +23,9 @@ def predict_single_sample(user_input: dict) -> dict:
     try:
 
         preprocessor_path = (
-            PROJECT_ROOT / "notebooks" / "Transformation" / "preprocessor.pkl"
+            PROJECT_ROOT / "artifacts" / "preprocessor.pkl"
         )
-        model_path = PROJECT_ROOT / "models" / "RF_model.pkl"
+        model_path = PROJECT_ROOT / "artifacts" / "RF_model.pkl"
 
         preprocessor = joblib.load(preprocessor_path)
         model = joblib.load(model_path)
