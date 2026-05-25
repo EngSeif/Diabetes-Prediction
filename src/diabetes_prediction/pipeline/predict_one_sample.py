@@ -9,16 +9,7 @@ from src.diabetes_prediction.transformation.transformation import DataTransforma
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-preprocessor_path = (
-    PROJECT_ROOT / "notebooks" / "Transformation" / "preprocessor.pkl"
-)
-model_path = PROJECT_ROOT / "models" / "RF_model.pkl"
 
-preprocessor = joblib.load(preprocessor_path)
-model = joblib.load(model_path)
-
-logging.info(preprocessor_path)
-logging.info(model_path)
 
 def predict_single_sample(user_input: dict) -> dict:
     """
@@ -30,6 +21,17 @@ def predict_single_sample(user_input: dict) -> dict:
     preprocessing and prediction behaviour.
     """
     try:
+
+        preprocessor_path = (
+            PROJECT_ROOT / "notebooks" / "Transformation" / "preprocessor.pkl"
+        )
+        model_path = PROJECT_ROOT / "models" / "RF_model.pkl"
+
+        preprocessor = joblib.load(preprocessor_path)
+        model = joblib.load(model_path)
+
+        logging.info(preprocessor_path)
+        logging.info(model_path)        
 
         transformer = DataTransformation()
         transformer.preprocessor = preprocessor  # use the saved preprocessor
