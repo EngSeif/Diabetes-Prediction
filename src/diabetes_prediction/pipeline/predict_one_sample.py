@@ -27,6 +27,8 @@ def predict_single_sample(user_input: dict) -> dict:
         )
         model_path = PROJECT_ROOT / "artifacts" / "RF_model.pkl"
 
+        logging.info(f"Preprocessor exists: {preprocessor_path.exists()}")
+        logging.info(f"Model exists: {model_path.exists()}")
         logging.info(f"Loading model from: {model_path}")
         logging.info(f"Loading preprocessor from: {preprocessor_path}")        
 
@@ -61,11 +63,11 @@ def predict_single_sample(user_input: dict) -> dict:
 
     except Exception as e:
         logging.exception("MODEL LOADING / PREDICTION FAILED")
-        return {"success": False, "error": repr(e)(e)}
+        return {"success": False, "error": repr(e)}
 
 
 # if __name__ == "__main__":
-#     sample_input = {
+#     sample_input = {str
 #         "gender": "Male",
 #         "age": 45,
 #         "hypertension": 1,
