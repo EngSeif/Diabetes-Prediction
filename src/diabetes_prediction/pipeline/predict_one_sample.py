@@ -27,11 +27,11 @@ def predict_single_sample(user_input: dict) -> dict:
         )
         model_path = PROJECT_ROOT / "artifacts" / "RF_model.pkl"
 
-        preprocessor = joblib.load(preprocessor_path)
-        model = joblib.load(model_path)
+        logging.info(f"Loading model from: {model_path}")
+        logging.info(f"Loading preprocessor from: {preprocessor_path}")        
 
-        logging.info(preprocessor_path)
-        logging.info(model_path)        
+        preprocessor = joblib.load(preprocessor_path)
+        model = joblib.load(model_path)    
 
         transformer = DataTransformation()
         transformer.preprocessor = preprocessor  # use the saved preprocessor
@@ -60,8 +60,8 @@ def predict_single_sample(user_input: dict) -> dict:
         return {"success": True, "result": result}
 
     except Exception as e:
-        logging.exception("Prediction failed")
-        return {"success": False, "error": str(e)}
+        logging.exception("MODEL LOADING / PREDICTION FAILED")
+        return {"success": False, "error": repr(e)(e)}
 
 
 # if __name__ == "__main__":
