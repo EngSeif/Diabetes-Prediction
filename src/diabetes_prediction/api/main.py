@@ -43,19 +43,19 @@ def predict(data: PatientData):
         result = predict_single_sample(user_input)
 
         logging.basicConfig(level=logging.INFO)
-        logging.info(f"Received: {data}")
+        logging.info(f"Result: {result}")
 
-        if result["success"]:
-            prediction = result["result"]["prediction"]
-            probability = result["result"].get("diabetes_probability", 0.0)
-            return {"prediction": prediction, "probability": probability}
+
+        prediction = result["result"]["prediction"]
+        probability = result["result"].get("diabetes_probability", 0.0)
+        return {"prediction": prediction, "probability": probability}
 
     except Exception as e:
         logging.exception("Prediction failed")
+        print(str(e))
         return {
             "prediction": -1,
-            "probability": 0.0,
-            "error": str(e)
+            "probability": 0.0
         }
 
 

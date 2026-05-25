@@ -60,20 +60,21 @@ def predict_single_sample(user_input: dict) -> dict:
         return {"success": True, "result": result}
 
     except Exception as e:
+        logging.exception("Prediction failed")
         return {"success": False, "error": str(e)}
 
 
-if __name__ == "__main__":
-    sample_input = {
-        "gender": "Male",
-        "age": 45,
-        "hypertension": 1,
-        "heart_disease": 0,
-        "smoking_history": "never",
-        "bmi": 28.5,
-        "HbA1c_level": 6.2,
-        "blood_glucose_level": 140,
-    }
+# if __name__ == "__main__":
+#     sample_input = {
+#         "gender": "Male",
+#         "age": 45,
+#         "hypertension": 1,
+#         "heart_disease": 0,
+#         "smoking_history": "never",
+#         "bmi": 28.5,
+#         "HbA1c_level": 6.2,
+#         "blood_glucose_level": 140,
+#     }
 
-    output = predict_single_sample(sample_input)
-    print(output)
+#     output = predict_single_sample(sample_input)
+#     print(output)
