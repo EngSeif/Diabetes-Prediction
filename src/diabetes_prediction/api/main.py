@@ -51,11 +51,12 @@ def predict(data: PatientData):
             return {"prediction": prediction, "probability": probability}
         else:
             # If something went wrong
-                return {
-                    "prediction": -1,
-                    "probability": 0.0,
-                    "error": result["error"],
-                }
+            logging.error(f"PREDICTION FAILED: {result}")
+            return {
+                "prediction": -1,
+                "probability": 0.0,
+                "error": result["error"],
+            }
 
     except Exception as e:
         logging.error(f"Error during prediction: {e}")
