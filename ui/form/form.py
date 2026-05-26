@@ -10,7 +10,7 @@ def form():
         col1, col2 = st.columns(2)
 
         with col1:
-            gender = st.selectbox("Gender", ["Male", "Female", "Other"])
+            gender = st.selectbox("Gender", ["Male", "Female"])
 
         with col2:
             smoking_history = st.selectbox(
